@@ -1,0 +1,13 @@
+{
+  "name": "bank-digital-twin",
+  "version": "0.1.0",
+  "sequence": [
+    "analyzing-requirements",
+    "conducting-research",
+    "system-design",
+    "threat-modeling",
+    "reviewing-architecture",
+    "planning-projects",
+    "writing-documentation"
+  ]
+}

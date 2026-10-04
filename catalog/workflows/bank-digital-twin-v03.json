@@ -1,0 +1,17 @@
+{
+  "name": "bank-digital-twin-v03",
+  "version": "0.3.0",
+  "sequence": [
+    "analyzing-requirements",
+    "designing-core-banking",
+    "designing-bank-integrations",
+    "modeling-data",
+    "designing-bank-controls",
+    "designing-bank-digital-twins",
+    "threat-modeling",
+    "reviewing-architecture",
+    "designing-dashboards",
+    "planning-scenarios",
+    "writing-executive-briefs"
+  ]
+}

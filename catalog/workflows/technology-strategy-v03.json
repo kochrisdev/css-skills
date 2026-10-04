@@ -1,0 +1,15 @@
+{
+  "name": "technology-strategy-v03",
+  "version": "0.3.0",
+  "sequence": [
+    "conducting-research",
+    "verifying-sources",
+    "scanning-technology",
+    "analyzing-markets",
+    "analyzing-competitors",
+    "designing-business-models",
+    "building-business-cases",
+    "planning-scenarios",
+    "writing-executive-briefs"
+  ]
+}

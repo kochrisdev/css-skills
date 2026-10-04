@@ -1,0 +1,20 @@
+{
+  "name": "remittance-production-v03",
+  "version": "0.3.0",
+  "sequence": [
+    "mapping-compliance",
+    "designing-kyc",
+    "designing-sanctions-screening",
+    "designing-aml",
+    "designing-fraud-controls",
+    "designing-payment-ledgers",
+    "designing-fx",
+    "designing-corridors",
+    "designing-payment-routing",
+    "designing-payouts",
+    "designing-settlement",
+    "designing-reconciliation",
+    "monitoring-payments",
+    "gating-releases"
+  ]
+}

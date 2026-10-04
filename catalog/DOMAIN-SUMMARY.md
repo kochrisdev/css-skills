@@ -1,0 +1,23 @@
+# Domain Summary
+
+- **ai-agents**: 11
+- **architecture**: 12
+- **banking**: 8
+- **business-strategy**: 13
+- **cloud**: 11
+- **compliance**: 9
+- **data**: 11
+- **devops**: 9
+- **documentation**: 9
+- **fintech**: 7
+- **governance**: 2
+- **meta**: 9
+- **operations**: 10
+- **payments**: 11
+- **product**: 10
+- **project-management**: 8
+- **quality**: 8
+- **research**: 9
+- **security**: 9
+- **software-engineering**: 14
+- **testing**: 10

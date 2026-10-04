@@ -1,0 +1,450 @@
+{
+  "nodes": [
+    "analyzing-requirements",
+    "conducting-research",
+    "creating-prds",
+    "creating-skills",
+    "debugging-code",
+    "deploying-safely",
+    "gating-releases",
+    "implementing-code",
+    "planning-projects",
+    "reviewing-architecture",
+    "reviewing-code",
+    "reviewing-skills",
+    "routing-skills",
+    "security-reviewing",
+    "system-design",
+    "testing-skills",
+    "threat-modeling",
+    "triaging-incidents",
+    "verifying-products",
+    "writing-documentation",
+    "designing-agents",
+    "orchestrating-agents",
+    "designing-rag",
+    "evaluating-llms",
+    "engineering-context",
+    "architecting-aws",
+    "managing-terraform",
+    "operating-kubernetes",
+    "designing-cicd",
+    "engineering-observability",
+    "designing-ledgers",
+    "designing-kyc",
+    "designing-aml",
+    "designing-fraud-controls",
+    "designing-fx",
+    "designing-remittance",
+    "designing-payment-routing",
+    "designing-reconciliation",
+    "mapping-compliance",
+    "designing-controls",
+    "testing-controls",
+    "assessing-risk",
+    "analyzing-sql",
+    "modeling-data",
+    "assuring-data-quality",
+    "discovering-skills",
+    "composing-skills",
+    "benchmarking-skills",
+    "improving-skills",
+    "governing-skills",
+    "designing-core-banking",
+    "designing-digital-banking",
+    "designing-loan-origination",
+    "designing-loan-management",
+    "designing-deposits",
+    "designing-bank-integrations",
+    "designing-bank-controls",
+    "designing-bank-digital-twins",
+    "designing-payment-ledgers",
+    "designing-settlement",
+    "designing-payouts",
+    "designing-payment-webhooks",
+    "designing-payment-exceptions",
+    "designing-corridors",
+    "monitoring-payments",
+    "reviewing-authentication",
+    "reviewing-authorization",
+    "reviewing-api-security",
+    "auditing-secrets",
+    "reviewing-dependencies",
+    "modeling-abuse",
+    "reviewing-cloud-security",
+    "building-traceability",
+    "collecting-audit-evidence",
+    "analyzing-compliance-gaps",
+    "writing-policies",
+    "designing-sanctions-screening",
+    "designing-case-management",
+    "designing-agent-memory",
+    "designing-agent-tools",
+    "designing-agent-guardrails",
+    "testing-agents",
+    "designing-human-agent-handoffs",
+    "designing-agent-protocols",
+    "designing-cloud-networks",
+    "designing-cloud-resilience",
+    "optimizing-cloud-cost",
+    "designing-data-pipelines",
+    "designing-analytics",
+    "designing-dashboards",
+    "reviewing-literature",
+    "verifying-sources",
+    "scanning-technology",
+    "analyzing-markets",
+    "analyzing-competitors",
+    "designing-business-models",
+    "designing-operating-models",
+    "building-business-cases",
+    "planning-scenarios",
+    "writing-executive-briefs",
+    "refactoring-code",
+    "optimizing-performance",
+    "modernizing-legacy-systems",
+    "designing-error-handling",
+    "reviewing-concurrency",
+    "managing-dependencies",
+    "designing-cli-tools",
+    "designing-sdks",
+    "designing-event-driven-systems",
+    "designing-background-jobs",
+    "reviewing-database-code",
+    "managing-technical-debt",
+    "designing-domain-models",
+    "designing-service-boundaries",
+    "designing-integration-architecture",
+    "designing-scalability",
+    "designing-resilience",
+    "designing-multi-tenant-systems",
+    "designing-api-architecture",
+    "designing-migration-architecture",
+    "creating-adrs",
+    "mapping-architecture",
+    "designing-unit-tests",
+    "designing-integration-tests",
+    "designing-e2e-tests",
+    "testing-apis",
+    "testing-performance",
+    "testing-accessibility",
+    "testing-regressions",
+    "designing-test-data",
+    "testing-migrations",
+    "writing-user-stories",
+    "writing-acceptance-criteria",
+    "designing-mvps",
+    "prioritizing-backlogs",
+    "planning-roadmaps",
+    "designing-product-metrics",
+    "analyzing-product-discovery",
+    "planning-product-releases",
+    "writing-readmes",
+    "documenting-apis",
+    "writing-developer-guides",
+    "writing-runbooks",
+    "consolidating-documentation",
+    "reviewing-documentation",
+    "documenting-data-models",
+    "documenting-operations",
+    "designing-container-images",
+    "reviewing-github-actions",
+    "managing-environments",
+    "designing-release-strategies",
+    "designing-feature-flags",
+    "managing-database-migrations",
+    "designing-build-systems",
+    "designing-cloud-storage",
+    "designing-cloud-identity",
+    "designing-cloud-backups",
+    "designing-cloud-databases",
+    "designing-serverless-systems",
+    "analyzing-logs",
+    "performing-root-cause-analysis",
+    "investigating-latency",
+    "planning-capacity",
+    "verifying-backups",
+    "planning-disaster-recovery",
+    "designing-slos",
+    "designing-alerts",
+    "breaking-down-work",
+    "estimating-work",
+    "managing-project-risks",
+    "mapping-dependencies",
+    "planning-milestones",
+    "reporting-project-status",
+    "assessing-project-health",
+    "designing-quality-gates",
+    "checking-conformance",
+    "auditing-artifacts",
+    "reviewing-design-quality",
+    "managing-nonconformities",
+    "designing-quality-metrics",
+    "improving-processes",
+    "designing-data-governance",
+    "designing-data-privacy",
+    "designing-master-data",
+    "designing-data-warehouses",
+    "designing-streaming-data",
+    "designing-research-plans",
+    "synthesizing-evidence",
+    "analyzing-papers",
+    "mapping-trends",
+    "conducting-due-diligence",
+    "designing-strategies",
+    "designing-kpis",
+    "planning-transformations",
+    "analyzing-unit-economics",
+    "designing-partnerships",
+    "planning-market-entry",
+    "designing-wallets",
+    "designing-merchant-payments",
+    "designing-transaction-limits"
+  ],
+  "edges": [
+    {
+      "from": "designing-agents",
+      "to": "orchestrating-agents"
+    },
+    {
+      "from": "system-design",
+      "to": "designing-rag"
+    },
+    {
+      "from": "system-design",
+      "to": "architecting-aws"
+    },
+    {
+      "from": "architecting-aws",
+      "to": "managing-terraform"
+    },
+    {
+      "from": "system-design",
+      "to": "operating-kubernetes"
+    },
+    {
+      "from": "verifying-products",
+      "to": "designing-cicd"
+    },
+    {
+      "from": "system-design",
+      "to": "engineering-observability"
+    },
+    {
+      "from": "system-design",
+      "to": "designing-ledgers"
+    },
+    {
+      "from": "analyzing-requirements",
+      "to": "designing-kyc"
+    },
+    {
+      "from": "analyzing-requirements",
+      "to": "designing-aml"
+    },
+    {
+      "from": "threat-modeling",
+      "to": "designing-fraud-controls"
+    },
+    {
+      "from": "analyzing-requirements",
+      "to": "designing-fx"
+    },
+    {
+      "from": "designing-ledgers",
+      "to": "designing-remittance"
+    },
+    {
+      "from": "designing-aml",
+      "to": "designing-remittance"
+    },
+    {
+      "from": "designing-kyc",
+      "to": "designing-remittance"
+    },
+    {
+      "from": "system-design",
+      "to": "designing-payment-routing"
+    },
+    {
+      "from": "designing-ledgers",
+      "to": "designing-reconciliation"
+    },
+    {
+      "from": "conducting-research",
+      "to": "mapping-compliance"
+    },
+    {
+      "from": "mapping-compliance",
+      "to": "designing-controls"
+    },
+    {
+      "from": "designing-controls",
+      "to": "testing-controls"
+    },
+    {
+      "from": "analyzing-requirements",
+      "to": "modeling-data"
+    },
+    {
+      "from": "modeling-data",
+      "to": "assuring-data-quality"
+    },
+    {
+      "from": "discovering-skills",
+      "to": "composing-skills"
+    },
+    {
+      "from": "testing-skills",
+      "to": "benchmarking-skills"
+    },
+    {
+      "from": "benchmarking-skills",
+      "to": "improving-skills"
+    },
+    {
+      "from": "reviewing-skills",
+      "to": "improving-skills"
+    },
+    {
+      "from": "reviewing-skills",
+      "to": "governing-skills"
+    },
+    {
+      "from": "designing-kyc",
+      "to": "designing-loan-origination"
+    },
+    {
+      "from": "designing-ledgers",
+      "to": "designing-loan-management"
+    },
+    {
+      "from": "designing-controls",
+      "to": "designing-bank-controls"
+    },
+    {
+      "from": "designing-core-banking",
+      "to": "designing-bank-digital-twins"
+    },
+    {
+      "from": "modeling-data",
+      "to": "designing-bank-digital-twins"
+    },
+    {
+      "from": "designing-bank-controls",
+      "to": "designing-bank-digital-twins"
+    },
+    {
+      "from": "designing-ledgers",
+      "to": "designing-payment-ledgers"
+    },
+    {
+      "from": "designing-payment-ledgers",
+      "to": "designing-settlement"
+    },
+    {
+      "from": "designing-payment-routing",
+      "to": "designing-payouts"
+    },
+    {
+      "from": "designing-reconciliation",
+      "to": "designing-payment-exceptions"
+    },
+    {
+      "from": "designing-remittance",
+      "to": "designing-corridors"
+    },
+    {
+      "from": "engineering-observability",
+      "to": "monitoring-payments"
+    },
+    {
+      "from": "security-reviewing",
+      "to": "reviewing-api-security"
+    },
+    {
+      "from": "architecting-aws",
+      "to": "reviewing-cloud-security"
+    },
+    {
+      "from": "mapping-compliance",
+      "to": "building-traceability"
+    },
+    {
+      "from": "designing-controls",
+      "to": "collecting-audit-evidence"
+    },
+    {
+      "from": "mapping-compliance",
+      "to": "analyzing-compliance-gaps"
+    },
+    {
+      "from": "designing-aml",
+      "to": "designing-sanctions-screening"
+    },
+    {
+      "from": "designing-aml",
+      "to": "designing-case-management"
+    },
+    {
+      "from": "designing-agents",
+      "to": "designing-agent-memory"
+    },
+    {
+      "from": "designing-agents",
+      "to": "designing-agent-tools"
+    },
+    {
+      "from": "designing-agents",
+      "to": "designing-agent-guardrails"
+    },
+    {
+      "from": "threat-modeling",
+      "to": "designing-agent-guardrails"
+    },
+    {
+      "from": "evaluating-llms",
+      "to": "testing-agents"
+    },
+    {
+      "from": "orchestrating-agents",
+      "to": "designing-agent-protocols"
+    },
+    {
+      "from": "system-design",
+      "to": "designing-cloud-networks"
+    },
+    {
+      "from": "system-design",
+      "to": "designing-cloud-resilience"
+    },
+    {
+      "from": "modeling-data",
+      "to": "designing-data-pipelines"
+    },
+    {
+      "from": "modeling-data",
+      "to": "designing-analytics"
+    },
+    {
+      "from": "designing-analytics",
+      "to": "designing-dashboards"
+    },
+    {
+      "from": "conducting-research",
+      "to": "reviewing-literature"
+    },
+    {
+      "from": "conducting-research",
+      "to": "verifying-sources"
+    },
+    {
+      "from": "conducting-research",
+      "to": "scanning-technology"
+    },
+    {
+      "from": "analyzing-markets",
+      "to": "building-business-cases"
+    }
+  ]
+}

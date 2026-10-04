@@ -1,0 +1,2523 @@
+{
+  "schema_version": "0.4",
+  "system": "Christopher Skills System",
+  "skills": [
+    {
+      "id": "CSS-001",
+      "name": "analyzing-requirements",
+      "domain": "product",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-requirements/SKILL.md",
+      "description": "Turn ambiguous needs into explicit functional non-functional data interface compliance and acceptance requirements; use before design.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-002",
+      "name": "conducting-research",
+      "domain": "research",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/conducting-research/SKILL.md",
+      "description": "Conduct evidence-oriented research and synthesize decision-relevant findings; use when external or repository research is required.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-003",
+      "name": "creating-prds",
+      "domain": "product",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/creating-prds/SKILL.md",
+      "description": "Create concise product requirements defining problem outcomes scope requirements constraints and acceptance criteria; use before building a product.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-004",
+      "name": "creating-skills",
+      "domain": "meta",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/creating-skills/SKILL.md",
+      "description": "Design reusable Agent Skills with precise triggers workflows contracts quality gates tests and safety boundaries; use for recurring capabilities.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-005",
+      "name": "debugging-code",
+      "domain": "software-engineering",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/debugging-code/SKILL.md",
+      "description": "Diagnose defects from symptoms evidence logs tests and code paths; use when software fails or behaves unexpectedly.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-006",
+      "name": "deploying-safely",
+      "domain": "devops",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "high",
+      "path": ".claude/skills/deploying-safely/SKILL.md",
+      "description": "Plan and execute controlled deployments with prechecks staged rollout observation rollback criteria and verification; use for runtime releases.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-007",
+      "name": "gating-releases",
+      "domain": "governance",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "high",
+      "path": ".claude/skills/gating-releases/SKILL.md",
+      "description": "Determine release readiness from explicit test security quality documentation rollback and acceptance evidence; use before a release decision.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-008",
+      "name": "implementing-code",
+      "domain": "software-engineering",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/implementing-code/SKILL.md",
+      "description": "Implement production-quality code from defined requirements; use when building or modifying working software.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-009",
+      "name": "planning-projects",
+      "domain": "project-management",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/planning-projects/SKILL.md",
+      "description": "Convert an approved objective into workstreams deliverables dependencies milestones risks and verification points; use for delivery planning.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-010",
+      "name": "reviewing-architecture",
+      "domain": "architecture",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/reviewing-architecture/SKILL.md",
+      "description": "Evaluate architecture against requirements quality attributes constraints risks tradeoffs and operability; use for architecture gates.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-011",
+      "name": "reviewing-code",
+      "domain": "quality",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/reviewing-code/SKILL.md",
+      "description": "Review code for correctness maintainability security performance and tests; use for diffs patches and pull requests.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-012",
+      "name": "reviewing-skills",
+      "domain": "meta",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-skills/SKILL.md",
+      "description": "Review Agent Skills for trigger quality scope progressive disclosure safety testability duplication and maintainability; use before publishing.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-013",
+      "name": "routing-skills",
+      "domain": "meta",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/routing-skills/SKILL.md",
+      "description": "Select and sequence the minimum adequate skills for a complex request while avoiding redundant or unsafe execution; use for multi-step work.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-014",
+      "name": "security-reviewing",
+      "domain": "security",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/security-reviewing/SKILL.md",
+      "description": "Assess implementations or architectures for concrete security weaknesses and control gaps; use before sensitive releases.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-015",
+      "name": "system-design",
+      "domain": "architecture",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/system-design/SKILL.md",
+      "description": "Design systems from requirements and constraints; use for new or materially revised architectures.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-016",
+      "name": "testing-skills",
+      "domain": "meta",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/testing-skills/SKILL.md",
+      "description": "Evaluate Agent Skills with positive negative boundary safety and composition scenarios; use when validating new or changed skills.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-017",
+      "name": "threat-modeling",
+      "domain": "security",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/threat-modeling/SKILL.md",
+      "description": "Create threat models covering assets actors trust boundaries attack paths risks and mitigations; use for security-sensitive systems.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-018",
+      "name": "triaging-incidents",
+      "domain": "operations",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "medium",
+      "path": ".claude/skills/triaging-incidents/SKILL.md",
+      "description": "Triage incidents by establishing impact timeline evidence containment hypotheses ownership and next actions; use during production degradation.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-019",
+      "name": "verifying-products",
+      "domain": "testing",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/verifying-products/SKILL.md",
+      "description": "Verify features against acceptance criteria using executable checks and evidence; use after implementation or before release.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-020",
+      "name": "writing-documentation",
+      "domain": "documentation",
+      "version": "0.1.0",
+      "maturity": "L1",
+      "risk": "low",
+      "path": ".claude/skills/writing-documentation/SKILL.md",
+      "description": "Create concise technical documentation for the intended reader and task; use for READMEs guides architecture docs runbooks and handoffs.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-021",
+      "name": "designing-agents",
+      "domain": "ai-agents",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-agents/SKILL.md",
+      "description": "Design bounded AI agents with goals, state, tools, permissions, failure handling, evaluation, and human-control boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-022",
+      "name": "orchestrating-agents",
+      "domain": "ai-agents",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/orchestrating-agents/SKILL.md",
+      "description": "Design multi-agent orchestration with explicit roles, handoffs, shared artifacts, conflict handling, budgets, and termination conditions.",
+      "depends_on": [
+        "designing-agents"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-023",
+      "name": "designing-rag",
+      "domain": "ai-agents",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-rag/SKILL.md",
+      "description": "Design retrieval-augmented generation systems covering ingestion, retrieval, ranking, grounding, citations, evaluation, and freshness.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-024",
+      "name": "evaluating-llms",
+      "domain": "ai-agents",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/evaluating-llms/SKILL.md",
+      "description": "Create evidence-based LLM and agent evaluations using representative datasets, rubrics, graders, failure taxonomies, and regression thresholds.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-025",
+      "name": "engineering-context",
+      "domain": "ai-agents",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/engineering-context/SKILL.md",
+      "description": "Design context supplied to AI agents for relevance, authority, provenance, token efficiency, and progressive disclosure.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-026",
+      "name": "architecting-aws",
+      "domain": "cloud",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/architecting-aws/SKILL.md",
+      "description": "Design AWS architectures using least privilege, resilience, observability, cost controls, and explicit service tradeoffs.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-027",
+      "name": "managing-terraform",
+      "domain": "cloud",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/managing-terraform/SKILL.md",
+      "description": "Design, review, and change Terraform safely with state awareness, plan inspection, modularity, drift controls, and rollback considerations.",
+      "depends_on": [
+        "architecting-aws"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-028",
+      "name": "operating-kubernetes",
+      "domain": "cloud",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/operating-kubernetes/SKILL.md",
+      "description": "Diagnose, design, and operate Kubernetes workloads with explicit RBAC, rollout, resource, health, and recovery controls.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-029",
+      "name": "designing-cicd",
+      "domain": "devops",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cicd/SKILL.md",
+      "description": "Design CI/CD pipelines with reproducible builds, test and security gates, artifact provenance, promotion, approvals, and rollback.",
+      "depends_on": [
+        "verifying-products"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-030",
+      "name": "engineering-observability",
+      "domain": "operations",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/engineering-observability/SKILL.md",
+      "description": "Design logs, metrics, traces, dashboards, SLOs, alerts, and correlation fields that make systems diagnosable and operable.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-031",
+      "name": "designing-ledgers",
+      "domain": "fintech",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-ledgers/SKILL.md",
+      "description": "Design auditable double-entry financial ledgers with postings, invariants, idempotency, reconciliation, corrections, and temporal history.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-032",
+      "name": "designing-kyc",
+      "domain": "fintech",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-kyc/SKILL.md",
+      "description": "Design KYC and customer due-diligence workflows with risk tiers, evidence, review states, privacy boundaries, escalation, and auditability.",
+      "depends_on": [
+        "analyzing-requirements"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-033",
+      "name": "designing-aml",
+      "domain": "fintech",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-aml/SKILL.md",
+      "description": "Design AML workflows covering screening, transaction monitoring, alert triage, case handling, escalation, and audit evidence.",
+      "depends_on": [
+        "analyzing-requirements"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-034",
+      "name": "designing-fraud-controls",
+      "domain": "fintech",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-fraud-controls/SKILL.md",
+      "description": "Design layered fraud controls using threat scenarios, behavioral and transaction signals, decisioning, step-up controls, and feedback loops.",
+      "depends_on": [
+        "threat-modeling"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-035",
+      "name": "designing-fx",
+      "domain": "payments",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-fx/SKILL.md",
+      "description": "Design FX quote and conversion capabilities covering sources, spreads, quote expiry, rounding, exposure, booking, reconciliation, and disclosure.",
+      "depends_on": [
+        "analyzing-requirements"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-036",
+      "name": "designing-remittance",
+      "domain": "payments",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-remittance/SKILL.md",
+      "description": "Design end-to-end remittance across onboarding, funding, FX, routing, compliance, payout, ledgering, reconciliation, and exceptions.",
+      "depends_on": [
+        "designing-ledgers",
+        "designing-aml",
+        "designing-kyc"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-037",
+      "name": "designing-payment-routing",
+      "domain": "payments",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-payment-routing/SKILL.md",
+      "description": "Design payment routing across rails/providers using eligibility, cost, reliability, compliance, retries, idempotency, and fallback rules.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-038",
+      "name": "designing-reconciliation",
+      "domain": "payments",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-reconciliation/SKILL.md",
+      "description": "Design deterministic reconciliation across ledgers, providers, banks, settlement files, fees, FX, timing differences, and breaks.",
+      "depends_on": [
+        "designing-ledgers"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-039",
+      "name": "mapping-compliance",
+      "domain": "compliance",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/mapping-compliance/SKILL.md",
+      "description": "Map obligations to requirements, controls, evidence, owners, systems, tests, gaps, and traceability without unsupported legal conclusions.",
+      "depends_on": [
+        "conducting-research"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-040",
+      "name": "designing-controls",
+      "domain": "compliance",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-controls/SKILL.md",
+      "description": "Design preventive, detective, corrective, and governance controls with objectives, owners, evidence, frequency, exceptions, and tests.",
+      "depends_on": [
+        "mapping-compliance"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-041",
+      "name": "testing-controls",
+      "domain": "compliance",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/testing-controls/SKILL.md",
+      "description": "Test control design and operating effectiveness using populations, samples, evidence, exceptions, conclusions, and remediation tracking.",
+      "depends_on": [
+        "designing-controls"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-042",
+      "name": "assessing-risk",
+      "domain": "governance",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/assessing-risk/SKILL.md",
+      "description": "Assess risks using assets, events, causes, likelihood, impact, controls, residual exposure, owners, and treatment decisions.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-043",
+      "name": "analyzing-sql",
+      "domain": "data",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/analyzing-sql/SKILL.md",
+      "description": "Use SQL to answer analytical questions while validating schema, joins, filters, grain, null behavior, time windows, and plausibility.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-044",
+      "name": "modeling-data",
+      "domain": "data",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/modeling-data/SKILL.md",
+      "description": "Design conceptual, logical, and physical data models with entities, keys, constraints, lifecycle, ownership, privacy, and query requirements.",
+      "depends_on": [
+        "analyzing-requirements"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-045",
+      "name": "assuring-data-quality",
+      "domain": "data",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/assuring-data-quality/SKILL.md",
+      "description": "Define and verify data quality for completeness, validity, consistency, uniqueness, timeliness, lineage, and anomaly handling.",
+      "depends_on": [
+        "modeling-data"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-046",
+      "name": "discovering-skills",
+      "domain": "meta",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/discovering-skills/SKILL.md",
+      "description": "Search the CSS catalog and runtime skills to identify existing capabilities before creating or composing new ones.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-047",
+      "name": "composing-skills",
+      "domain": "meta",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/composing-skills/SKILL.md",
+      "description": "Compose skills into an explicit workflow with artifact handoffs, dependencies, gates, rollback paths, and stop conditions.",
+      "depends_on": [
+        "discovering-skills"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-048",
+      "name": "benchmarking-skills",
+      "domain": "meta",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/benchmarking-skills/SKILL.md",
+      "description": "Benchmark skills across representative tasks using success criteria, cost, latency, reliability, safety, and regression evidence.",
+      "depends_on": [
+        "testing-skills"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-049",
+      "name": "improving-skills",
+      "domain": "meta",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/improving-skills/SKILL.md",
+      "description": "Improve a skill from observed failures and evaluation evidence while preserving scope, safety boundaries, and compatibility.",
+      "depends_on": [
+        "benchmarking-skills",
+        "reviewing-skills"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-050",
+      "name": "governing-skills",
+      "domain": "meta",
+      "version": "0.2.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/governing-skills/SKILL.md",
+      "description": "Govern skill lifecycle through provenance, ownership, versioning, risk classification, review, approval, deprecation, and distribution.",
+      "depends_on": [
+        "reviewing-skills"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-051",
+      "name": "designing-core-banking",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-core-banking/SKILL.md",
+      "description": "Design core banking customers, accounts, products, transactions, posting and lifecycle controls.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-052",
+      "name": "designing-digital-banking",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-digital-banking/SKILL.md",
+      "description": "Design secure digital banking journeys, identity, entitlements, transactions and servicing.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-053",
+      "name": "designing-loan-origination",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-loan-origination/SKILL.md",
+      "description": "Design loan origination from application through KYC, underwriting, approval and disbursement.",
+      "depends_on": [
+        "designing-kyc"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-054",
+      "name": "designing-loan-management",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-loan-management/SKILL.md",
+      "description": "Design loan servicing, schedules, accruals, payments, delinquency, restructuring and collections.",
+      "depends_on": [
+        "designing-ledgers"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-055",
+      "name": "designing-deposits",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-deposits/SKILL.md",
+      "description": "Design deposit products, lifecycle, interest, fees, limits, holds and statements.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-056",
+      "name": "designing-bank-integrations",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-bank-integrations/SKILL.md",
+      "description": "Design controlled banking integrations with channels, rails, partners and enterprise systems.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-057",
+      "name": "designing-bank-controls",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-bank-controls/SKILL.md",
+      "description": "Design banking controls for duties, limits, approvals, reconciliation, monitoring and evidence.",
+      "depends_on": [
+        "designing-controls"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-058",
+      "name": "designing-bank-digital-twins",
+      "domain": "banking",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/designing-bank-digital-twins/SKILL.md",
+      "description": "Design governed bank digital twins for monitoring, simulation, decisions and scenario testing.",
+      "depends_on": [
+        "designing-core-banking",
+        "modeling-data",
+        "designing-bank-controls"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-059",
+      "name": "designing-payment-ledgers",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-payment-ledgers/SKILL.md",
+      "description": "Design payment ledgers for authorization, settlement, fees, refunds, reversals and provider positions.",
+      "depends_on": [
+        "designing-ledgers"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-060",
+      "name": "designing-settlement",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-settlement/SKILL.md",
+      "description": "Design settlement positions, cutoffs, netting, prefunding, instructions, exceptions and finality.",
+      "depends_on": [
+        "designing-payment-ledgers"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-061",
+      "name": "designing-payouts",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-payouts/SKILL.md",
+      "description": "Design payout orchestration across banks, wallets and cash networks with retries and exceptions.",
+      "depends_on": [
+        "designing-payment-routing"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-062",
+      "name": "designing-payment-webhooks",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-payment-webhooks/SKILL.md",
+      "description": "Design secure, idempotent payment webhook ingestion, retries, observability and reconciliation.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-063",
+      "name": "designing-payment-exceptions",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-payment-exceptions/SKILL.md",
+      "description": "Design handling for stuck, duplicated, rejected, reversed, delayed or mismatched payments.",
+      "depends_on": [
+        "designing-reconciliation"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-064",
+      "name": "designing-corridors",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-corridors/SKILL.md",
+      "description": "Design remittance corridors across regulation, partners, currency, liquidity, routing and settlement.",
+      "depends_on": [
+        "designing-remittance"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-065",
+      "name": "monitoring-payments",
+      "domain": "payments",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/monitoring-payments/SKILL.md",
+      "description": "Design payment monitoring across technical, fraud, compliance, settlement and customer signals.",
+      "depends_on": [
+        "engineering-observability"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-066",
+      "name": "reviewing-authentication",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-authentication/SKILL.md",
+      "description": "Review authentication, credentials, MFA, sessions, recovery and abuse resistance.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-067",
+      "name": "reviewing-authorization",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-authorization/SKILL.md",
+      "description": "Review authorization, least privilege, object access, tenancy and privilege escalation.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-068",
+      "name": "reviewing-api-security",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-api-security/SKILL.md",
+      "description": "Review API authentication, authorization, validation, limits, secrets and data exposure.",
+      "depends_on": [
+        "security-reviewing"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-069",
+      "name": "auditing-secrets",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/auditing-secrets/SKILL.md",
+      "description": "Audit secret exposure, storage, scope, rotation and remediation.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-070",
+      "name": "reviewing-dependencies",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-dependencies/SKILL.md",
+      "description": "Review dependency provenance, vulnerabilities, maintenance, licenses and supply-chain exposure.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-071",
+      "name": "modeling-abuse",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/modeling-abuse/SKILL.md",
+      "description": "Model abuse involving legitimate interfaces, identities, automation and business logic.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-072",
+      "name": "reviewing-cloud-security",
+      "domain": "security",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-cloud-security/SKILL.md",
+      "description": "Review cloud identity, network boundaries, data protection, logging, keys and configuration.",
+      "depends_on": [
+        "architecting-aws"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-073",
+      "name": "building-traceability",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/building-traceability/SKILL.md",
+      "description": "Build traceability from obligations through requirements, controls, tests, evidence and remediation.",
+      "depends_on": [
+        "mapping-compliance"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-074",
+      "name": "collecting-audit-evidence",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/collecting-audit-evidence/SKILL.md",
+      "description": "Collect audit evidence with provenance, scope, period, integrity, retention and control mapping.",
+      "depends_on": [
+        "designing-controls"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-075",
+      "name": "analyzing-compliance-gaps",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/analyzing-compliance-gaps/SKILL.md",
+      "description": "Identify compliance gaps across obligations, controls, implementation and evidence.",
+      "depends_on": [
+        "mapping-compliance"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-076",
+      "name": "writing-policies",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-policies/SKILL.md",
+      "description": "Draft implementable policies with scope, roles, rules, exceptions and review cycles.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-077",
+      "name": "designing-sanctions-screening",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-sanctions-screening/SKILL.md",
+      "description": "Design sanctions screening, matching, thresholds, disposition, escalation and auditability.",
+      "depends_on": [
+        "designing-aml"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-078",
+      "name": "designing-case-management",
+      "domain": "compliance",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-case-management/SKILL.md",
+      "description": "Design compliance case management, workflow, ownership, escalation and audit history.",
+      "depends_on": [
+        "designing-aml"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-079",
+      "name": "designing-agent-memory",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-agent-memory/SKILL.md",
+      "description": "Design agent memory, retention, provenance, retrieval, correction, privacy and deletion.",
+      "depends_on": [
+        "designing-agents"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-080",
+      "name": "designing-agent-tools",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-agent-tools/SKILL.md",
+      "description": "Design safe agent tools with narrow schemas, permissions, validation and observability.",
+      "depends_on": [
+        "designing-agents"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-081",
+      "name": "designing-agent-guardrails",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-agent-guardrails/SKILL.md",
+      "description": "Design agent guardrails across permissions, tools, policy checks, verification and approval.",
+      "depends_on": [
+        "designing-agents",
+        "threat-modeling"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-082",
+      "name": "testing-agents",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/testing-agents/SKILL.md",
+      "description": "Test agents for task success, tools, hallucination, adversarial inputs and recovery.",
+      "depends_on": [
+        "evaluating-llms"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-083",
+      "name": "designing-human-agent-handoffs",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-human-agent-handoffs/SKILL.md",
+      "description": "Design human-agent handoffs with state, evidence, authority and resumption rules.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-084",
+      "name": "designing-agent-protocols",
+      "domain": "ai-agents",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-agent-protocols/SKILL.md",
+      "description": "Design agent protocols for identity, messages, capabilities, authorization and errors.",
+      "depends_on": [
+        "orchestrating-agents"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-085",
+      "name": "designing-cloud-networks",
+      "domain": "cloud",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cloud-networks/SKILL.md",
+      "description": "Design cloud routing, ingress, egress, private connectivity, DNS and segmentation.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-086",
+      "name": "designing-cloud-resilience",
+      "domain": "cloud",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cloud-resilience/SKILL.md",
+      "description": "Design cloud resilience, recovery objectives, backups, failover and degradation.",
+      "depends_on": [
+        "system-design"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-087",
+      "name": "optimizing-cloud-cost",
+      "domain": "cloud",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/optimizing-cloud-cost/SKILL.md",
+      "description": "Optimize cloud cost while preserving performance, resilience and security.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-088",
+      "name": "designing-data-pipelines",
+      "domain": "data",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-data-pipelines/SKILL.md",
+      "description": "Design data pipelines for ingestion, transformation, lineage, quality, replay and privacy.",
+      "depends_on": [
+        "modeling-data"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-089",
+      "name": "designing-analytics",
+      "domain": "data",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-analytics/SKILL.md",
+      "description": "Design analytical models and metrics with grain, definitions, consistency and lineage.",
+      "depends_on": [
+        "modeling-data"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-090",
+      "name": "designing-dashboards",
+      "domain": "data",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-dashboards/SKILL.md",
+      "description": "Design decision dashboards with metrics, hierarchy, thresholds, trends and actions.",
+      "depends_on": [
+        "designing-analytics"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-091",
+      "name": "reviewing-literature",
+      "domain": "research",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/reviewing-literature/SKILL.md",
+      "description": "Conduct structured literature reviews with search, inclusion, synthesis and limitations.",
+      "depends_on": [
+        "conducting-research"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-092",
+      "name": "verifying-sources",
+      "domain": "research",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/verifying-sources/SKILL.md",
+      "description": "Assess source authority, provenance, recency, corroboration and claim support.",
+      "depends_on": [
+        "conducting-research"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-093",
+      "name": "scanning-technology",
+      "domain": "research",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/scanning-technology/SKILL.md",
+      "description": "Scan technology maturity, ecosystem, fit, risks, costs and adoption implications.",
+      "depends_on": [
+        "conducting-research"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-094",
+      "name": "analyzing-markets",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-markets/SKILL.md",
+      "description": "Analyze customers, segments, economics, trends, barriers, risks and evidence.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-095",
+      "name": "analyzing-competitors",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-competitors/SKILL.md",
+      "description": "Analyze competitor positioning, capabilities, economics, differentiation and implications.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-096",
+      "name": "designing-business-models",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-business-models/SKILL.md",
+      "description": "Design value, channels, capabilities, partners, revenue, cost and defensibility.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-097",
+      "name": "designing-operating-models",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-operating-models/SKILL.md",
+      "description": "Design capabilities, organization, governance, processes, technology and decision rights.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-098",
+      "name": "building-business-cases",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/building-business-cases/SKILL.md",
+      "description": "Build business cases with options, benefits, costs, assumptions, risks and sensitivities.",
+      "depends_on": [
+        "analyzing-markets"
+      ],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-099",
+      "name": "planning-scenarios",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/planning-scenarios/SKILL.md",
+      "description": "Develop scenarios from uncertainties, future states, indicators, options and triggers.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-100",
+      "name": "writing-executive-briefs",
+      "domain": "business-strategy",
+      "version": "0.3.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-executive-briefs/SKILL.md",
+      "description": "Create executive briefs framing decision, evidence, options, recommendation and risks.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-101",
+      "name": "refactoring-code",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/refactoring-code/SKILL.md",
+      "description": "Provide a governed refactoring code capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-102",
+      "name": "optimizing-performance",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/optimizing-performance/SKILL.md",
+      "description": "Provide a governed optimizing performance capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-103",
+      "name": "modernizing-legacy-systems",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/modernizing-legacy-systems/SKILL.md",
+      "description": "Provide a governed modernizing legacy systems capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-104",
+      "name": "designing-error-handling",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-error-handling/SKILL.md",
+      "description": "Provide a governed designing error handling capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-105",
+      "name": "reviewing-concurrency",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-concurrency/SKILL.md",
+      "description": "Provide a governed reviewing concurrency capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-106",
+      "name": "managing-dependencies",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/managing-dependencies/SKILL.md",
+      "description": "Provide a governed managing dependencies capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-107",
+      "name": "designing-cli-tools",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cli-tools/SKILL.md",
+      "description": "Provide a governed designing cli tools capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-108",
+      "name": "designing-sdks",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-sdks/SKILL.md",
+      "description": "Provide a governed designing sdks capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-109",
+      "name": "designing-event-driven-systems",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-event-driven-systems/SKILL.md",
+      "description": "Provide a governed designing event driven systems capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-110",
+      "name": "designing-background-jobs",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-background-jobs/SKILL.md",
+      "description": "Provide a governed designing background jobs capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-111",
+      "name": "reviewing-database-code",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-database-code/SKILL.md",
+      "description": "Provide a governed reviewing database code capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-112",
+      "name": "managing-technical-debt",
+      "domain": "software-engineering",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/managing-technical-debt/SKILL.md",
+      "description": "Provide a governed managing technical debt capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-113",
+      "name": "designing-domain-models",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-domain-models/SKILL.md",
+      "description": "Provide a governed designing domain models capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-114",
+      "name": "designing-service-boundaries",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-service-boundaries/SKILL.md",
+      "description": "Provide a governed designing service boundaries capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-115",
+      "name": "designing-integration-architecture",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-integration-architecture/SKILL.md",
+      "description": "Provide a governed designing integration architecture capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-116",
+      "name": "designing-scalability",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-scalability/SKILL.md",
+      "description": "Provide a governed designing scalability capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-117",
+      "name": "designing-resilience",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-resilience/SKILL.md",
+      "description": "Provide a governed designing resilience capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-118",
+      "name": "designing-multi-tenant-systems",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-multi-tenant-systems/SKILL.md",
+      "description": "Provide a governed designing multi tenant systems capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-119",
+      "name": "designing-api-architecture",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-api-architecture/SKILL.md",
+      "description": "Provide a governed designing api architecture capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-120",
+      "name": "designing-migration-architecture",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-migration-architecture/SKILL.md",
+      "description": "Provide a governed designing migration architecture capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-121",
+      "name": "creating-adrs",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/creating-adrs/SKILL.md",
+      "description": "Provide a governed creating adrs capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-122",
+      "name": "mapping-architecture",
+      "domain": "architecture",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/mapping-architecture/SKILL.md",
+      "description": "Provide a governed mapping architecture capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-123",
+      "name": "designing-unit-tests",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-unit-tests/SKILL.md",
+      "description": "Provide a governed designing unit tests capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-124",
+      "name": "designing-integration-tests",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-integration-tests/SKILL.md",
+      "description": "Provide a governed designing integration tests capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-125",
+      "name": "designing-e2e-tests",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-e2e-tests/SKILL.md",
+      "description": "Provide a governed designing e2e tests capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-126",
+      "name": "testing-apis",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/testing-apis/SKILL.md",
+      "description": "Provide a governed testing apis capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-127",
+      "name": "testing-performance",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/testing-performance/SKILL.md",
+      "description": "Provide a governed testing performance capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-128",
+      "name": "testing-accessibility",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/testing-accessibility/SKILL.md",
+      "description": "Provide a governed testing accessibility capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-129",
+      "name": "testing-regressions",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/testing-regressions/SKILL.md",
+      "description": "Provide a governed testing regressions capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-130",
+      "name": "designing-test-data",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-test-data/SKILL.md",
+      "description": "Provide a governed designing test data capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-131",
+      "name": "testing-migrations",
+      "domain": "testing",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/testing-migrations/SKILL.md",
+      "description": "Provide a governed testing migrations capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-132",
+      "name": "writing-user-stories",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-user-stories/SKILL.md",
+      "description": "Provide a governed writing user stories capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-133",
+      "name": "writing-acceptance-criteria",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-acceptance-criteria/SKILL.md",
+      "description": "Provide a governed writing acceptance criteria capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-134",
+      "name": "designing-mvps",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-mvps/SKILL.md",
+      "description": "Provide a governed designing mvps capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-135",
+      "name": "prioritizing-backlogs",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/prioritizing-backlogs/SKILL.md",
+      "description": "Provide a governed prioritizing backlogs capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-136",
+      "name": "planning-roadmaps",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/planning-roadmaps/SKILL.md",
+      "description": "Provide a governed planning roadmaps capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-137",
+      "name": "designing-product-metrics",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-product-metrics/SKILL.md",
+      "description": "Provide a governed designing product metrics capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-138",
+      "name": "analyzing-product-discovery",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-product-discovery/SKILL.md",
+      "description": "Provide a governed analyzing product discovery capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-139",
+      "name": "planning-product-releases",
+      "domain": "product",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/planning-product-releases/SKILL.md",
+      "description": "Provide a governed planning product releases capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-140",
+      "name": "writing-readmes",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-readmes/SKILL.md",
+      "description": "Provide a governed writing readmes capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-141",
+      "name": "documenting-apis",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/documenting-apis/SKILL.md",
+      "description": "Provide a governed documenting apis capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-142",
+      "name": "writing-developer-guides",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-developer-guides/SKILL.md",
+      "description": "Provide a governed writing developer guides capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-143",
+      "name": "writing-runbooks",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/writing-runbooks/SKILL.md",
+      "description": "Provide a governed writing runbooks capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-144",
+      "name": "consolidating-documentation",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/consolidating-documentation/SKILL.md",
+      "description": "Provide a governed consolidating documentation capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-145",
+      "name": "reviewing-documentation",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/reviewing-documentation/SKILL.md",
+      "description": "Provide a governed reviewing documentation capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-146",
+      "name": "documenting-data-models",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/documenting-data-models/SKILL.md",
+      "description": "Provide a governed documenting data models capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-147",
+      "name": "documenting-operations",
+      "domain": "documentation",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/documenting-operations/SKILL.md",
+      "description": "Provide a governed documenting operations capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-148",
+      "name": "designing-container-images",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-container-images/SKILL.md",
+      "description": "Provide a governed designing container images capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-149",
+      "name": "reviewing-github-actions",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/reviewing-github-actions/SKILL.md",
+      "description": "Provide a governed reviewing github actions capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-150",
+      "name": "managing-environments",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/managing-environments/SKILL.md",
+      "description": "Provide a governed managing environments capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-151",
+      "name": "designing-release-strategies",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-release-strategies/SKILL.md",
+      "description": "Provide a governed designing release strategies capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-152",
+      "name": "designing-feature-flags",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-feature-flags/SKILL.md",
+      "description": "Provide a governed designing feature flags capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-153",
+      "name": "managing-database-migrations",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/managing-database-migrations/SKILL.md",
+      "description": "Provide a governed managing database migrations capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-154",
+      "name": "designing-build-systems",
+      "domain": "devops",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-build-systems/SKILL.md",
+      "description": "Provide a governed designing build systems capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-155",
+      "name": "designing-cloud-storage",
+      "domain": "cloud",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cloud-storage/SKILL.md",
+      "description": "Provide a governed designing cloud storage capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-156",
+      "name": "designing-cloud-identity",
+      "domain": "cloud",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/designing-cloud-identity/SKILL.md",
+      "description": "Provide a governed designing cloud identity capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-157",
+      "name": "designing-cloud-backups",
+      "domain": "cloud",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cloud-backups/SKILL.md",
+      "description": "Provide a governed designing cloud backups capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-158",
+      "name": "designing-cloud-databases",
+      "domain": "cloud",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-cloud-databases/SKILL.md",
+      "description": "Provide a governed designing cloud databases capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-159",
+      "name": "designing-serverless-systems",
+      "domain": "cloud",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-serverless-systems/SKILL.md",
+      "description": "Provide a governed designing serverless systems capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-160",
+      "name": "analyzing-logs",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/analyzing-logs/SKILL.md",
+      "description": "Provide a governed analyzing logs capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-161",
+      "name": "performing-root-cause-analysis",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/performing-root-cause-analysis/SKILL.md",
+      "description": "Provide a governed performing root cause analysis capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-162",
+      "name": "investigating-latency",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/investigating-latency/SKILL.md",
+      "description": "Provide a governed investigating latency capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-163",
+      "name": "planning-capacity",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/planning-capacity/SKILL.md",
+      "description": "Provide a governed planning capacity capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-164",
+      "name": "verifying-backups",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/verifying-backups/SKILL.md",
+      "description": "Provide a governed verifying backups capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-165",
+      "name": "planning-disaster-recovery",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "high",
+      "path": ".claude/skills/planning-disaster-recovery/SKILL.md",
+      "description": "Provide a governed planning disaster recovery capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-166",
+      "name": "designing-slos",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-slos/SKILL.md",
+      "description": "Provide a governed designing slos capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-167",
+      "name": "designing-alerts",
+      "domain": "operations",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-alerts/SKILL.md",
+      "description": "Provide a governed designing alerts capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-168",
+      "name": "breaking-down-work",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/breaking-down-work/SKILL.md",
+      "description": "Provide a governed breaking down work capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-169",
+      "name": "estimating-work",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/estimating-work/SKILL.md",
+      "description": "Provide a governed estimating work capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-170",
+      "name": "managing-project-risks",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/managing-project-risks/SKILL.md",
+      "description": "Provide a governed managing project risks capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-171",
+      "name": "mapping-dependencies",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/mapping-dependencies/SKILL.md",
+      "description": "Provide a governed mapping dependencies capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-172",
+      "name": "planning-milestones",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/planning-milestones/SKILL.md",
+      "description": "Provide a governed planning milestones capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-173",
+      "name": "reporting-project-status",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/reporting-project-status/SKILL.md",
+      "description": "Provide a governed reporting project status capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-174",
+      "name": "assessing-project-health",
+      "domain": "project-management",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/assessing-project-health/SKILL.md",
+      "description": "Provide a governed assessing project health capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-175",
+      "name": "designing-quality-gates",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-quality-gates/SKILL.md",
+      "description": "Provide a governed designing quality gates capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-176",
+      "name": "checking-conformance",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/checking-conformance/SKILL.md",
+      "description": "Provide a governed checking conformance capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-177",
+      "name": "auditing-artifacts",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/auditing-artifacts/SKILL.md",
+      "description": "Provide a governed auditing artifacts capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-178",
+      "name": "reviewing-design-quality",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/reviewing-design-quality/SKILL.md",
+      "description": "Provide a governed reviewing design quality capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-179",
+      "name": "managing-nonconformities",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/managing-nonconformities/SKILL.md",
+      "description": "Provide a governed managing nonconformities capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-180",
+      "name": "designing-quality-metrics",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-quality-metrics/SKILL.md",
+      "description": "Provide a governed designing quality metrics capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-181",
+      "name": "improving-processes",
+      "domain": "quality",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/improving-processes/SKILL.md",
+      "description": "Provide a governed improving processes capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-182",
+      "name": "designing-data-governance",
+      "domain": "data",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-data-governance/SKILL.md",
+      "description": "Provide a governed designing data governance capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-183",
+      "name": "designing-data-privacy",
+      "domain": "data",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-data-privacy/SKILL.md",
+      "description": "Provide a governed designing data privacy capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-184",
+      "name": "designing-master-data",
+      "domain": "data",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-master-data/SKILL.md",
+      "description": "Provide a governed designing master data capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-185",
+      "name": "designing-data-warehouses",
+      "domain": "data",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-data-warehouses/SKILL.md",
+      "description": "Provide a governed designing data warehouses capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-186",
+      "name": "designing-streaming-data",
+      "domain": "data",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-streaming-data/SKILL.md",
+      "description": "Provide a governed designing streaming data capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-187",
+      "name": "designing-research-plans",
+      "domain": "research",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-research-plans/SKILL.md",
+      "description": "Provide a governed designing research plans capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-188",
+      "name": "synthesizing-evidence",
+      "domain": "research",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/synthesizing-evidence/SKILL.md",
+      "description": "Provide a governed synthesizing evidence capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-189",
+      "name": "analyzing-papers",
+      "domain": "research",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-papers/SKILL.md",
+      "description": "Provide a governed analyzing papers capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-190",
+      "name": "mapping-trends",
+      "domain": "research",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/mapping-trends/SKILL.md",
+      "description": "Provide a governed mapping trends capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-191",
+      "name": "conducting-due-diligence",
+      "domain": "research",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/conducting-due-diligence/SKILL.md",
+      "description": "Provide a governed conducting due diligence capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-192",
+      "name": "designing-strategies",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-strategies/SKILL.md",
+      "description": "Provide a governed designing strategies capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-193",
+      "name": "designing-kpis",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-kpis/SKILL.md",
+      "description": "Provide a governed designing kpis capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-194",
+      "name": "planning-transformations",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/planning-transformations/SKILL.md",
+      "description": "Provide a governed planning transformations capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-195",
+      "name": "analyzing-unit-economics",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/analyzing-unit-economics/SKILL.md",
+      "description": "Provide a governed analyzing unit economics capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-196",
+      "name": "designing-partnerships",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/designing-partnerships/SKILL.md",
+      "description": "Provide a governed designing partnerships capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-197",
+      "name": "planning-market-entry",
+      "domain": "business-strategy",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "low",
+      "path": ".claude/skills/planning-market-entry/SKILL.md",
+      "description": "Provide a governed planning market entry capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-198",
+      "name": "designing-wallets",
+      "domain": "fintech",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-wallets/SKILL.md",
+      "description": "Provide a governed designing wallets capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-199",
+      "name": "designing-merchant-payments",
+      "domain": "fintech",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-merchant-payments/SKILL.md",
+      "description": "Provide a governed designing merchant payments capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    },
+    {
+      "id": "CSS-200",
+      "name": "designing-transaction-limits",
+      "domain": "fintech",
+      "version": "0.4.0",
+      "maturity": "L2",
+      "risk": "medium",
+      "path": ".claude/skills/designing-transaction-limits/SKILL.md",
+      "description": "Provide a governed designing transaction limits capability with explicit scope, evidence, verification, failure handling, and permission boundaries.",
+      "depends_on": [],
+      "recommended_next": []
+    }
+  ],
+  "version": "0.4.0"
+}

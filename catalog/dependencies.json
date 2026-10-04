@@ -1,0 +1,518 @@
+{
+  "analyzing-requirements": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "conducting-research": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "creating-prds": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "creating-skills": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "debugging-code": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "deploying-safely": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "gating-releases": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "implementing-code": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "planning-projects": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-architecture": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-code": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-skills": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "routing-skills": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "security-reviewing": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "system-design": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "testing-skills": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "threat-modeling": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "triaging-incidents": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "verifying-products": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "writing-documentation": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-agents": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "orchestrating-agents": {
+    "depends_on": [
+      "designing-agents"
+    ],
+    "recommended_next": []
+  },
+  "designing-rag": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "evaluating-llms": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "engineering-context": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "architecting-aws": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "managing-terraform": {
+    "depends_on": [
+      "architecting-aws"
+    ],
+    "recommended_next": []
+  },
+  "operating-kubernetes": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "designing-cicd": {
+    "depends_on": [
+      "verifying-products"
+    ],
+    "recommended_next": []
+  },
+  "engineering-observability": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "designing-ledgers": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "designing-kyc": {
+    "depends_on": [
+      "analyzing-requirements"
+    ],
+    "recommended_next": []
+  },
+  "designing-aml": {
+    "depends_on": [
+      "analyzing-requirements"
+    ],
+    "recommended_next": []
+  },
+  "designing-fraud-controls": {
+    "depends_on": [
+      "threat-modeling"
+    ],
+    "recommended_next": []
+  },
+  "designing-fx": {
+    "depends_on": [
+      "analyzing-requirements"
+    ],
+    "recommended_next": []
+  },
+  "designing-remittance": {
+    "depends_on": [
+      "designing-ledgers",
+      "designing-aml",
+      "designing-kyc"
+    ],
+    "recommended_next": []
+  },
+  "designing-payment-routing": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "designing-reconciliation": {
+    "depends_on": [
+      "designing-ledgers"
+    ],
+    "recommended_next": []
+  },
+  "mapping-compliance": {
+    "depends_on": [
+      "conducting-research"
+    ],
+    "recommended_next": []
+  },
+  "designing-controls": {
+    "depends_on": [
+      "mapping-compliance"
+    ],
+    "recommended_next": []
+  },
+  "testing-controls": {
+    "depends_on": [
+      "designing-controls"
+    ],
+    "recommended_next": []
+  },
+  "assessing-risk": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "analyzing-sql": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "modeling-data": {
+    "depends_on": [
+      "analyzing-requirements"
+    ],
+    "recommended_next": []
+  },
+  "assuring-data-quality": {
+    "depends_on": [
+      "modeling-data"
+    ],
+    "recommended_next": []
+  },
+  "discovering-skills": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "composing-skills": {
+    "depends_on": [
+      "discovering-skills"
+    ],
+    "recommended_next": []
+  },
+  "benchmarking-skills": {
+    "depends_on": [
+      "testing-skills"
+    ],
+    "recommended_next": []
+  },
+  "improving-skills": {
+    "depends_on": [
+      "benchmarking-skills",
+      "reviewing-skills"
+    ],
+    "recommended_next": []
+  },
+  "governing-skills": {
+    "depends_on": [
+      "reviewing-skills"
+    ],
+    "recommended_next": []
+  },
+  "designing-core-banking": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-digital-banking": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-loan-origination": {
+    "depends_on": [
+      "designing-kyc"
+    ],
+    "recommended_next": []
+  },
+  "designing-loan-management": {
+    "depends_on": [
+      "designing-ledgers"
+    ],
+    "recommended_next": []
+  },
+  "designing-deposits": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-bank-integrations": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-bank-controls": {
+    "depends_on": [
+      "designing-controls"
+    ],
+    "recommended_next": []
+  },
+  "designing-bank-digital-twins": {
+    "depends_on": [
+      "designing-core-banking",
+      "modeling-data",
+      "designing-bank-controls"
+    ],
+    "recommended_next": []
+  },
+  "designing-payment-ledgers": {
+    "depends_on": [
+      "designing-ledgers"
+    ],
+    "recommended_next": []
+  },
+  "designing-settlement": {
+    "depends_on": [
+      "designing-payment-ledgers"
+    ],
+    "recommended_next": []
+  },
+  "designing-payouts": {
+    "depends_on": [
+      "designing-payment-routing"
+    ],
+    "recommended_next": []
+  },
+  "designing-payment-webhooks": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-payment-exceptions": {
+    "depends_on": [
+      "designing-reconciliation"
+    ],
+    "recommended_next": []
+  },
+  "designing-corridors": {
+    "depends_on": [
+      "designing-remittance"
+    ],
+    "recommended_next": []
+  },
+  "monitoring-payments": {
+    "depends_on": [
+      "engineering-observability"
+    ],
+    "recommended_next": []
+  },
+  "reviewing-authentication": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-authorization": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-api-security": {
+    "depends_on": [
+      "security-reviewing"
+    ],
+    "recommended_next": []
+  },
+  "auditing-secrets": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-dependencies": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "modeling-abuse": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "reviewing-cloud-security": {
+    "depends_on": [
+      "architecting-aws"
+    ],
+    "recommended_next": []
+  },
+  "building-traceability": {
+    "depends_on": [
+      "mapping-compliance"
+    ],
+    "recommended_next": []
+  },
+  "collecting-audit-evidence": {
+    "depends_on": [
+      "designing-controls"
+    ],
+    "recommended_next": []
+  },
+  "analyzing-compliance-gaps": {
+    "depends_on": [
+      "mapping-compliance"
+    ],
+    "recommended_next": []
+  },
+  "writing-policies": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-sanctions-screening": {
+    "depends_on": [
+      "designing-aml"
+    ],
+    "recommended_next": []
+  },
+  "designing-case-management": {
+    "depends_on": [
+      "designing-aml"
+    ],
+    "recommended_next": []
+  },
+  "designing-agent-memory": {
+    "depends_on": [
+      "designing-agents"
+    ],
+    "recommended_next": []
+  },
+  "designing-agent-tools": {
+    "depends_on": [
+      "designing-agents"
+    ],
+    "recommended_next": []
+  },
+  "designing-agent-guardrails": {
+    "depends_on": [
+      "designing-agents",
+      "threat-modeling"
+    ],
+    "recommended_next": []
+  },
+  "testing-agents": {
+    "depends_on": [
+      "evaluating-llms"
+    ],
+    "recommended_next": []
+  },
+  "designing-human-agent-handoffs": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-agent-protocols": {
+    "depends_on": [
+      "orchestrating-agents"
+    ],
+    "recommended_next": []
+  },
+  "designing-cloud-networks": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "designing-cloud-resilience": {
+    "depends_on": [
+      "system-design"
+    ],
+    "recommended_next": []
+  },
+  "optimizing-cloud-cost": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-data-pipelines": {
+    "depends_on": [
+      "modeling-data"
+    ],
+    "recommended_next": []
+  },
+  "designing-analytics": {
+    "depends_on": [
+      "modeling-data"
+    ],
+    "recommended_next": []
+  },
+  "designing-dashboards": {
+    "depends_on": [
+      "designing-analytics"
+    ],
+    "recommended_next": []
+  },
+  "reviewing-literature": {
+    "depends_on": [
+      "conducting-research"
+    ],
+    "recommended_next": []
+  },
+  "verifying-sources": {
+    "depends_on": [
+      "conducting-research"
+    ],
+    "recommended_next": []
+  },
+  "scanning-technology": {
+    "depends_on": [
+      "conducting-research"
+    ],
+    "recommended_next": []
+  },
+  "analyzing-markets": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "analyzing-competitors": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-business-models": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "designing-operating-models": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "building-business-cases": {
+    "depends_on": [
+      "analyzing-markets"
+    ],
+    "recommended_next": []
+  },
+  "planning-scenarios": {
+    "depends_on": [],
+    "recommended_next": []
+  },
+  "writing-executive-briefs": {
+    "depends_on": [],
+    "recommended_next": []
+  }
+}

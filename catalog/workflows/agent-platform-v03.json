@@ -1,0 +1,17 @@
+{
+  "name": "agent-platform-v03",
+  "version": "0.3.0",
+  "sequence": [
+    "analyzing-requirements",
+    "designing-agents",
+    "engineering-context",
+    "designing-agent-memory",
+    "designing-agent-tools",
+    "designing-agent-guardrails",
+    "orchestrating-agents",
+    "designing-agent-protocols",
+    "testing-agents",
+    "evaluating-llms",
+    "gating-releases"
+  ]
+}

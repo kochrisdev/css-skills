@@ -1,0 +1,14 @@
+{
+  "name": "ai-agent-system",
+  "version": "0.2.0",
+  "sequence": [
+    "analyzing-requirements",
+    "designing-agents",
+    "engineering-context",
+    "designing-rag",
+    "orchestrating-agents",
+    "evaluating-llms",
+    "verifying-products",
+    "gating-releases"
+  ]
+}

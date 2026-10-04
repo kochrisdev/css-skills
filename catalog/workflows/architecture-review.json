@@ -1,0 +1,11 @@
+{
+  "name": "architecture-review",
+  "version": "0.1.0",
+  "sequence": [
+    "analyzing-requirements",
+    "system-design",
+    "threat-modeling",
+    "reviewing-architecture",
+    "writing-documentation"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "security-review",
+  "version": "0.1.0",
+  "sequence": [
+    "threat-modeling",
+    "security-reviewing",
+    "reviewing-code",
+    "verifying-products",
+    "gating-releases"
+  ]
+}

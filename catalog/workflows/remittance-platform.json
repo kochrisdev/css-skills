@@ -1,0 +1,19 @@
+{
+  "name": "remittance-platform",
+  "version": "0.2.0",
+  "sequence": [
+    "analyzing-requirements",
+    "mapping-compliance",
+    "designing-kyc",
+    "designing-aml",
+    "designing-fraud-controls",
+    "designing-ledgers",
+    "designing-fx",
+    "designing-payment-routing",
+    "designing-remittance",
+    "designing-reconciliation",
+    "threat-modeling",
+    "verifying-products",
+    "gating-releases"
+  ]
+}

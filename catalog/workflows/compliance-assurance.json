@@ -1,0 +1,12 @@
+{
+  "name": "compliance-assurance",
+  "version": "0.2.0",
+  "sequence": [
+    "conducting-research",
+    "mapping-compliance",
+    "assessing-risk",
+    "designing-controls",
+    "testing-controls",
+    "writing-documentation"
+  ]
+}

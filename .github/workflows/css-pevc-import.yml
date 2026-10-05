@@ -1,0 +1,26 @@
+name: One-time PE VC pack import
+on:
+  push:
+    branches: [feature/pe-vc-skills]
+    paths:
+      - '.css-pevc-import/**'
+      - '.github/workflows/css-pevc-import.yml'
+permissions:
+  contents: write
+concurrency:
+  group: one-time-pevc-import
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.repository == 'kochrisdev/css-skills' && github.ref == 'refs/heads/feature/pe-vc-skills'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact transport commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Verify hash, build source, test and publish feature branch only
+        run: python3 .css-pevc-import/import.py

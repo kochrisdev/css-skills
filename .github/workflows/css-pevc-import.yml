@@ -7,6 +7,10 @@ on:
       - '.github/workflows/css-pevc-import.yml'
 permissions:
   contents: write
+# Source generation rewrites the same-length version string within one second.
+# Avoid timestamp-based bytecode caches throughout this one-time import.
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 concurrency:
   group: one-time-pevc-import
   cancel-in-progress: false

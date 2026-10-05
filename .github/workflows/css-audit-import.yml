@@ -1,0 +1,23 @@
+name: One-time audit document publication
+on:
+  push:
+    branches: ["docs/v0.6-audit-and-roadmap"]
+    paths: [".css-audit-import/**", ".github/workflows/css-audit-import.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: css-audit-document-publication
+  cancel-in-progress: false
+jobs:
+  publish-audit:
+    if: github.repository == 'kochrisdev/css-skills' && github.ref == 'refs/heads/docs/v0.6-audit-and-roadmap'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out exact transport commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - name: Verify original audit bytes and publish documents on this branch only
+        run: python3 -B .css-audit-import/import.py

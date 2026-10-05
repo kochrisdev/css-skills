@@ -1,0 +1,28 @@
+name: One-time CSS v0.5 import
+
+on:
+  push:
+    branches: ['improve/css-v0.5']
+    paths: ['.css-import/READY']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: css-v05-one-time-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.repository == 'kochrisdev/css-skills' && github.ref == 'refs/heads/improve/css-v0.5'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the exact import commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Verify package, run checks, and publish only the upgrade branch
+        run: python3 .css-import/import.py

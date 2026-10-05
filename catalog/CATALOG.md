@@ -1,8 +1,8 @@
-# CSS catalog
+# CSS v0.6.0 catalog
 
-Generated from `skill-registry.json`. 200 names remain; status is evidence-aware, not a quality score.
+224 entries: 64 authored pilots and 160 retained drafts. Behavioral validation is not claimed.
 
-| ID | Name | Domain | Status | Risk |
+| ID | Skill | Domain | Status | Risk |
 |---|---|---|---|---|
 | CSS-001 | [analyzing-requirements](../skills/analyzing-requirements/SKILL.md) | product | pilot | low |
 | CSS-002 | [conducting-research](../skills/conducting-research/SKILL.md) | research | pilot | low |
@@ -204,3 +204,27 @@ Generated from `skill-registry.json`. 200 names remain; status is evidence-aware
 | CSS-198 | [designing-wallets](../skills/designing-wallets/SKILL.md) | fintech | draft | medium |
 | CSS-199 | [designing-merchant-payments](../skills/designing-merchant-payments/SKILL.md) | fintech | draft | medium |
 | CSS-200 | [designing-transaction-limits](../skills/designing-transaction-limits/SKILL.md) | fintech | draft | medium |
+| CSS-201 | [screening-buyouts](../skills/screening-buyouts/SKILL.md) | private-equity | pilot | medium |
+| CSS-202 | [conducting-quality-of-earnings](../skills/conducting-quality-of-earnings/SKILL.md) | private-equity | pilot | medium |
+| CSS-203 | [diligencing-buyout-commercials](../skills/diligencing-buyout-commercials/SKILL.md) | private-equity | pilot | medium |
+| CSS-204 | [modeling-buyouts](../skills/modeling-buyouts/SKILL.md) | private-equity | pilot | high |
+| CSS-205 | [structuring-acquisition-finance](../skills/structuring-acquisition-finance/SKILL.md) | private-equity | pilot | high |
+| CSS-206 | [planning-pe-value-creation](../skills/planning-pe-value-creation/SKILL.md) | private-equity | pilot | medium |
+| CSS-207 | [reviewing-pe-portfolios](../skills/reviewing-pe-portfolios/SKILL.md) | private-equity | pilot | medium |
+| CSS-208 | [planning-pe-exits](../skills/planning-pe-exits/SKILL.md) | private-equity | pilot | medium |
+| CSS-209 | [screening-venture-deals](../skills/screening-venture-deals/SKILL.md) | venture-capital | pilot | medium |
+| CSS-210 | [diligencing-founders](../skills/diligencing-founders/SKILL.md) | venture-capital | pilot | medium |
+| CSS-211 | [assessing-product-market-fit](../skills/assessing-product-market-fit/SKILL.md) | venture-capital | pilot | medium |
+| CSS-212 | [analyzing-startup-metrics](../skills/analyzing-startup-metrics/SKILL.md) | venture-capital | pilot | medium |
+| CSS-213 | [modeling-venture-cap-tables](../skills/modeling-venture-cap-tables/SKILL.md) | venture-capital | pilot | high |
+| CSS-214 | [reviewing-venture-terms](../skills/reviewing-venture-terms/SKILL.md) | venture-capital | pilot | high |
+| CSS-215 | [constructing-venture-portfolios](../skills/constructing-venture-portfolios/SKILL.md) | venture-capital | pilot | medium |
+| CSS-216 | [planning-follow-on-investments](../skills/planning-follow-on-investments/SKILL.md) | venture-capital | pilot | high |
+| CSS-217 | [developing-investment-theses](../skills/developing-investment-theses/SKILL.md) | private-capital | pilot | medium |
+| CSS-218 | [diligencing-fund-managers](../skills/diligencing-fund-managers/SKILL.md) | private-capital | pilot | medium |
+| CSS-219 | [modeling-fund-economics](../skills/modeling-fund-economics/SKILL.md) | private-capital | pilot | high |
+| CSS-220 | [reviewing-private-valuations](../skills/reviewing-private-valuations/SKILL.md) | private-capital | pilot | high |
+| CSS-221 | [preparing-investment-committee-memos](../skills/preparing-investment-committee-memos/SKILL.md) | private-capital | pilot | high |
+| CSS-222 | [reporting-private-funds](../skills/reporting-private-funds/SKILL.md) | private-capital | pilot | medium |
+| CSS-223 | [planning-private-fundraising](../skills/planning-private-fundraising/SKILL.md) | private-capital | pilot | high |
+| CSS-224 | [reviewing-co-investments](../skills/reviewing-co-investments/SKILL.md) | private-capital | pilot | high |

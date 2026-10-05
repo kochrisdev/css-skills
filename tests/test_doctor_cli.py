@@ -28,7 +28,7 @@ class CLITests(unittest.TestCase):
     def test_inventory(self):
         out=StringIO()
         with redirect_stdout(out):code=main(['inventory'])
-        self.assertEqual(code,0);self.assertEqual(json.loads(out.getvalue())['skills'],200)
+        self.assertEqual(code,0);self.assertEqual(json.loads(out.getvalue())['skills'],224)
     def test_release_gate_is_not_green(self):
         out=StringIO()
         with redirect_stdout(out):code=main(['validate','--release'])
@@ -36,4 +36,4 @@ class CLITests(unittest.TestCase):
     def test_graph_is_derived(self):
         out=StringIO()
         with redirect_stdout(out):code=main(['graph'])
-        result=json.loads(out.getvalue());self.assertEqual(code,0);self.assertEqual(len(result['nodes']),200)
+        result=json.loads(out.getvalue());self.assertEqual(code,0);self.assertEqual(len(result['nodes']),224)

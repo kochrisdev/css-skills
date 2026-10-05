@@ -13,8 +13,8 @@ class CatalogTests(unittest.TestCase):
     def setUpClass(cls):cls.catalog=Catalog(ROOT)
     def test_package_validates(self):self.assertTrue(self.catalog.validate()['ok'])
     def test_200_ids_preserved(self):
-        self.assertEqual({s['id'] for s in self.catalog.skills},{f'CSS-{i:03d}' for i in range(1,201)})
-    def test_40_pilots(self):self.assertEqual(sum(s['status']=='pilot' for s in self.catalog.skills),40)
+        self.assertTrue({f'CSS-{i:03d}' for i in range(1,201)} <= {s['id'] for s in self.catalog.skills})
+    def test_pilot_count(self):self.assertEqual(sum(s['status']=='pilot' for s in self.catalog.skills),64)
     def test_160_drafts(self):self.assertEqual(sum(s['status']=='draft' for s in self.catalog.skills),160)
     def test_no_behavioral_claims(self):self.assertTrue(all(s['behavioral_evaluation']=='not_run' for s in self.catalog.skills))
     def test_all_workflows(self):
@@ -32,11 +32,11 @@ class CatalogTests(unittest.TestCase):
     def test_search_deterministic(self):self.assertEqual(self.catalog.search('ledger currency journal'),self.catalog.search('ledger currency journal'))
     def test_search_invalid_limit(self):
         with self.assertRaises(CSSError):self.catalog.search('x',limit=0)
-    def test_relative_content_root(self):self.assertEqual(content_digest(ROOT,'skills/designing-ledgers'),content_digest(ROOT/'..'/'css-skills','skills/designing-ledgers'))
+    def test_relative_content_root(self):self.assertEqual(content_digest(ROOT,'skills/designing-ledgers'),content_digest(ROOT/'..'/ROOT.name,'skills/designing-ledgers'))
     def test_legacy_map_complete(self):self.assertEqual(len(read_json(ROOT/'catalog/legacy-map.json')['skills']),200)
     def test_case_count(self):
         count=sum(len(read_json(ROOT/'skills'/s['name']/'evals/cases.json')['cases']) for s in self.catalog.skills if s['status']=='pilot')
-        self.assertEqual(count,160)
+        self.assertEqual(count,256)
 
 class ParserTests(unittest.TestCase):
     def test_valid_frontmatter(self):self.assertEqual(frontmatter('---\nname: hello\ndescription: "A useful test."\n---\nBody')[0]['name'],'hello')

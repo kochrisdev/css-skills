@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 — 2026-10-05 — PE/VC pack
+
+- Add 24 authored PE, VC and shared private-capital pilots; preserve all 200 original identities.
+- Add four installation profiles, four typed plan-only recipes and 96 behavioral case definitions (not run).
+- Add exact-decimal offline helpers for fund multiples, simple priced rounds, sources/uses and a terminal equity bridge, with examples and regression tests.
+- Fix the inherited renamed-checkout regression and make baseline identity tests additive.
+- Preserve LICENSE and explicit release blockers; no investment execution or model-behavior claims.
+
+
 ## 0.5.0 — 2026-10-05 — Engineering pilot
 
 Reviewed the actual v0.4 GitHub tree and supplied archive; corrected unsupported production-depth claims.

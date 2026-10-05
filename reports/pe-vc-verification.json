@@ -1,0 +1,118 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-05T02:37:59.187972+00:00",
+  "base_commit": "bf515580b9d81b5fe7a214cc1ccbec2ff4f6035d",
+  "base_tree": "32bd6d6313e98bf76edea022fa645b895a585cbf",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "inventory": {
+    "skills": 224,
+    "pilots": 64,
+    "drafts": 160,
+    "pevc_skills": 24,
+    "new_behavioral_cases": 96,
+    "total_behavioral_cases": 256,
+    "domains": 24,
+    "profiles": 11,
+    "workflows": 10
+  },
+  "unit_tests": {
+    "run": 138,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "routing": {
+    "passed": 42,
+    "total": 42,
+    "scope": "authored lexical retrieval smoke cases; no held-out performance claim and no model evaluation"
+  },
+  "validation": {
+    "ok": true,
+    "skills": 224,
+    "pilots": 64,
+    "drafts": 160,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DRAFTS",
+        "path": "catalog/skill-registry.json",
+        "message": "160 legacy instruction drafts are not pilot procedures"
+      },
+      {
+        "severity": "warning",
+        "code": "BEHAVIORAL",
+        "path": "evals",
+        "message": "live model behavior has not been measured in this release"
+      },
+      {
+        "severity": "warning",
+        "code": "LICENSE",
+        "path": "LICENSE",
+        "message": "incomplete inherited license notice; owner confirmation required before public release"
+      }
+    ],
+    "scope": "structural, integrity, declared graphs and case-definition checks; NOT behavioral evaluation"
+  },
+  "json_schema_validation": "passed",
+  "local_markdown_links": {
+    "checked": 520,
+    "missing": []
+  },
+  "license_preserved": true,
+  "helpers": {
+    "exit-bridge": {
+      "currency": "USD",
+      "residual_before_floor": "60000000",
+      "terminal_equity": "60000000",
+      "claim_shortfall": "0",
+      "MOIC": "2",
+      "notice": "Single-equity-class terminal bridge only; no preference waterfall, taxes, debt schedule, IRR or legal distribution priority. Invested equity must include all contributions; interim receipts must not be double-counted in exit cash."
+    },
+    "fund-multiples": {
+      "DPI": "0.4",
+      "RVPI": "0.8",
+      "TVPI": "1.2",
+      "currency": "USD",
+      "as_of": "2026-10-05",
+      "basis": "net",
+      "notice": "Simple positive-paid-in, nonnegative-value scope only. Matched source scope and basis are asserted by the caller, not verified. No IRR, carry, fees, recallability or FX treatment is computed."
+    },
+    "priced-round": {
+      "currency": "USD",
+      "price_per_share": "0.8",
+      "post_money": "10000000",
+      "post_round_shares": "12500000",
+      "holders": {
+        "founders": {
+          "shares": "8000000",
+          "ownership_fraction": "0.64"
+        },
+        "existing-pool": {
+          "shares": "2000000",
+          "ownership_fraction": "0.16"
+        },
+        "new-investor": {
+          "shares": "2500000",
+          "ownership_fraction": "0.2"
+        }
+      },
+      "notice": "Simple primary priced round only. Existing fully diluted denominator is supplied; no SAFE/note conversion, pool increase, secondary sale, rights or liquidation preferences. Fractional shares are mathematical, not legal issuance."
+    },
+    "sources-uses": {
+      "currency": "USD",
+      "sources": "55000000",
+      "uses": "55000000",
+      "gap_sources_less_uses": "0",
+      "balanced": true,
+      "notice": "Arithmetic reconciliation only; amount classifications and funding commitments are not verified."
+    }
+  },
+  "live_model_evaluations": "not_run",
+  "independent_financial_review": "not_recorded",
+  "github_ci": "not_run_for_this_extension_at_report_generation",
+  "public_release": "blocked_pending_license_and_independent_validation"
+}

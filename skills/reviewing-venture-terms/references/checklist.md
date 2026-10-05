@@ -1,0 +1,20 @@
+# Review checklist — reviewing-venture-terms
+
+These are authored procedure checks, not an assurance opinion.
+
+## Domain checks
+- Economic and control terms are separately explained.
+- Preference stack and conversion behavior drive outcome examples.
+- Jurisdiction and unresolved legal interpretation are explicit.
+
+## Stop-and-investigate example
+The term sheet says non-participating but a draft charter includes participating preferred. Flag the contradiction and withhold a definitive waterfall.
+
+## Evidence record
+For each material claim retain source ID, page/clause, as-of date, actual/forecast flag, currency, legal entity, reviewer and uncertainty. Use independent financial/legal review where necessary; do not mark a topic clean merely because records were not supplied.
+
+## Primary-source pointers (landing pages checked 2026-10-05)
+- [NVCA model legal documents](https://nvca.org/model-legal-documents/). US-oriented financing starting points; document dates vary and transaction counsel must review.
+- [Y Combinator SAFE resources](https://www.ycombinator.com/safe). Instrument-specific forms and explanations; no universal conversion rule or automatic authority to send/sign.
+
+These pointers are for method and document discovery. They do not endorse CSS, establish local legal authority or validate the authored procedure.

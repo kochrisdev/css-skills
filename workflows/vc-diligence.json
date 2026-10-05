@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "name": "vc-diligence",
+  "mode": "plan-only",
+  "description": "Stage-specific startup diligence and financing review; no investment commitment.",
+  "inputs": {
+    "investment-mandate": "investment-mandate",
+    "startup-dossier": "startup-dossier",
+    "founder-evidence": "founder-evidence",
+    "cohort-data": "cohort-data",
+    "customer-evidence": "customer-evidence",
+    "operating-metrics": "operating-metrics",
+    "capitalization-records": "capitalization-records",
+    "round-terms": "round-terms"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "screening-venture-deals",
+      "after": [],
+      "bindings": {
+        "investment-mandate": "input:investment-mandate",
+        "startup-dossier": "input:startup-dossier"
+      },
+      "produces": {
+        "step-01.venture-screen": "venture-screen"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-02",
+      "skill": "diligencing-founders",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "startup-dossier": "input:startup-dossier",
+        "founder-evidence": "input:founder-evidence"
+      },
+      "produces": {
+        "step-02.founder-dd": "founder-dd"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-03",
+      "skill": "assessing-product-market-fit",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "startup-dossier": "input:startup-dossier",
+        "cohort-data": "input:cohort-data",
+        "customer-evidence": "input:customer-evidence"
+      },
+      "produces": {
+        "step-03.pmf-assessment": "pmf-assessment"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-04",
+      "skill": "analyzing-startup-metrics",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "startup-dossier": "input:startup-dossier",
+        "operating-metrics": "input:operating-metrics"
+      },
+      "produces": {
+        "step-04.startup-metrics": "startup-metrics"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-05",
+      "skill": "modeling-venture-cap-tables",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "capitalization-records": "input:capitalization-records",
+        "round-terms": "input:round-terms"
+      },
+      "produces": {
+        "step-05.cap-table-model": "cap-table-model"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-06",
+      "skill": "reviewing-venture-terms",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "round-terms": "input:round-terms",
+        "cap-table-model": "step-05.cap-table-model"
+      },
+      "produces": {
+        "step-06.venture-terms-review": "venture-terms-review"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed financial reconciliation",
+    "Any requested signing, fund movement, solicitation or unapproved disclosure"
+  ],
+  "rework": "Revise the reviewed plan; no autonomous investment loop."
+}

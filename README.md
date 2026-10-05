@@ -1,22 +1,45 @@
-# Christopher Skills System — CSS v0.5.0
+# Christopher Skills System — CSS v0.6.0
 
-**An engineering upgrade, not another catalog expansion.**
+**Private Equity & Venture Capital Pack — 24 additional authored procedures.**
 
 CSS is a source library of reusable agent procedures with local discovery, validation,
 workflow planning and controlled installation. It is **not** an autonomous agent runtime.
 
 | What is present | What the claim means |
 |---|---|
-| 200 stable skill IDs and names in 21 domains | Catalog continuity, not 200 production capabilities |
-| 40 authored pilot procedures | Specific steps, pitfalls, output templates and evaluation cases |
+| 224 skill IDs and names in 24 domains | The original 200 identities are preserved, not a production-readiness claim |
+| 64 authored pilot procedures | Specific steps, pitfalls, output templates and evaluation cases |
 | 160 legacy instruction drafts | Preserved, labeled and excluded from normal installation |
-| 160 concrete behavioral case definitions | Authored scenarios; **not executed model evaluations** |
-| 7 installation profiles and 6 typed workflow recipes | Explicit selection and validated declared handoffs |
+| 256 concrete behavioral case definitions | Authored scenarios; **not executed model evaluations** |
+| 11 installation profiles and 10 typed workflow recipes | Explicit selection and validated declared handoffs |
 | Local CLI and automated tests | Deterministic software checks, not certification |
 
 **Readiness:** suitable for supervised experimentation. Live Claude Code/Codex behavior and
 independent domain validation are not measured. The inherited LICENSE is incomplete and
 conflicts with earlier MIT repository history; the owner must resolve licensing before a public release.
+
+## PE/VC pack
+
+See [PE/VC catalog, workflow recipes and helper boundaries](docs/PE-VC-PACK.md).
+
+```bash
+python -m css search "LBO buyout sources uses debt"
+python -m css search "VC cap table SAFE dilution"
+python -m css plan pe-underwriting
+python -m css plan vc-diligence
+python -m css.pevc examples/pevc/fund-multiples.json
+```
+
+To preview installation into an existing project:
+
+```bash
+python -m css install --profile pe-vc --runtime claude --target /path/to/project
+```
+
+Add `--apply` only after reviewing the preview. These procedures prepare analysis;
+they do not commit investments, execute funding, sign terms or contact investors.
+Financial arithmetic helpers are intentionally narrow and use exact-decimal inputs.
+All new behavioral case definitions remain **not_run**; expert review is pending.
 
 ## Start here
 
@@ -61,8 +84,9 @@ PowerShell example — replace the target with your actual existing project path
 python -m css install --profile banking --runtime claude --target "C:\Users\YourName\Projects\BankTwin"
 ```
 
-Profiles: `starter`, `banking`, `payments`, `agents`, `cloud`, `authoring`, `pilot`.
-`pilot` installs all 40 authored procedures, not all 200 catalog entries.
+Profiles: `starter`, `banking`, `payments`, `agents`, `cloud`, `authoring`, `pilot`,
+`private-equity`, `venture-capital`, `private-capital`, `pe-vc`.
+`pilot` installs all 64 authored procedures, not all 224 catalog entries. The `pe-vc` profile installs only the 24 new procedures.
 
 For Codex use `--runtime codex`. For a plain export use `--runtime generic`.
 Claude exports go to `.claude/skills`; Codex exports to `.agents/skills`.

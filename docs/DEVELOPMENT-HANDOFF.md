@@ -2,7 +2,7 @@
 
 ## Completed in this source deliverable
 
-200 identities retained; 40 procedures authored; 160 drafts honestly labeled; source/runtime separation;
+200 original identities retained, 24 new identities added; 64 procedures authored; 160 drafts honestly labeled; source/runtime separation;
 profile installation; declared typed workflows; lexical discovery with abstention; resource/digest validation;
 regression tests; narrow ledger/evidence helpers; backup and restoration; Windows migration guidance.
 

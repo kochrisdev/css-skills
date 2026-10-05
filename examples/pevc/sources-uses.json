@@ -1,0 +1,14 @@
+{
+  "operation": "sources-uses",
+  "inputs": {
+    "sources": {
+      "senior-debt": "30000000",
+      "sponsor-equity": "25000000"
+    },
+    "uses": {
+      "purchase": "50000000",
+      "fees": "5000000"
+    },
+    "currency": "USD"
+  }
+}

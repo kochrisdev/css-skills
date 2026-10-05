@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "name": "pe-underwriting",
+  "mode": "plan-only",
+  "description": "Screen and diligence a buyout, then build a reconciled model. Human consolidation is required before a separate IC memo.",
+  "inputs": {
+    "investment-mandate": "investment-mandate",
+    "deal-dossier": "deal-dossier",
+    "financial-records": "financial-records",
+    "customer-evidence": "customer-evidence",
+    "financing-terms": "financing-terms"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "screening-buyouts",
+      "after": [],
+      "bindings": {
+        "investment-mandate": "input:investment-mandate",
+        "deal-dossier": "input:deal-dossier"
+      },
+      "produces": {
+        "step-01.buyout-screen": "buyout-screen"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-02",
+      "skill": "conducting-quality-of-earnings",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "financial-records": "input:financial-records",
+        "deal-dossier": "input:deal-dossier"
+      },
+      "produces": {
+        "step-02.qoe-review": "qoe-review"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-03",
+      "skill": "diligencing-buyout-commercials",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "deal-dossier": "input:deal-dossier",
+        "customer-evidence": "input:customer-evidence"
+      },
+      "produces": {
+        "step-03.commercial-dd": "commercial-dd"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-04",
+      "skill": "modeling-buyouts",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "buyout-screen": "step-01.buyout-screen",
+        "qoe-review": "step-02.qoe-review",
+        "commercial-dd": "step-03.commercial-dd",
+        "financing-terms": "input:financing-terms"
+      },
+      "produces": {
+        "step-04.buyout-model": "buyout-model"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed financial reconciliation",
+    "Any requested signing, fund movement, solicitation or unapproved disclosure"
+  ],
+  "rework": "Revise the reviewed plan; no autonomous investment loop."
+}

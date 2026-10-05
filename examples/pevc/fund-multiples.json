@@ -1,0 +1,11 @@
+{
+  "operation": "fund-multiples",
+  "inputs": {
+    "paid_in": "50000000",
+    "distributions": "20000000",
+    "nav": "40000000",
+    "currency": "USD",
+    "as_of": "2026-10-05",
+    "basis": "net"
+  }
+}

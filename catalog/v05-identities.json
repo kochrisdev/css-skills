@@ -1,0 +1,802 @@
+[
+  {
+    "id": "CSS-001",
+    "name": "analyzing-requirements"
+  },
+  {
+    "id": "CSS-002",
+    "name": "conducting-research"
+  },
+  {
+    "id": "CSS-003",
+    "name": "creating-prds"
+  },
+  {
+    "id": "CSS-004",
+    "name": "creating-skills"
+  },
+  {
+    "id": "CSS-005",
+    "name": "debugging-code"
+  },
+  {
+    "id": "CSS-006",
+    "name": "deploying-safely"
+  },
+  {
+    "id": "CSS-007",
+    "name": "gating-releases"
+  },
+  {
+    "id": "CSS-008",
+    "name": "implementing-code"
+  },
+  {
+    "id": "CSS-009",
+    "name": "planning-projects"
+  },
+  {
+    "id": "CSS-010",
+    "name": "reviewing-architecture"
+  },
+  {
+    "id": "CSS-011",
+    "name": "reviewing-code"
+  },
+  {
+    "id": "CSS-012",
+    "name": "reviewing-skills"
+  },
+  {
+    "id": "CSS-013",
+    "name": "routing-skills"
+  },
+  {
+    "id": "CSS-014",
+    "name": "security-reviewing"
+  },
+  {
+    "id": "CSS-015",
+    "name": "system-design"
+  },
+  {
+    "id": "CSS-016",
+    "name": "testing-skills"
+  },
+  {
+    "id": "CSS-017",
+    "name": "threat-modeling"
+  },
+  {
+    "id": "CSS-018",
+    "name": "triaging-incidents"
+  },
+  {
+    "id": "CSS-019",
+    "name": "verifying-products"
+  },
+  {
+    "id": "CSS-020",
+    "name": "writing-documentation"
+  },
+  {
+    "id": "CSS-021",
+    "name": "designing-agents"
+  },
+  {
+    "id": "CSS-022",
+    "name": "orchestrating-agents"
+  },
+  {
+    "id": "CSS-023",
+    "name": "designing-rag"
+  },
+  {
+    "id": "CSS-024",
+    "name": "evaluating-llms"
+  },
+  {
+    "id": "CSS-025",
+    "name": "engineering-context"
+  },
+  {
+    "id": "CSS-026",
+    "name": "architecting-aws"
+  },
+  {
+    "id": "CSS-027",
+    "name": "managing-terraform"
+  },
+  {
+    "id": "CSS-028",
+    "name": "operating-kubernetes"
+  },
+  {
+    "id": "CSS-029",
+    "name": "designing-cicd"
+  },
+  {
+    "id": "CSS-030",
+    "name": "engineering-observability"
+  },
+  {
+    "id": "CSS-031",
+    "name": "designing-ledgers"
+  },
+  {
+    "id": "CSS-032",
+    "name": "designing-kyc"
+  },
+  {
+    "id": "CSS-033",
+    "name": "designing-aml"
+  },
+  {
+    "id": "CSS-034",
+    "name": "designing-fraud-controls"
+  },
+  {
+    "id": "CSS-035",
+    "name": "designing-fx"
+  },
+  {
+    "id": "CSS-036",
+    "name": "designing-remittance"
+  },
+  {
+    "id": "CSS-037",
+    "name": "designing-payment-routing"
+  },
+  {
+    "id": "CSS-038",
+    "name": "designing-reconciliation"
+  },
+  {
+    "id": "CSS-039",
+    "name": "mapping-compliance"
+  },
+  {
+    "id": "CSS-040",
+    "name": "designing-controls"
+  },
+  {
+    "id": "CSS-041",
+    "name": "testing-controls"
+  },
+  {
+    "id": "CSS-042",
+    "name": "assessing-risk"
+  },
+  {
+    "id": "CSS-043",
+    "name": "analyzing-sql"
+  },
+  {
+    "id": "CSS-044",
+    "name": "modeling-data"
+  },
+  {
+    "id": "CSS-045",
+    "name": "assuring-data-quality"
+  },
+  {
+    "id": "CSS-046",
+    "name": "discovering-skills"
+  },
+  {
+    "id": "CSS-047",
+    "name": "composing-skills"
+  },
+  {
+    "id": "CSS-048",
+    "name": "benchmarking-skills"
+  },
+  {
+    "id": "CSS-049",
+    "name": "improving-skills"
+  },
+  {
+    "id": "CSS-050",
+    "name": "governing-skills"
+  },
+  {
+    "id": "CSS-051",
+    "name": "designing-core-banking"
+  },
+  {
+    "id": "CSS-052",
+    "name": "designing-digital-banking"
+  },
+  {
+    "id": "CSS-053",
+    "name": "designing-loan-origination"
+  },
+  {
+    "id": "CSS-054",
+    "name": "designing-loan-management"
+  },
+  {
+    "id": "CSS-055",
+    "name": "designing-deposits"
+  },
+  {
+    "id": "CSS-056",
+    "name": "designing-bank-integrations"
+  },
+  {
+    "id": "CSS-057",
+    "name": "designing-bank-controls"
+  },
+  {
+    "id": "CSS-058",
+    "name": "designing-bank-digital-twins"
+  },
+  {
+    "id": "CSS-059",
+    "name": "designing-payment-ledgers"
+  },
+  {
+    "id": "CSS-060",
+    "name": "designing-settlement"
+  },
+  {
+    "id": "CSS-061",
+    "name": "designing-payouts"
+  },
+  {
+    "id": "CSS-062",
+    "name": "designing-payment-webhooks"
+  },
+  {
+    "id": "CSS-063",
+    "name": "designing-payment-exceptions"
+  },
+  {
+    "id": "CSS-064",
+    "name": "designing-corridors"
+  },
+  {
+    "id": "CSS-065",
+    "name": "monitoring-payments"
+  },
+  {
+    "id": "CSS-066",
+    "name": "reviewing-authentication"
+  },
+  {
+    "id": "CSS-067",
+    "name": "reviewing-authorization"
+  },
+  {
+    "id": "CSS-068",
+    "name": "reviewing-api-security"
+  },
+  {
+    "id": "CSS-069",
+    "name": "auditing-secrets"
+  },
+  {
+    "id": "CSS-070",
+    "name": "reviewing-dependencies"
+  },
+  {
+    "id": "CSS-071",
+    "name": "modeling-abuse"
+  },
+  {
+    "id": "CSS-072",
+    "name": "reviewing-cloud-security"
+  },
+  {
+    "id": "CSS-073",
+    "name": "building-traceability"
+  },
+  {
+    "id": "CSS-074",
+    "name": "collecting-audit-evidence"
+  },
+  {
+    "id": "CSS-075",
+    "name": "analyzing-compliance-gaps"
+  },
+  {
+    "id": "CSS-076",
+    "name": "writing-policies"
+  },
+  {
+    "id": "CSS-077",
+    "name": "designing-sanctions-screening"
+  },
+  {
+    "id": "CSS-078",
+    "name": "designing-case-management"
+  },
+  {
+    "id": "CSS-079",
+    "name": "designing-agent-memory"
+  },
+  {
+    "id": "CSS-080",
+    "name": "designing-agent-tools"
+  },
+  {
+    "id": "CSS-081",
+    "name": "designing-agent-guardrails"
+  },
+  {
+    "id": "CSS-082",
+    "name": "testing-agents"
+  },
+  {
+    "id": "CSS-083",
+    "name": "designing-human-agent-handoffs"
+  },
+  {
+    "id": "CSS-084",
+    "name": "designing-agent-protocols"
+  },
+  {
+    "id": "CSS-085",
+    "name": "designing-cloud-networks"
+  },
+  {
+    "id": "CSS-086",
+    "name": "designing-cloud-resilience"
+  },
+  {
+    "id": "CSS-087",
+    "name": "optimizing-cloud-cost"
+  },
+  {
+    "id": "CSS-088",
+    "name": "designing-data-pipelines"
+  },
+  {
+    "id": "CSS-089",
+    "name": "designing-analytics"
+  },
+  {
+    "id": "CSS-090",
+    "name": "designing-dashboards"
+  },
+  {
+    "id": "CSS-091",
+    "name": "reviewing-literature"
+  },
+  {
+    "id": "CSS-092",
+    "name": "verifying-sources"
+  },
+  {
+    "id": "CSS-093",
+    "name": "scanning-technology"
+  },
+  {
+    "id": "CSS-094",
+    "name": "analyzing-markets"
+  },
+  {
+    "id": "CSS-095",
+    "name": "analyzing-competitors"
+  },
+  {
+    "id": "CSS-096",
+    "name": "designing-business-models"
+  },
+  {
+    "id": "CSS-097",
+    "name": "designing-operating-models"
+  },
+  {
+    "id": "CSS-098",
+    "name": "building-business-cases"
+  },
+  {
+    "id": "CSS-099",
+    "name": "planning-scenarios"
+  },
+  {
+    "id": "CSS-100",
+    "name": "writing-executive-briefs"
+  },
+  {
+    "id": "CSS-101",
+    "name": "refactoring-code"
+  },
+  {
+    "id": "CSS-102",
+    "name": "optimizing-performance"
+  },
+  {
+    "id": "CSS-103",
+    "name": "modernizing-legacy-systems"
+  },
+  {
+    "id": "CSS-104",
+    "name": "designing-error-handling"
+  },
+  {
+    "id": "CSS-105",
+    "name": "reviewing-concurrency"
+  },
+  {
+    "id": "CSS-106",
+    "name": "managing-dependencies"
+  },
+  {
+    "id": "CSS-107",
+    "name": "designing-cli-tools"
+  },
+  {
+    "id": "CSS-108",
+    "name": "designing-sdks"
+  },
+  {
+    "id": "CSS-109",
+    "name": "designing-event-driven-systems"
+  },
+  {
+    "id": "CSS-110",
+    "name": "designing-background-jobs"
+  },
+  {
+    "id": "CSS-111",
+    "name": "reviewing-database-code"
+  },
+  {
+    "id": "CSS-112",
+    "name": "managing-technical-debt"
+  },
+  {
+    "id": "CSS-113",
+    "name": "designing-domain-models"
+  },
+  {
+    "id": "CSS-114",
+    "name": "designing-service-boundaries"
+  },
+  {
+    "id": "CSS-115",
+    "name": "designing-integration-architecture"
+  },
+  {
+    "id": "CSS-116",
+    "name": "designing-scalability"
+  },
+  {
+    "id": "CSS-117",
+    "name": "designing-resilience"
+  },
+  {
+    "id": "CSS-118",
+    "name": "designing-multi-tenant-systems"
+  },
+  {
+    "id": "CSS-119",
+    "name": "designing-api-architecture"
+  },
+  {
+    "id": "CSS-120",
+    "name": "designing-migration-architecture"
+  },
+  {
+    "id": "CSS-121",
+    "name": "creating-adrs"
+  },
+  {
+    "id": "CSS-122",
+    "name": "mapping-architecture"
+  },
+  {
+    "id": "CSS-123",
+    "name": "designing-unit-tests"
+  },
+  {
+    "id": "CSS-124",
+    "name": "designing-integration-tests"
+  },
+  {
+    "id": "CSS-125",
+    "name": "designing-e2e-tests"
+  },
+  {
+    "id": "CSS-126",
+    "name": "testing-apis"
+  },
+  {
+    "id": "CSS-127",
+    "name": "testing-performance"
+  },
+  {
+    "id": "CSS-128",
+    "name": "testing-accessibility"
+  },
+  {
+    "id": "CSS-129",
+    "name": "testing-regressions"
+  },
+  {
+    "id": "CSS-130",
+    "name": "designing-test-data"
+  },
+  {
+    "id": "CSS-131",
+    "name": "testing-migrations"
+  },
+  {
+    "id": "CSS-132",
+    "name": "writing-user-stories"
+  },
+  {
+    "id": "CSS-133",
+    "name": "writing-acceptance-criteria"
+  },
+  {
+    "id": "CSS-134",
+    "name": "designing-mvps"
+  },
+  {
+    "id": "CSS-135",
+    "name": "prioritizing-backlogs"
+  },
+  {
+    "id": "CSS-136",
+    "name": "planning-roadmaps"
+  },
+  {
+    "id": "CSS-137",
+    "name": "designing-product-metrics"
+  },
+  {
+    "id": "CSS-138",
+    "name": "analyzing-product-discovery"
+  },
+  {
+    "id": "CSS-139",
+    "name": "planning-product-releases"
+  },
+  {
+    "id": "CSS-140",
+    "name": "writing-readmes"
+  },
+  {
+    "id": "CSS-141",
+    "name": "documenting-apis"
+  },
+  {
+    "id": "CSS-142",
+    "name": "writing-developer-guides"
+  },
+  {
+    "id": "CSS-143",
+    "name": "writing-runbooks"
+  },
+  {
+    "id": "CSS-144",
+    "name": "consolidating-documentation"
+  },
+  {
+    "id": "CSS-145",
+    "name": "reviewing-documentation"
+  },
+  {
+    "id": "CSS-146",
+    "name": "documenting-data-models"
+  },
+  {
+    "id": "CSS-147",
+    "name": "documenting-operations"
+  },
+  {
+    "id": "CSS-148",
+    "name": "designing-container-images"
+  },
+  {
+    "id": "CSS-149",
+    "name": "reviewing-github-actions"
+  },
+  {
+    "id": "CSS-150",
+    "name": "managing-environments"
+  },
+  {
+    "id": "CSS-151",
+    "name": "designing-release-strategies"
+  },
+  {
+    "id": "CSS-152",
+    "name": "designing-feature-flags"
+  },
+  {
+    "id": "CSS-153",
+    "name": "managing-database-migrations"
+  },
+  {
+    "id": "CSS-154",
+    "name": "designing-build-systems"
+  },
+  {
+    "id": "CSS-155",
+    "name": "designing-cloud-storage"
+  },
+  {
+    "id": "CSS-156",
+    "name": "designing-cloud-identity"
+  },
+  {
+    "id": "CSS-157",
+    "name": "designing-cloud-backups"
+  },
+  {
+    "id": "CSS-158",
+    "name": "designing-cloud-databases"
+  },
+  {
+    "id": "CSS-159",
+    "name": "designing-serverless-systems"
+  },
+  {
+    "id": "CSS-160",
+    "name": "analyzing-logs"
+  },
+  {
+    "id": "CSS-161",
+    "name": "performing-root-cause-analysis"
+  },
+  {
+    "id": "CSS-162",
+    "name": "investigating-latency"
+  },
+  {
+    "id": "CSS-163",
+    "name": "planning-capacity"
+  },
+  {
+    "id": "CSS-164",
+    "name": "verifying-backups"
+  },
+  {
+    "id": "CSS-165",
+    "name": "planning-disaster-recovery"
+  },
+  {
+    "id": "CSS-166",
+    "name": "designing-slos"
+  },
+  {
+    "id": "CSS-167",
+    "name": "designing-alerts"
+  },
+  {
+    "id": "CSS-168",
+    "name": "breaking-down-work"
+  },
+  {
+    "id": "CSS-169",
+    "name": "estimating-work"
+  },
+  {
+    "id": "CSS-170",
+    "name": "managing-project-risks"
+  },
+  {
+    "id": "CSS-171",
+    "name": "mapping-dependencies"
+  },
+  {
+    "id": "CSS-172",
+    "name": "planning-milestones"
+  },
+  {
+    "id": "CSS-173",
+    "name": "reporting-project-status"
+  },
+  {
+    "id": "CSS-174",
+    "name": "assessing-project-health"
+  },
+  {
+    "id": "CSS-175",
+    "name": "designing-quality-gates"
+  },
+  {
+    "id": "CSS-176",
+    "name": "checking-conformance"
+  },
+  {
+    "id": "CSS-177",
+    "name": "auditing-artifacts"
+  },
+  {
+    "id": "CSS-178",
+    "name": "reviewing-design-quality"
+  },
+  {
+    "id": "CSS-179",
+    "name": "managing-nonconformities"
+  },
+  {
+    "id": "CSS-180",
+    "name": "designing-quality-metrics"
+  },
+  {
+    "id": "CSS-181",
+    "name": "improving-processes"
+  },
+  {
+    "id": "CSS-182",
+    "name": "designing-data-governance"
+  },
+  {
+    "id": "CSS-183",
+    "name": "designing-data-privacy"
+  },
+  {
+    "id": "CSS-184",
+    "name": "designing-master-data"
+  },
+  {
+    "id": "CSS-185",
+    "name": "designing-data-warehouses"
+  },
+  {
+    "id": "CSS-186",
+    "name": "designing-streaming-data"
+  },
+  {
+    "id": "CSS-187",
+    "name": "designing-research-plans"
+  },
+  {
+    "id": "CSS-188",
+    "name": "synthesizing-evidence"
+  },
+  {
+    "id": "CSS-189",
+    "name": "analyzing-papers"
+  },
+  {
+    "id": "CSS-190",
+    "name": "mapping-trends"
+  },
+  {
+    "id": "CSS-191",
+    "name": "conducting-due-diligence"
+  },
+  {
+    "id": "CSS-192",
+    "name": "designing-strategies"
+  },
+  {
+    "id": "CSS-193",
+    "name": "designing-kpis"
+  },
+  {
+    "id": "CSS-194",
+    "name": "planning-transformations"
+  },
+  {
+    "id": "CSS-195",
+    "name": "analyzing-unit-economics"
+  },
+  {
+    "id": "CSS-196",
+    "name": "designing-partnerships"
+  },
+  {
+    "id": "CSS-197",
+    "name": "planning-market-entry"
+  },
+  {
+    "id": "CSS-198",
+    "name": "designing-wallets"
+  },
+  {
+    "id": "CSS-199",
+    "name": "designing-merchant-payments"
+  },
+  {
+    "id": "CSS-200",
+    "name": "designing-transaction-limits"
+  }
+]

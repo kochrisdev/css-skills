@@ -1,0 +1,12 @@
+{
+  "operation": "exit-bridge",
+  "inputs": {
+    "enterprise_value": "100000000",
+    "debt": "40000000",
+    "cash": "5000000",
+    "costs": "5000000",
+    "invested_equity": "30000000",
+    "interim_distributions": "0",
+    "currency": "USD"
+  }
+}

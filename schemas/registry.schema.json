@@ -13,7 +13,7 @@
       "const": "1.0"
     },
     "version": {
-      "const": "0.5.0"
+      "const": "0.6.0"
     },
     "skills": {
       "type": "array",
@@ -59,7 +59,10 @@
             "type": "string"
           },
           "legacy_path": {
-            "type": "string"
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "status": {
             "enum": [

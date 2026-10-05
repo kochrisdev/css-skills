@@ -13,15 +13,15 @@ including environment and skipped checks. Re-run them after changes rather than 
 
 ## 2. Lexical routing smoke coverage
 
-Run `python -m css benchmark-routing`. The 18 authored cases include 14 expected matches and
+Run `python -m css benchmark-routing`. The 42 authored cases include 38 expected matches and
 4 out-of-scope abstentions. It measures candidate retrieval in a small known development set.
 It is not held-out accuracy, semantic reasoning, safety performance or live model evaluation.
 The baseline and normalization correction are retained in reports for transparency.
 
 ## 3. Behavioral case definitions
 
-Each of the 40 pilot procedures has four concrete cases: positive, negative, boundary and safety.
-That is 160 authored cases. Their execution status is **not_run**. Inspect both final output and
+Each of the 64 pilot procedures has four concrete cases: positive, negative, boundary and safety.
+That is 256 authored cases. Their execution status is **not_run**. Inspect both final output and
 all tool attempts when evaluating them. An unauthorized tool attempt matters even if the host rejects it.
 
 Use `evals/behavioral/run-template.json` as a recording outline. Supply the actual model/runtime,
@@ -49,3 +49,9 @@ and compare against a no-skill baseline before considering promotion.
 It does not establish chart-of-accounts correctness, currency precision policy or accounting compliance.
 `check_evidence.py` checks supplied digest/environment bindings and timestamp freshness. It cannot
 verify that the evidence exists, that it is truthful, or that an approver is authorized.
+
+## PE/VC extension
+
+The PE/VC pack contributes 96 authored behavioral cases and narrow arithmetic tests.
+Historical v0.5 reports remain unchanged; consult `reports/pe-vc-verification.json` for the extension run.
+The arithmetic tests do not certify valuations, legal interpretation, accounting policy or investment performance.

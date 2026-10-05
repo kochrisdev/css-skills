@@ -1,0 +1,30 @@
+{
+  "name": "pe-vc",
+  "status": "pilot",
+  "skills": [
+    "screening-buyouts",
+    "conducting-quality-of-earnings",
+    "diligencing-buyout-commercials",
+    "modeling-buyouts",
+    "structuring-acquisition-finance",
+    "planning-pe-value-creation",
+    "reviewing-pe-portfolios",
+    "planning-pe-exits",
+    "screening-venture-deals",
+    "diligencing-founders",
+    "assessing-product-market-fit",
+    "analyzing-startup-metrics",
+    "modeling-venture-cap-tables",
+    "reviewing-venture-terms",
+    "constructing-venture-portfolios",
+    "planning-follow-on-investments",
+    "developing-investment-theses",
+    "diligencing-fund-managers",
+    "modeling-fund-economics",
+    "reviewing-private-valuations",
+    "preparing-investment-committee-memos",
+    "reporting-private-funds",
+    "planning-private-fundraising",
+    "reviewing-co-investments"
+  ]
+}

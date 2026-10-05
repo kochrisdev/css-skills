@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "investment-committee",
+  "mode": "plan-only",
+  "description": "Prepare a memo from a separately reviewed thesis, consolidated diligence findings and investment model. No approval inferred.",
+  "inputs": {
+    "investment-thesis": "investment-thesis",
+    "diligence-findings": "diligence-findings",
+    "investment-model": "investment-model"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "preparing-investment-committee-memos",
+      "after": [],
+      "bindings": {
+        "investment-thesis": "input:investment-thesis",
+        "diligence-findings": "input:diligence-findings",
+        "investment-model": "input:investment-model"
+      },
+      "produces": {
+        "step-01.investment-memo": "investment-memo"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed financial reconciliation",
+    "Any requested signing, fund movement, solicitation or unapproved disclosure"
+  ],
+  "rework": "Revise the reviewed plan; no autonomous investment loop."
+}

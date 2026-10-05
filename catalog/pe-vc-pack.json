@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "name": "pe-vc",
+  "version": "0.6.0",
+  "base_commit": "bf515580b9d81b5fe7a214cc1ccbec2ff4f6035d",
+  "base_tree": "32bd6d6313e98bf76edea022fa645b895a585cbf",
+  "skills": [
+    "screening-buyouts",
+    "conducting-quality-of-earnings",
+    "diligencing-buyout-commercials",
+    "modeling-buyouts",
+    "structuring-acquisition-finance",
+    "planning-pe-value-creation",
+    "reviewing-pe-portfolios",
+    "planning-pe-exits",
+    "screening-venture-deals",
+    "diligencing-founders",
+    "assessing-product-market-fit",
+    "analyzing-startup-metrics",
+    "modeling-venture-cap-tables",
+    "reviewing-venture-terms",
+    "constructing-venture-portfolios",
+    "planning-follow-on-investments",
+    "developing-investment-theses",
+    "diligencing-fund-managers",
+    "modeling-fund-economics",
+    "reviewing-private-valuations",
+    "preparing-investment-committee-memos",
+    "reporting-private-funds",
+    "planning-private-fundraising",
+    "reviewing-co-investments"
+  ],
+  "behavioral_evaluation": "not_run",
+  "independent_review": "not_recorded",
+  "source_checks": {
+    "ILPA-DDQ": {
+      "title": "ILPA due diligence questionnaire overview",
+      "url": "https://ilpa.org/industry-guidance/templates-standards-model-documents/due-diligence-questionnaire-and-diversity-metrics-template/",
+      "checked_date": "2026-10-05",
+      "scope": "landing-page review only; retrieve applicable full documents before substantive use"
+    },
+    "ILPA-TEMPLATES": {
+      "title": "ILPA templates hub",
+      "url": "https://ilpa.org/industry-guidance/templates-standards-model-documents/ilpa-templates-hub/",
+      "checked_date": "2026-10-05",
+      "scope": "landing-page review only; retrieve applicable full documents before substantive use"
+    },
+    "IPEV": {
+      "title": "IPEV valuation guidelines landing page",
+      "url": "https://www.privateequityvaluation.com/Valuation-Guidelines",
+      "checked_date": "2026-10-05",
+      "scope": "landing-page review only; retrieve applicable full documents before substantive use"
+    },
+    "NVCA": {
+      "title": "NVCA model legal documents",
+      "url": "https://nvca.org/model-legal-documents/",
+      "checked_date": "2026-10-05",
+      "scope": "landing-page review only; retrieve applicable full documents before substantive use"
+    },
+    "YC-SAFE": {
+      "title": "Y Combinator SAFE resources",
+      "url": "https://www.ycombinator.com/safe",
+      "checked_date": "2026-10-05",
+      "scope": "landing-page review only; retrieve applicable full documents before substantive use"
+    }
+  }
+}

@@ -109,6 +109,150 @@
       "query": "knitting scarf wool pattern",
       "expected": null,
       "k": 3
+    },
+    {
+      "id": "route-pevc-1",
+      "query": "buyout private equity PE acquisition sourcing screening mandate control EBITDA",
+      "expected": "screening-buyouts",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-2",
+      "query": "QoE earnings EBITDA addbacks quality cash working capital normalization",
+      "expected": "conducting-quality-of-earnings",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-3",
+      "query": "CDD buyout commercial due diligence customer concentration market pricing",
+      "expected": "diligencing-buyout-commercials",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-4",
+      "query": "LBO leveraged buyout sources uses debt cash sweep MOIC sensitivity equity",
+      "expected": "modeling-buyouts",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-5",
+      "query": "acquisition finance financing debt covenant unitranche leverage interest",
+      "expected": "structuring-acquisition-finance",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-6",
+      "query": "PE private equity value creation 100 day post acquisition operating plan",
+      "expected": "planning-pe-value-creation",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-7",
+      "query": "PE portfolio monitoring board covenant liquidity review variance",
+      "expected": "reviewing-pe-portfolios",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-8",
+      "query": "PE exit sale continuation secondaries sponsor divestiture readiness",
+      "expected": "planning-pe-exits",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-9",
+      "query": "VC venture capital seed startup deal sourcing screening round",
+      "expected": "screening-venture-deals",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-10",
+      "query": "founder founders team background references diligence vesting IP",
+      "expected": "diligencing-founders",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-11",
+      "query": "PMF product market fit retention cohort activation customer",
+      "expected": "assessing-product-market-fit",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-12",
+      "query": "startup SaaS ARR MRR NRR CAC LTV churn retention burn runway unit economics",
+      "expected": "analyzing-startup-metrics",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-13",
+      "query": "VC cap table capitalization dilution ownership SAFE notes option pool pre money post money",
+      "expected": "modeling-venture-cap-tables",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-14",
+      "query": "VC term sheet preference participation conversion anti dilution pro rata board rights SAFE",
+      "expected": "reviewing-venture-terms",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-15",
+      "query": "VC fund portfolio construction reserves cheque pacing ownership concentration",
+      "expected": "constructing-venture-portfolios",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-16",
+      "query": "VC follow on followon reserves pro rata down round bridge investment",
+      "expected": "planning-follow-on-investments",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-17",
+      "query": "investment thesis theses PE VC mandate strategy screening falsification",
+      "expected": "developing-investment-theses",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-18",
+      "query": "LP GP manager diligence DDQ track record attribution alignment",
+      "expected": "diligencing-fund-managers",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-19",
+      "query": "fund economics carry hurdle catchup waterfall fee LP GP DPI RVPI TVPI",
+      "expected": "modeling-fund-economics",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-20",
+      "query": "IPEV private valuation fair value calibration NAV security rights multiples",
+      "expected": "reviewing-private-valuations",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-21",
+      "query": "IC investment committee memo memorandum decision diligence approval",
+      "expected": "preparing-investment-committee-memos",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-22",
+      "query": "LP reporting report fund capital account DPI RVPI TVPI NAV distributions ILPA",
+      "expected": "reporting-private-funds",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-23",
+      "query": "fundraising LP investor fund close subscription marketing data room commitments",
+      "expected": "planning-private-fundraising",
+      "k": 3
+    },
+    {
+      "id": "route-pevc-24",
+      "query": "co investment coinvestment SPV syndication allocation sponsor carry conflicts",
+      "expected": "reviewing-co-investments",
+      "k": 3
     }
   ]
 }

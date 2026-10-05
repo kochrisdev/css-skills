@@ -1,0 +1,12 @@
+{
+  "operation": "priced-round",
+  "inputs": {
+    "pre_money": "8000000",
+    "investment": "2000000",
+    "holders": {
+      "founders": "8000000",
+      "existing-pool": "2000000"
+    },
+    "currency": "USD"
+  }
+}

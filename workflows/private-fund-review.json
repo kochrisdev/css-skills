@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "name": "private-fund-review",
+  "mode": "plan-only",
+  "description": "Manager diligence, fund economics and reporting with independent evidence and review.",
+  "inputs": {
+    "fund-documents": "fund-documents",
+    "manager-evidence": "manager-evidence",
+    "fund-cashflows": "fund-cashflows",
+    "portfolio-records": "portfolio-records",
+    "reporting-policy": "reporting-policy"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "diligencing-fund-managers",
+      "after": [],
+      "bindings": {
+        "fund-documents": "input:fund-documents",
+        "manager-evidence": "input:manager-evidence"
+      },
+      "produces": {
+        "step-01.manager-dd": "manager-dd"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-02",
+      "skill": "modeling-fund-economics",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "fund-documents": "input:fund-documents",
+        "fund-cashflows": "input:fund-cashflows"
+      },
+      "produces": {
+        "step-02.fund-economics": "fund-economics"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-03",
+      "skill": "reporting-private-funds",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "fund-cashflows": "input:fund-cashflows",
+        "portfolio-records": "input:portfolio-records",
+        "reporting-policy": "input:reporting-policy"
+      },
+      "produces": {
+        "step-03.lp-report": "lp-report"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed financial reconciliation",
+    "Any requested signing, fund movement, solicitation or unapproved disclosure"
+  ],
+  "rework": "Revise the reviewed plan; no autonomous investment loop."
+}

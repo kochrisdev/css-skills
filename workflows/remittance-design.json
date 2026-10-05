@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "name": "remittance-design",
+  "mode": "plan-only",
+  "description": "Remittance states and reconciliation design; no live funds or legal certification.",
+  "inputs": {
+    "request": "request",
+    "constraints": "constraints",
+    "research": "research",
+    "scope": "scope",
+    "accounting-policy": "accounting-policy",
+    "provider-contract": "provider-contract"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "analyzing-requirements",
+      "after": [],
+      "bindings": {
+        "request": "input:request",
+        "constraints": "input:constraints"
+      },
+      "produces": {
+        "step-01.requirements": "requirements"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-02",
+      "skill": "mapping-compliance",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "research": "input:research",
+        "scope": "input:scope"
+      },
+      "produces": {
+        "step-02.obligations": "obligations"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-03",
+      "skill": "designing-ledgers",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements",
+        "accounting-policy": "input:accounting-policy"
+      },
+      "produces": {
+        "step-03.ledger-design": "ledger-design"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-04",
+      "skill": "designing-remittance",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements",
+        "obligations": "step-02.obligations"
+      },
+      "produces": {
+        "step-04.remittance-design": "remittance-design"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-05",
+      "skill": "designing-reconciliation",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "ledger-design": "step-03.ledger-design",
+        "provider-contract": "input:provider-contract"
+      },
+      "produces": {
+        "step-05.reconciliation-design": "reconciliation-design"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-06",
+      "skill": "system-design",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-06.architecture": "architecture"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-07",
+      "skill": "threat-modeling",
+      "after": [
+        "step-06"
+      ],
+      "bindings": {
+        "architecture": "step-06.architecture",
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-07.threat-model": "threat-model"
+      },
+      "approval": "human-supervised"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed mandatory check",
+    "Unapproved consequential action"
+  ],
+  "rework": "Create a new reviewed plan revision; no automatic loops."
+}

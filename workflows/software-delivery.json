@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "name": "software-delivery",
+  "mode": "plan-only",
+  "description": "From scoped request to evidence-based release recommendation; no deployment.",
+  "inputs": {
+    "request": "request",
+    "constraints": "constraints",
+    "repository": "repository",
+    "diff": "diff",
+    "release-plan": "release-plan"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "analyzing-requirements",
+      "after": [],
+      "bindings": {
+        "request": "input:request",
+        "constraints": "input:constraints"
+      },
+      "produces": {
+        "step-01.requirements": "requirements"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-02",
+      "skill": "system-design",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-02.architecture": "architecture"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-03",
+      "skill": "implementing-code",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements",
+        "repository": "input:repository"
+      },
+      "produces": {
+        "step-03.implementation": "implementation"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-04",
+      "skill": "reviewing-code",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "diff": "input:diff",
+        "repository": "input:repository"
+      },
+      "produces": {
+        "step-04.code-review": "code-review"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-05",
+      "skill": "security-reviewing",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "architecture": "step-02.architecture",
+        "repository": "input:repository"
+      },
+      "produces": {
+        "step-05.security-review": "security-review"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-06",
+      "skill": "verifying-products",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements",
+        "implementation": "step-03.implementation"
+      },
+      "produces": {
+        "step-06.verification": "verification"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-07",
+      "skill": "gating-releases",
+      "after": [
+        "step-06"
+      ],
+      "bindings": {
+        "verification": "step-06.verification",
+        "security-review": "step-05.security-review",
+        "release-plan": "input:release-plan"
+      },
+      "produces": {
+        "step-07.release-decision": "release-decision"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed mandatory check",
+    "Unapproved consequential action"
+  ],
+  "rework": "Create a new reviewed plan revision; no automatic loops."
+}

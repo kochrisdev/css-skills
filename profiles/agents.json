@@ -1,0 +1,14 @@
+{
+  "name": "agents",
+  "status": "pilot",
+  "skills": [
+    "designing-agents",
+    "designing-agent-tools",
+    "designing-agent-guardrails",
+    "evaluating-llms",
+    "testing-agents",
+    "threat-modeling",
+    "reviewing-code",
+    "verifying-products"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "execution_status": "not_run",
+  "model": null,
+  "runtime_version": null,
+  "dataset_revision": null,
+  "skill_digest": null,
+  "environment": null,
+  "started_at": null,
+  "grader": null,
+  "cases": [],
+  "notice": "Fill only from actual model outputs and tool traces. This is not a recorded run."
+}

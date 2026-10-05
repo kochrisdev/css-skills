@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "cb2a4689b46f38d136fdd3a2b7d572d87f657fb7",
+  "baseline_tree": "ea6a71855e1f412402f71e00da5f6dd861ae68b5",
+  "archive_sha256": "7379c1fa9d150054ac892ccc9a5ce5232c0cdf64b4ef04e4c601035c2cd978b6",
+  "files": 474,
+  "skills": 200,
+  "domains": 21,
+  "workflow_templates": 4,
+  "template_group_sizes": [
+    20,
+    30,
+    50,
+    100
+  ],
+  "skill_support_files": 0,
+  "python_files": 1,
+  "executable_test_files": 0,
+  "behavioral_runs_found": 0,
+  "license_status": "incomplete Apache notice; historical repository started with MIT; owner decision required"
+}

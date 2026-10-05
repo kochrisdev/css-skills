@@ -1,0 +1,14 @@
+{
+  "name": "starter",
+  "status": "pilot",
+  "skills": [
+    "analyzing-requirements",
+    "system-design",
+    "implementing-code",
+    "debugging-code",
+    "reviewing-code",
+    "verifying-products",
+    "writing-documentation",
+    "discovering-skills"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "version": "0.4.0",
-  "levels": {
-    "L1": "Instruction only",
-    "L2": "Governed procedure with evals",
-    "L3": "Executable references/scripts and stronger verification",
-    "L4": "Autonomous composition with policy-aware controls"
-  }
-}

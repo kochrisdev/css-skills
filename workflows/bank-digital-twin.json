@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "name": "bank-digital-twin",
+  "mode": "plan-only",
+  "description": "Shadow-mode bank twin with isolated simulation and externally approved control boundary.",
+  "inputs": {
+    "request": "request",
+    "constraints": "constraints",
+    "research": "research",
+    "scope": "scope",
+    "risk-register": "risk-register"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "analyzing-requirements",
+      "after": [],
+      "bindings": {
+        "request": "input:request",
+        "constraints": "input:constraints"
+      },
+      "produces": {
+        "step-01.requirements": "requirements"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-02",
+      "skill": "system-design",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-02.architecture": "architecture"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-03",
+      "skill": "modeling-data",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-03.data-model": "data-model"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-04",
+      "skill": "mapping-compliance",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "research": "input:research",
+        "scope": "input:scope"
+      },
+      "produces": {
+        "step-04.obligations": "obligations"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-05",
+      "skill": "designing-controls",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "obligations": "step-04.obligations",
+        "risk-register": "input:risk-register"
+      },
+      "produces": {
+        "step-05.control-design": "control-design"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-06",
+      "skill": "designing-bank-digital-twins",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "architecture": "step-02.architecture",
+        "requirements": "step-01.requirements",
+        "control-design": "step-05.control-design"
+      },
+      "produces": {
+        "step-06.bank-twin-design": "bank-twin-design"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-07",
+      "skill": "threat-modeling",
+      "after": [
+        "step-06"
+      ],
+      "bindings": {
+        "architecture": "step-02.architecture",
+        "requirements": "step-01.requirements"
+      },
+      "produces": {
+        "step-07.threat-model": "threat-model"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-08",
+      "skill": "reviewing-architecture",
+      "after": [
+        "step-07"
+      ],
+      "bindings": {
+        "requirements": "step-01.requirements",
+        "architecture": "step-02.architecture"
+      },
+      "produces": {
+        "step-08.architecture-review": "architecture-review"
+      },
+      "approval": "human-supervised"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed mandatory check",
+    "Unapproved consequential action"
+  ],
+  "rework": "Create a new reviewed plan revision; no automatic loops."
+}

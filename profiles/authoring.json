@@ -1,0 +1,15 @@
+{
+  "name": "authoring",
+  "status": "pilot",
+  "skills": [
+    "creating-skills",
+    "reviewing-skills",
+    "testing-skills",
+    "discovering-skills",
+    "composing-skills",
+    "routing-skills",
+    "benchmarking-skills",
+    "improving-skills",
+    "governing-skills"
+  ]
+}

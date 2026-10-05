@@ -1,0 +1,316 @@
+{
+  "reviewed_at": "2026-10-05T03:24:00.571433+00:00",
+  "version": "0.6.0",
+  "commit": "9aab22968e80cf30b1e0e33c69aaf67ef956135a",
+  "tree": "ceffb3fe99dcd61a1b436ea74825cf0f29700a09",
+  "scope": "Static and structural coverage of all 224 skills and their bundled resources, inspection of all 64 pilot workflows, deterministic tests and isolated probes. Not an independent expert financial review or live model evaluation.",
+  "repository_changed": false,
+  "skills": 224,
+  "pilots": 64,
+  "drafts": 160,
+  "behavioral_cases": 256,
+  "workflow_body_groups": 68,
+  "draft_workflow_body_groups": 4,
+  "negative_cases_naming_other_skills": 37,
+  "unit_tests": {
+    "run": 138,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "original_routing_smoke": {
+    "passed": 42,
+    "total": 42
+  },
+  "manifest": {
+    "entries": 378,
+    "unlisted_count": 117,
+    "unlisted_paths": [
+      "catalog/pe-vc-pack.json",
+      "catalog/v05-identities.json",
+      "css/pevc.py",
+      "docs/PE-VC-PACK.md",
+      "examples/pevc/exit-bridge.json",
+      "examples/pevc/fund-multiples.json",
+      "examples/pevc/priced-round.json",
+      "examples/pevc/sources-uses.json",
+      "profiles/pe-vc.json",
+      "profiles/private-capital.json",
+      "profiles/private-equity.json",
+      "profiles/venture-capital.json",
+      "reports/README.md",
+      "reports/pe-vc-routing.json",
+      "reports/pe-vc-unit-tests.txt",
+      "reports/pe-vc-verification.json",
+      "skills/analyzing-startup-metrics/SKILL.md",
+      "skills/analyzing-startup-metrics/evals/cases.json",
+      "skills/analyzing-startup-metrics/references/checklist.md",
+      "skills/analyzing-startup-metrics/templates/output.md",
+      "skills/assessing-product-market-fit/SKILL.md",
+      "skills/assessing-product-market-fit/evals/cases.json",
+      "skills/assessing-product-market-fit/references/checklist.md",
+      "skills/assessing-product-market-fit/templates/output.md",
+      "skills/conducting-quality-of-earnings/SKILL.md",
+      "skills/conducting-quality-of-earnings/evals/cases.json",
+      "skills/conducting-quality-of-earnings/references/checklist.md",
+      "skills/conducting-quality-of-earnings/templates/output.md",
+      "skills/constructing-venture-portfolios/SKILL.md",
+      "skills/constructing-venture-portfolios/evals/cases.json",
+      "skills/constructing-venture-portfolios/references/checklist.md",
+      "skills/constructing-venture-portfolios/templates/output.md",
+      "skills/developing-investment-theses/SKILL.md",
+      "skills/developing-investment-theses/evals/cases.json",
+      "skills/developing-investment-theses/references/checklist.md",
+      "skills/developing-investment-theses/templates/output.md",
+      "skills/diligencing-buyout-commercials/SKILL.md",
+      "skills/diligencing-buyout-commercials/evals/cases.json",
+      "skills/diligencing-buyout-commercials/references/checklist.md",
+      "skills/diligencing-buyout-commercials/templates/output.md",
+      "skills/diligencing-founders/SKILL.md",
+      "skills/diligencing-founders/evals/cases.json",
+      "skills/diligencing-founders/references/checklist.md",
+      "skills/diligencing-founders/templates/output.md",
+      "skills/diligencing-fund-managers/SKILL.md",
+      "skills/diligencing-fund-managers/evals/cases.json",
+      "skills/diligencing-fund-managers/references/checklist.md",
+      "skills/diligencing-fund-managers/templates/output.md",
+      "skills/modeling-buyouts/SKILL.md",
+      "skills/modeling-buyouts/evals/cases.json",
+      "skills/modeling-buyouts/references/checklist.md",
+      "skills/modeling-buyouts/templates/output.md",
+      "skills/modeling-fund-economics/SKILL.md",
+      "skills/modeling-fund-economics/evals/cases.json",
+      "skills/modeling-fund-economics/references/checklist.md",
+      "skills/modeling-fund-economics/templates/output.md",
+      "skills/modeling-venture-cap-tables/SKILL.md",
+      "skills/modeling-venture-cap-tables/evals/cases.json",
+      "skills/modeling-venture-cap-tables/references/checklist.md",
+      "skills/modeling-venture-cap-tables/templates/output.md",
+      "skills/planning-follow-on-investments/SKILL.md",
+      "skills/planning-follow-on-investments/evals/cases.json",
+      "skills/planning-follow-on-investments/references/checklist.md",
+      "skills/planning-follow-on-investments/templates/output.md",
+      "skills/planning-pe-exits/SKILL.md",
+      "skills/planning-pe-exits/evals/cases.json",
+      "skills/planning-pe-exits/references/checklist.md",
+      "skills/planning-pe-exits/templates/output.md",
+      "skills/planning-pe-value-creation/SKILL.md",
+      "skills/planning-pe-value-creation/evals/cases.json",
+      "skills/planning-pe-value-creation/references/checklist.md",
+      "skills/planning-pe-value-creation/templates/output.md",
+      "skills/planning-private-fundraising/SKILL.md",
+      "skills/planning-private-fundraising/evals/cases.json",
+      "skills/planning-private-fundraising/references/checklist.md",
+      "skills/planning-private-fundraising/templates/output.md",
+      "skills/preparing-investment-committee-memos/SKILL.md",
+      "skills/preparing-investment-committee-memos/evals/cases.json",
+      "skills/preparing-investment-committee-memos/references/checklist.md",
+      "skills/preparing-investment-committee-memos/templates/output.md",
+      "skills/reporting-private-funds/SKILL.md",
+      "skills/reporting-private-funds/evals/cases.json",
+      "skills/reporting-private-funds/references/checklist.md",
+      "skills/reporting-private-funds/templates/output.md",
+      "skills/reviewing-co-investments/SKILL.md",
+      "skills/reviewing-co-investments/evals/cases.json",
+      "skills/reviewing-co-investments/references/checklist.md",
+      "skills/reviewing-co-investments/templates/output.md",
+      "skills/reviewing-pe-portfolios/SKILL.md",
+      "skills/reviewing-pe-portfolios/evals/cases.json",
+      "skills/reviewing-pe-portfolios/references/checklist.md",
+      "skills/reviewing-pe-portfolios/templates/output.md",
+      "skills/reviewing-private-valuations/SKILL.md",
+      "skills/reviewing-private-valuations/evals/cases.json",
+      "skills/reviewing-private-valuations/references/checklist.md",
+      "skills/reviewing-private-valuations/templates/output.md",
+      "skills/reviewing-venture-terms/SKILL.md",
+      "skills/reviewing-venture-terms/evals/cases.json",
+      "skills/reviewing-venture-terms/references/checklist.md",
+      "skills/reviewing-venture-terms/templates/output.md",
+      "skills/screening-buyouts/SKILL.md",
+      "skills/screening-buyouts/evals/cases.json",
+      "skills/screening-buyouts/references/checklist.md",
+      "skills/screening-buyouts/templates/output.md",
+      "skills/screening-venture-deals/SKILL.md",
+      "skills/screening-venture-deals/evals/cases.json",
+      "skills/screening-venture-deals/references/checklist.md",
+      "skills/screening-venture-deals/templates/output.md",
+      "skills/structuring-acquisition-finance/SKILL.md",
+      "skills/structuring-acquisition-finance/evals/cases.json",
+      "skills/structuring-acquisition-finance/references/checklist.md",
+      "skills/structuring-acquisition-finance/templates/output.md",
+      "tests/test_pevc.py",
+      "workflows/investment-committee.json",
+      "workflows/pe-underwriting.json",
+      "workflows/private-fund-review.json",
+      "workflows/vc-diligence.json"
+    ],
+    "mismatches": [
+      {
+        "path": "CHANGELOG.md",
+        "pass": false
+      },
+      {
+        "path": "README.md",
+        "pass": false
+      },
+      {
+        "path": "catalog/CATALOG.md",
+        "pass": false
+      },
+      {
+        "path": "catalog/PILOT-SKILLS.md",
+        "pass": false
+      },
+      {
+        "path": "catalog/skill-registry.json",
+        "pass": false
+      },
+      {
+        "path": "css/__init__.py",
+        "pass": false
+      },
+      {
+        "path": "docs/DEVELOPMENT-HANDOFF.md",
+        "pass": false
+      },
+      {
+        "path": "docs/EVALUATION.md",
+        "pass": false
+      },
+      {
+        "path": "evals/routing-smoke.json",
+        "pass": false
+      },
+      {
+        "path": "profiles/pilot.json",
+        "pass": false
+      },
+      {
+        "path": "schemas/registry.schema.json",
+        "pass": false
+      },
+      {
+        "path": "tests/test_core.py",
+        "pass": false
+      },
+      {
+        "path": "tests/test_doctor_cli.py",
+        "pass": false
+      }
+    ]
+  },
+  "local_markdown_links": {
+    "checked": 520,
+    "missing": []
+  },
+  "domains": {
+    "ai-agents": {
+      "pilot": 5,
+      "draft": 6
+    },
+    "architecture": {
+      "pilot": 2,
+      "draft": 10
+    },
+    "banking": {
+      "draft": 7,
+      "pilot": 1
+    },
+    "business-strategy": {
+      "draft": 13
+    },
+    "cloud": {
+      "pilot": 2,
+      "draft": 9
+    },
+    "compliance": {
+      "pilot": 3,
+      "draft": 6
+    },
+    "data": {
+      "pilot": 2,
+      "draft": 9
+    },
+    "devops": {
+      "pilot": 1,
+      "draft": 8
+    },
+    "documentation": {
+      "pilot": 1,
+      "draft": 8
+    },
+    "fintech": {
+      "pilot": 1,
+      "draft": 6
+    },
+    "governance": {
+      "pilot": 1,
+      "draft": 1
+    },
+    "meta": {
+      "pilot": 9
+    },
+    "operations": {
+      "pilot": 1,
+      "draft": 9
+    },
+    "payments": {
+      "draft": 9,
+      "pilot": 2
+    },
+    "private-capital": {
+      "pilot": 8
+    },
+    "private-equity": {
+      "pilot": 8
+    },
+    "product": {
+      "pilot": 2,
+      "draft": 8
+    },
+    "project-management": {
+      "draft": 8
+    },
+    "quality": {
+      "pilot": 1,
+      "draft": 7
+    },
+    "research": {
+      "pilot": 1,
+      "draft": 8
+    },
+    "security": {
+      "pilot": 2,
+      "draft": 7
+    },
+    "software-engineering": {
+      "pilot": 2,
+      "draft": 12
+    },
+    "testing": {
+      "pilot": 1,
+      "draft": 9
+    },
+    "venture-capital": {
+      "pilot": 8
+    }
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "priority_draft_names": [
+    "assuring-data-quality",
+    "building-business-cases",
+    "designing-aml",
+    "designing-bank-controls",
+    "designing-bank-integrations",
+    "designing-integration-tests",
+    "designing-kyc",
+    "designing-operating-models",
+    "designing-sanctions-screening",
+    "designing-strategies",
+    "planning-projects",
+    "reviewing-authorization"
+  ]
+}

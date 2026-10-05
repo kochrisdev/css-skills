@@ -1,0 +1,566 @@
+[
+  {
+    "count": 1,
+    "skills": [
+      "analyzing-requirements"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "conducting-research"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "creating-prds"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "creating-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "debugging-code"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "deploying-safely"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "gating-releases"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "implementing-code"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "planning-projects"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-architecture"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-code"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "routing-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "security-reviewing"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "system-design"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "testing-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "threat-modeling"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "triaging-incidents"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "verifying-products"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "writing-documentation"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-agents"
+    ]
+  },
+  {
+    "count": 13,
+    "skills": [
+      "orchestrating-agents",
+      "designing-rag",
+      "engineering-context",
+      "operating-kubernetes",
+      "designing-cicd",
+      "engineering-observability",
+      "designing-kyc",
+      "designing-aml",
+      "designing-fraud-controls",
+      "designing-fx",
+      "designing-payment-routing",
+      "assessing-risk",
+      "assuring-data-quality"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "evaluating-llms"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "architecting-aws"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "managing-terraform"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-ledgers"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-remittance"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-reconciliation"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "mapping-compliance"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-controls"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "testing-controls"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "analyzing-sql"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "modeling-data"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "discovering-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "composing-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "benchmarking-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "improving-skills"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "governing-skills"
+    ]
+  },
+  {
+    "count": 46,
+    "skills": [
+      "designing-core-banking",
+      "designing-digital-banking",
+      "designing-loan-origination",
+      "designing-loan-management",
+      "designing-deposits",
+      "designing-bank-integrations",
+      "designing-bank-controls",
+      "designing-payment-ledgers",
+      "designing-settlement",
+      "designing-payouts",
+      "designing-payment-webhooks",
+      "designing-payment-exceptions",
+      "designing-corridors",
+      "monitoring-payments",
+      "reviewing-authentication",
+      "reviewing-authorization",
+      "reviewing-api-security",
+      "auditing-secrets",
+      "reviewing-dependencies",
+      "modeling-abuse",
+      "reviewing-cloud-security",
+      "building-traceability",
+      "collecting-audit-evidence",
+      "analyzing-compliance-gaps",
+      "writing-policies",
+      "designing-sanctions-screening",
+      "designing-case-management",
+      "designing-agent-memory",
+      "designing-human-agent-handoffs",
+      "designing-agent-protocols",
+      "designing-cloud-networks",
+      "designing-cloud-resilience",
+      "optimizing-cloud-cost",
+      "designing-data-pipelines",
+      "designing-analytics",
+      "designing-dashboards",
+      "reviewing-literature",
+      "verifying-sources",
+      "scanning-technology",
+      "analyzing-markets",
+      "analyzing-competitors",
+      "designing-business-models",
+      "designing-operating-models",
+      "building-business-cases",
+      "planning-scenarios",
+      "writing-executive-briefs"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-bank-digital-twins"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-agent-tools"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "designing-agent-guardrails"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "testing-agents"
+    ]
+  },
+  {
+    "count": 100,
+    "skills": [
+      "refactoring-code",
+      "optimizing-performance",
+      "modernizing-legacy-systems",
+      "designing-error-handling",
+      "reviewing-concurrency",
+      "managing-dependencies",
+      "designing-cli-tools",
+      "designing-sdks",
+      "designing-event-driven-systems",
+      "designing-background-jobs",
+      "reviewing-database-code",
+      "managing-technical-debt",
+      "designing-domain-models",
+      "designing-service-boundaries",
+      "designing-integration-architecture",
+      "designing-scalability",
+      "designing-resilience",
+      "designing-multi-tenant-systems",
+      "designing-api-architecture",
+      "designing-migration-architecture",
+      "creating-adrs",
+      "mapping-architecture",
+      "designing-unit-tests",
+      "designing-integration-tests",
+      "designing-e2e-tests",
+      "testing-apis",
+      "testing-performance",
+      "testing-accessibility",
+      "testing-regressions",
+      "designing-test-data",
+      "testing-migrations",
+      "writing-user-stories",
+      "writing-acceptance-criteria",
+      "designing-mvps",
+      "prioritizing-backlogs",
+      "planning-roadmaps",
+      "designing-product-metrics",
+      "analyzing-product-discovery",
+      "planning-product-releases",
+      "writing-readmes",
+      "documenting-apis",
+      "writing-developer-guides",
+      "writing-runbooks",
+      "consolidating-documentation",
+      "reviewing-documentation",
+      "documenting-data-models",
+      "documenting-operations",
+      "designing-container-images",
+      "reviewing-github-actions",
+      "managing-environments",
+      "designing-release-strategies",
+      "designing-feature-flags",
+      "managing-database-migrations",
+      "designing-build-systems",
+      "designing-cloud-storage",
+      "designing-cloud-identity",
+      "designing-cloud-backups",
+      "designing-cloud-databases",
+      "designing-serverless-systems",
+      "analyzing-logs",
+      "performing-root-cause-analysis",
+      "investigating-latency",
+      "planning-capacity",
+      "verifying-backups",
+      "planning-disaster-recovery",
+      "designing-slos",
+      "designing-alerts",
+      "breaking-down-work",
+      "estimating-work",
+      "managing-project-risks",
+      "mapping-dependencies",
+      "planning-milestones",
+      "reporting-project-status",
+      "assessing-project-health",
+      "designing-quality-gates",
+      "checking-conformance",
+      "auditing-artifacts",
+      "reviewing-design-quality",
+      "managing-nonconformities",
+      "designing-quality-metrics",
+      "improving-processes",
+      "designing-data-governance",
+      "designing-data-privacy",
+      "designing-master-data",
+      "designing-data-warehouses",
+      "designing-streaming-data",
+      "designing-research-plans",
+      "synthesizing-evidence",
+      "analyzing-papers",
+      "mapping-trends",
+      "conducting-due-diligence",
+      "designing-strategies",
+      "designing-kpis",
+      "planning-transformations",
+      "analyzing-unit-economics",
+      "designing-partnerships",
+      "planning-market-entry",
+      "designing-wallets",
+      "designing-merchant-payments",
+      "designing-transaction-limits"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "screening-buyouts"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "conducting-quality-of-earnings"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "diligencing-buyout-commercials"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "modeling-buyouts"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "structuring-acquisition-finance"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "planning-pe-value-creation"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-pe-portfolios"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "planning-pe-exits"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "screening-venture-deals"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "diligencing-founders"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "assessing-product-market-fit"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "analyzing-startup-metrics"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "modeling-venture-cap-tables"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-venture-terms"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "constructing-venture-portfolios"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "planning-follow-on-investments"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "developing-investment-theses"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "diligencing-fund-managers"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "modeling-fund-economics"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-private-valuations"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "preparing-investment-committee-memos"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reporting-private-funds"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "planning-private-fundraising"
+    ]
+  },
+  {
+    "count": 1,
+    "skills": [
+      "reviewing-co-investments"
+    ]
+  }
+]

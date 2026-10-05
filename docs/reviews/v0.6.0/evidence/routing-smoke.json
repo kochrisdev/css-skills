@@ -1,0 +1,421 @@
+{
+  "scope": "authored lexical retrieval smoke cases; no held-out performance claim and no model evaluation",
+  "cases": [
+    {
+      "id": "route-01",
+      "query": "bank twin shadow mode liquidity simulation",
+      "expected": "designing-bank-digital-twins",
+      "actual": [
+        "designing-bank-digital-twins",
+        "reviewing-pe-portfolios"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-02",
+      "query": "ledger journal debit credit balance currency",
+      "expected": "designing-ledgers",
+      "actual": [
+        "designing-ledgers"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-03",
+      "query": "reconciliation provider bank settlement matching breaks",
+      "expected": "designing-reconciliation",
+      "actual": [
+        "designing-bank-digital-twins",
+        "designing-reconciliation"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-04",
+      "query": "terraform state plan workspace infrastructure",
+      "expected": "managing-terraform",
+      "actual": [
+        "managing-terraform",
+        "designing-agents"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-05",
+      "query": "SQL join grain query daily transfers",
+      "expected": "analyzing-sql",
+      "actual": [
+        "analyzing-sql"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-06",
+      "query": "agent tool schema idempotency contract",
+      "expected": "designing-agent-tools",
+      "actual": [
+        "designing-agent-tools",
+        "designing-agents",
+        "testing-agents"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-07",
+      "query": "agent guardrail prompt injection permission policy",
+      "expected": "designing-agent-guardrails",
+      "actual": [
+        "designing-agent-guardrails",
+        "testing-agents"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-08",
+      "query": "source research citation uncertainty evidence",
+      "expected": "conducting-research",
+      "actual": [
+        "conducting-research",
+        "writing-documentation"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-09",
+      "query": "incident outage triage timeline containment",
+      "expected": "triaging-incidents",
+      "actual": [
+        "triaging-incidents"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-10",
+      "query": "release readiness evidence approval gate",
+      "expected": "gating-releases",
+      "actual": [
+        "gating-releases",
+        "preparing-investment-committee-memos"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-11",
+      "query": "code diff review correctness regression",
+      "expected": "reviewing-code",
+      "actual": [
+        "reviewing-code",
+        "debugging-code",
+        "improving-skills"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-12",
+      "query": "remittance corridor payout timeout funding",
+      "expected": "designing-remittance",
+      "actual": [
+        "designing-remittance"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-13",
+      "query": "documentation canonical README consolidation",
+      "expected": "writing-documentation",
+      "actual": [
+        "writing-documentation"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-14",
+      "query": "model dataset evaluation grader baseline",
+      "expected": "evaluating-llms",
+      "actual": [
+        "evaluating-llms"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-15",
+      "query": "recipe chocolate cake oven",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "id": "route-16",
+      "query": "hello thanks good morning",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "id": "route-17",
+      "query": "astronomy volcanic moon telescope",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "id": "route-18",
+      "query": "knitting scarf wool pattern",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-1",
+      "query": "buyout private equity PE acquisition sourcing screening mandate control EBITDA",
+      "expected": "screening-buyouts",
+      "actual": [
+        "screening-buyouts",
+        "developing-investment-theses",
+        "screening-venture-deals"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-2",
+      "query": "QoE earnings EBITDA addbacks quality cash working capital normalization",
+      "expected": "conducting-quality-of-earnings",
+      "actual": [
+        "conducting-quality-of-earnings",
+        "system-design",
+        "modeling-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-3",
+      "query": "CDD buyout commercial due diligence customer concentration market pricing",
+      "expected": "diligencing-buyout-commercials",
+      "actual": [
+        "diligencing-buyout-commercials",
+        "assessing-product-market-fit",
+        "modeling-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-4",
+      "query": "LBO leveraged buyout sources uses debt cash sweep MOIC sensitivity equity",
+      "expected": "modeling-buyouts",
+      "actual": [
+        "modeling-buyouts",
+        "screening-buyouts",
+        "structuring-acquisition-finance"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-5",
+      "query": "acquisition finance financing debt covenant unitranche leverage interest",
+      "expected": "structuring-acquisition-finance",
+      "actual": [
+        "structuring-acquisition-finance",
+        "modeling-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-6",
+      "query": "PE private equity value creation 100 day post acquisition operating plan",
+      "expected": "planning-pe-value-creation",
+      "actual": [
+        "planning-pe-value-creation",
+        "reviewing-pe-portfolios",
+        "screening-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-7",
+      "query": "PE portfolio monitoring board covenant liquidity review variance",
+      "expected": "reviewing-pe-portfolios",
+      "actual": [
+        "reviewing-pe-portfolios",
+        "planning-pe-exits"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-8",
+      "query": "PE exit sale continuation secondaries sponsor divestiture readiness",
+      "expected": "planning-pe-exits",
+      "actual": [
+        "planning-pe-exits"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-9",
+      "query": "VC venture capital seed startup deal sourcing screening round",
+      "expected": "screening-venture-deals",
+      "actual": [
+        "screening-venture-deals",
+        "screening-buyouts",
+        "developing-investment-theses"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-10",
+      "query": "founder founders team background references diligence vesting IP",
+      "expected": "diligencing-founders",
+      "actual": [
+        "diligencing-founders"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-11",
+      "query": "PMF product market fit retention cohort activation customer",
+      "expected": "assessing-product-market-fit",
+      "actual": [
+        "assessing-product-market-fit",
+        "diligencing-buyout-commercials",
+        "creating-prds"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-12",
+      "query": "startup SaaS ARR MRR NRR CAC LTV churn retention burn runway unit economics",
+      "expected": "analyzing-startup-metrics",
+      "actual": [
+        "analyzing-startup-metrics"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-13",
+      "query": "VC cap table capitalization dilution ownership SAFE notes option pool pre money post money",
+      "expected": "modeling-venture-cap-tables",
+      "actual": [
+        "modeling-venture-cap-tables",
+        "reviewing-venture-terms"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-14",
+      "query": "VC term sheet preference participation conversion anti dilution pro rata board rights SAFE",
+      "expected": "reviewing-venture-terms",
+      "actual": [
+        "reviewing-venture-terms",
+        "planning-follow-on-investments",
+        "modeling-venture-cap-tables"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-15",
+      "query": "VC fund portfolio construction reserves cheque pacing ownership concentration",
+      "expected": "constructing-venture-portfolios",
+      "actual": [
+        "constructing-venture-portfolios",
+        "planning-follow-on-investments"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-16",
+      "query": "VC follow on followon reserves pro rata down round bridge investment",
+      "expected": "planning-follow-on-investments",
+      "actual": [
+        "planning-follow-on-investments",
+        "reviewing-venture-terms",
+        "screening-venture-deals"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-17",
+      "query": "investment thesis theses PE VC mandate strategy screening falsification",
+      "expected": "developing-investment-theses",
+      "actual": [
+        "developing-investment-theses",
+        "screening-buyouts",
+        "screening-venture-deals"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-18",
+      "query": "LP GP manager diligence DDQ track record attribution alignment",
+      "expected": "diligencing-fund-managers",
+      "actual": [
+        "diligencing-fund-managers"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-19",
+      "query": "fund economics carry hurdle catchup waterfall fee LP GP DPI RVPI TVPI",
+      "expected": "modeling-fund-economics",
+      "actual": [
+        "modeling-fund-economics",
+        "reporting-private-funds",
+        "diligencing-fund-managers"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-20",
+      "query": "IPEV private valuation fair value calibration NAV security rights multiples",
+      "expected": "reviewing-private-valuations",
+      "actual": [
+        "reviewing-private-valuations",
+        "planning-pe-value-creation",
+        "reporting-private-funds"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-21",
+      "query": "IC investment committee memo memorandum decision diligence approval",
+      "expected": "preparing-investment-committee-memos",
+      "actual": [
+        "preparing-investment-committee-memos",
+        "conducting-research"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-22",
+      "query": "LP reporting report fund capital account DPI RVPI TVPI NAV distributions ILPA",
+      "expected": "reporting-private-funds",
+      "actual": [
+        "reporting-private-funds",
+        "modeling-fund-economics",
+        "diligencing-fund-managers"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-23",
+      "query": "fundraising LP investor fund close subscription marketing data room commitments",
+      "expected": "planning-private-fundraising",
+      "actual": [
+        "planning-private-fundraising",
+        "modeling-fund-economics",
+        "diligencing-fund-managers"
+      ],
+      "pass": true
+    },
+    {
+      "id": "route-pevc-24",
+      "query": "co investment coinvestment SPV syndication allocation sponsor carry conflicts",
+      "expected": "reviewing-co-investments",
+      "actual": [
+        "reviewing-co-investments"
+      ],
+      "pass": true
+    }
+  ],
+  "passed": 42,
+  "total": 42,
+  "ok": true
+}

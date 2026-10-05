@@ -1,0 +1,300 @@
+[
+  {
+    "skill": "analyzing-requirements",
+    "case_id": "CSS-001-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "reviewing-code"
+    ]
+  },
+  {
+    "skill": "creating-prds",
+    "case_id": "CSS-003-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "system-design"
+    ]
+  },
+  {
+    "skill": "creating-skills",
+    "case_id": "CSS-004-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "composing-skills"
+    ]
+  },
+  {
+    "skill": "debugging-code",
+    "case_id": "CSS-005-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "planning-projects"
+    ]
+  },
+  {
+    "skill": "implementing-code",
+    "case_id": "CSS-008-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "conducting-research"
+    ]
+  },
+  {
+    "skill": "reviewing-architecture",
+    "case_id": "CSS-010-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "creating-prds"
+    ]
+  },
+  {
+    "skill": "reviewing-code",
+    "case_id": "CSS-011-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "implementing-code"
+    ]
+  },
+  {
+    "skill": "reviewing-skills",
+    "case_id": "CSS-012-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "reviewing-code"
+    ]
+  },
+  {
+    "skill": "testing-skills",
+    "case_id": "CSS-016-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "discovering-skills"
+    ]
+  },
+  {
+    "skill": "verifying-products",
+    "case_id": "CSS-019-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "analyzing-requirements"
+    ]
+  },
+  {
+    "skill": "writing-documentation",
+    "case_id": "CSS-020-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "deploying-safely"
+    ]
+  },
+  {
+    "skill": "designing-agents",
+    "case_id": "CSS-021-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "analyzing-sql"
+    ]
+  },
+  {
+    "skill": "designing-remittance",
+    "case_id": "CSS-036-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "conducting-research"
+    ]
+  },
+  {
+    "skill": "designing-reconciliation",
+    "case_id": "CSS-038-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "security-reviewing"
+    ]
+  },
+  {
+    "skill": "mapping-compliance",
+    "case_id": "CSS-039-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "debugging-code"
+    ]
+  },
+  {
+    "skill": "benchmarking-skills",
+    "case_id": "CSS-048-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "creating-skills"
+    ]
+  },
+  {
+    "skill": "improving-skills",
+    "case_id": "CSS-049-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "governing-skills"
+    ]
+  },
+  {
+    "skill": "governing-skills",
+    "case_id": "CSS-050-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "analyzing-sql"
+    ]
+  },
+  {
+    "skill": "designing-agent-tools",
+    "case_id": "CSS-080-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "writing-documentation"
+    ]
+  },
+  {
+    "skill": "testing-agents",
+    "case_id": "CSS-082-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "conducting-research"
+    ]
+  },
+  {
+    "skill": "screening-buyouts",
+    "case_id": "CSS-201-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "screening-venture-deals"
+    ]
+  },
+  {
+    "skill": "conducting-quality-of-earnings",
+    "case_id": "CSS-202-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "analyzing-markets",
+      "conducting-research"
+    ]
+  },
+  {
+    "skill": "diligencing-buyout-commercials",
+    "case_id": "CSS-203-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "security-reviewing"
+    ]
+  },
+  {
+    "skill": "modeling-buyouts",
+    "case_id": "CSS-204-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "modeling-venture-cap-tables"
+    ]
+  },
+  {
+    "skill": "structuring-acquisition-finance",
+    "case_id": "CSS-205-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "planning-private-fundraising"
+    ]
+  },
+  {
+    "skill": "planning-pe-value-creation",
+    "case_id": "CSS-206-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "screening-buyouts"
+    ]
+  },
+  {
+    "skill": "reviewing-pe-portfolios",
+    "case_id": "CSS-207-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "reporting-private-funds"
+    ]
+  },
+  {
+    "skill": "screening-venture-deals",
+    "case_id": "CSS-209-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "screening-buyouts"
+    ]
+  },
+  {
+    "skill": "assessing-product-market-fit",
+    "case_id": "CSS-211-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "structuring-acquisition-finance"
+    ]
+  },
+  {
+    "skill": "analyzing-startup-metrics",
+    "case_id": "CSS-212-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "reporting-private-funds"
+    ]
+  },
+  {
+    "skill": "modeling-venture-cap-tables",
+    "case_id": "CSS-213-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "modeling-buyouts"
+    ]
+  },
+  {
+    "skill": "reviewing-venture-terms",
+    "case_id": "CSS-214-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "writing-documentation"
+    ]
+  },
+  {
+    "skill": "constructing-venture-portfolios",
+    "case_id": "CSS-215-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "modeling-buyouts",
+      "reviewing-private-valuations"
+    ]
+  },
+  {
+    "skill": "developing-investment-theses",
+    "case_id": "CSS-217-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "writing-documentation"
+    ]
+  },
+  {
+    "skill": "diligencing-fund-managers",
+    "case_id": "CSS-218-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "diligencing-buyout-commercials"
+    ]
+  },
+  {
+    "skill": "preparing-investment-committee-memos",
+    "case_id": "CSS-221-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "planning-private-fundraising"
+    ]
+  },
+  {
+    "skill": "planning-private-fundraising",
+    "case_id": "CSS-223-negative",
+    "kind": "negative",
+    "explicit_names": [
+      "writing-documentation"
+    ]
+  }
+]

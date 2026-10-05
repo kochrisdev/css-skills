@@ -1,0 +1,181 @@
+{
+  "scope": "Synthetic local audit probes; source and GitHub unchanged. No live model testing or authenticated financial actions.",
+  "probes": [
+    {
+      "probe": "managed_resource_removed_upstream",
+      "source_valid": true,
+      "upstream_file_exists": false,
+      "installed_file_retained": true,
+      "deletion_in_plan": false
+    },
+    {
+      "probe": "medium_risk_pe_gate_removed",
+      "validation_ok": true,
+      "errors": []
+    },
+    {
+      "probe": "profile_nonobject",
+      "exit_code": 1,
+      "raw_traceback": true,
+      "stderr_tail": [
+        "       ^^^^^",
+        "AttributeError: 'list' object has no attribute 'get'"
+      ]
+    },
+    {
+      "probe": "workflow_nonobject_step",
+      "exit_code": 1,
+      "raw_traceback": false,
+      "stderr_tail": []
+    },
+    {
+      "probe": "duplicate_json_evidence_status",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "declared bindings and freshness only; evidence authenticity and human authorization NOT verified"
+      },
+      "limitation": "Synthetic shape checker only; this is not an observed production authorization bypass."
+    },
+    {
+      "probe": "duplicate_json_ledger_amount",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "synthetic shape, uniqueness and balance checks; not accounting correctness or live posting"
+      }
+    }
+  ],
+  "exploratory_routing": [
+    {
+      "query": "Can we buy this manufacturer without relying on a higher exit valuation?",
+      "expected": "screening-buyouts",
+      "actual": [
+        "planning-pe-exits",
+        "reviewing-private-valuations"
+      ],
+      "pass": false
+    },
+    {
+      "query": "Build a 100-day post-acquisition operating plan.",
+      "expected": "planning-pe-value-creation",
+      "actual": [
+        "planning-pe-value-creation",
+        "modeling-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Assess recurring earnings adjustments and cash conversion before acquiring a business.",
+      "expected": "conducting-quality-of-earnings",
+      "actual": [
+        "conducting-quality-of-earnings"
+      ],
+      "pass": true
+    },
+    {
+      "query": "What proportion will founders own after a primary financing round?",
+      "expected": "modeling-venture-cap-tables",
+      "actual": [],
+      "pass": false
+    },
+    {
+      "query": "Assess distribution proceeds after debt repayment and transaction expenses.",
+      "expected": "modeling-buyouts",
+      "actual": [
+        "modeling-fund-economics"
+      ],
+      "pass": false
+    },
+    {
+      "query": "Find a guide for reconciling payouts when bank records disagree with provider statements.",
+      "expected": "designing-reconciliation",
+      "actual": [
+        "designing-reconciliation",
+        "designing-bank-digital-twins"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Turn our vague product idea into measurable acceptance requirements.",
+      "expected": "analyzing-requirements",
+      "actual": [
+        "creating-prds",
+        "analyzing-requirements",
+        "verifying-products"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Evaluate whether a proposed bank replica can safely simulate liquidity shortfalls.",
+      "expected": "designing-bank-digital-twins",
+      "actual": [],
+      "pass": false
+    },
+    {
+      "query": "Our application intermittently writes the same payment twice. Diagnose the defect.",
+      "expected": "debugging-code",
+      "actual": [
+        "debugging-code"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Check an AI assistant can resist hidden instructions in retrieved documents.",
+      "expected": "testing-agents",
+      "actual": [],
+      "pass": false
+    },
+    {
+      "query": "Prepare an investor committee decision paper including reasons not to invest.",
+      "expected": "preparing-investment-committee-memos",
+      "actual": [
+        "preparing-investment-committee-memos"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Evaluate a manager before committing as a limited partner to the next fund.",
+      "expected": "diligencing-fund-managers",
+      "actual": [
+        "diligencing-fund-managers",
+        "planning-private-fundraising",
+        "screening-buyouts"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Review conflicting technical papers and explain their limitations.",
+      "expected": "conducting-research",
+      "actual": [],
+      "pass": false
+    },
+    {
+      "query": "What is the weather in Tokyo tomorrow?",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "query": "Teach a child how plants use sunlight.",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "query": "Write a science fiction story about a lost space station.",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "query": "Give me a recipe for a vegetable curry.",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    }
+  ],
+  "routing_note": "Small reviewer-authored probes; not an estimate of real-world routing accuracy."
+}

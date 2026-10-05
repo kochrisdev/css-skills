@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "skills": 224,
+  "pilots": 64,
+  "drafts": 160,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DRAFTS",
+      "path": "catalog/skill-registry.json",
+      "message": "160 legacy instruction drafts are not pilot procedures"
+    },
+    {
+      "severity": "warning",
+      "code": "BEHAVIORAL",
+      "path": "evals",
+      "message": "live model behavior has not been measured in this release"
+    },
+    {
+      "severity": "warning",
+      "code": "LICENSE",
+      "path": "LICENSE",
+      "message": "incomplete inherited license notice; owner confirmation required before public release"
+    }
+  ],
+  "scope": "structural, integrity, declared graphs and case-definition checks; NOT behavioral evaluation"
+}

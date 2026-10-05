@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CSS registry 1.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "version",
+    "skills",
+    "domains"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "version": {
+      "const": "0.5.0"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "domain",
+          "version",
+          "path",
+          "legacy_path",
+          "status",
+          "maturity",
+          "risk",
+          "description",
+          "content_sha256",
+          "behavioral_evaluation",
+          "human_review",
+          "inputs",
+          "outputs",
+          "keywords",
+          "depends_on",
+          "related_skills"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^CSS-[0-9]{3}$"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 64,
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "legacy_path": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "pilot"
+            ]
+          },
+          "maturity": {
+            "enum": [
+              "instruction",
+              "procedural"
+            ]
+          },
+          "risk": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1024
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "behavioral_evaluation": {
+            "const": "not_run"
+          },
+          "human_review": {
+            "const": "not_recorded"
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "depends_on": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "related_skills": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "domains": {
+      "type": "array"
+    }
+  }
+}

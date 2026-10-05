@@ -1,0 +1,24 @@
+{
+  "transactions": [
+    {
+      "id": "fund-001",
+      "idempotency_key": "wallet-demo/fund-001",
+      "entries": [
+        {
+          "entity": "demo",
+          "currency": "USD",
+          "account": "cash",
+          "side": "debit",
+          "amount_minor": 10000
+        },
+        {
+          "entity": "demo",
+          "currency": "USD",
+          "account": "customer-liability",
+          "side": "credit",
+          "amount_minor": 10000
+        }
+      ]
+    }
+  ]
+}

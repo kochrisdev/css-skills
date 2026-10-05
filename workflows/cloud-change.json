@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "name": "cloud-change",
+  "mode": "plan-only",
+  "description": "Infrastructure review and separately authorized staged change.",
+  "inputs": {
+    "requirements": "requirements",
+    "constraints": "constraints",
+    "infrastructure-repository": "infrastructure-repository",
+    "repository": "repository",
+    "verification": "verification",
+    "release-plan": "release-plan"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "system-design",
+      "after": [],
+      "bindings": {
+        "requirements": "input:requirements"
+      },
+      "produces": {
+        "step-01.architecture": "architecture"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-02",
+      "skill": "architecting-aws",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "architecture": "step-01.architecture",
+        "constraints": "input:constraints"
+      },
+      "produces": {
+        "step-02.aws-design": "aws-design"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-03",
+      "skill": "managing-terraform",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "aws-design": "step-02.aws-design",
+        "infrastructure-repository": "input:infrastructure-repository"
+      },
+      "produces": {
+        "step-03.terraform-review": "terraform-review"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-04",
+      "skill": "security-reviewing",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "architecture": "step-01.architecture",
+        "repository": "input:repository"
+      },
+      "produces": {
+        "step-04.security-review": "security-review"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-05",
+      "skill": "gating-releases",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "verification": "input:verification",
+        "security-review": "step-04.security-review",
+        "release-plan": "input:release-plan"
+      },
+      "produces": {
+        "step-05.release-decision": "release-decision"
+      },
+      "approval": "human-review-required"
+    },
+    {
+      "id": "step-06",
+      "skill": "deploying-safely",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "release-decision": "step-05.release-decision",
+        "release-plan": "input:release-plan"
+      },
+      "produces": {
+        "step-06.deployment-report": "deployment-report"
+      },
+      "approval": "human-review-required"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed mandatory check",
+    "Unapproved consequential action"
+  ],
+  "rework": "Create a new reviewed plan revision; no automatic loops."
+}

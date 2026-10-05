@@ -1,0 +1,15 @@
+{
+  "name": "banking",
+  "status": "pilot",
+  "skills": [
+    "analyzing-requirements",
+    "system-design",
+    "modeling-data",
+    "designing-bank-digital-twins",
+    "mapping-compliance",
+    "designing-controls",
+    "threat-modeling",
+    "reviewing-architecture",
+    "testing-controls"
+  ]
+}

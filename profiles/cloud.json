@@ -1,0 +1,12 @@
+{
+  "name": "cloud",
+  "status": "pilot",
+  "skills": [
+    "system-design",
+    "architecting-aws",
+    "managing-terraform",
+    "security-reviewing",
+    "gating-releases",
+    "deploying-safely"
+  ]
+}

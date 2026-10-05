@@ -1,0 +1,44 @@
+# Authored pilot procedures
+
+These 40 procedures have concrete steps, pitfalls, templates and behavioral case definitions. They have **not** undergone live model or independent expert validation.
+
+- [analyzing-requirements](../skills/analyzing-requirements/SKILL.md): Resolve ambiguous product or system requirements into uniquely identified, testable obligations.
+- [analyzing-sql](../skills/analyzing-sql/SKILL.md): Answer a defined analytical question using read-only, scope-checked SQL.
+- [architecting-aws](../skills/architecting-aws/SKILL.md): Design an AWS architecture from workload requirements, recovery needs and security boundaries.
+- [benchmarking-skills](../skills/benchmarking-skills/SKILL.md): Compare skill variants with controlled cases, honest metrics and failure visibility.
+- [composing-skills](../skills/composing-skills/SKILL.md): Compose an explicit artifact-driven workflow rather than a list of loosely related names.
+- [conducting-research](../skills/conducting-research/SKILL.md): Produce decision-relevant research with claim-level evidence and explicit uncertainty.
+- [creating-prds](../skills/creating-prds/SKILL.md): Turn a supported product opportunity into a bounded product requirements document.
+- [creating-skills](../skills/creating-skills/SKILL.md): Author a narrowly scoped reusable skill with explicit triggers, outputs and evaluation cases.
+- [debugging-code](../skills/debugging-code/SKILL.md): Diagnose a reproducible defect using discriminating evidence before changing code.
+- [deploying-safely](../skills/deploying-safely/SKILL.md): Prepare a controlled deployment and execute only within separately granted operational authority.
+- [designing-agent-guardrails](../skills/designing-agent-guardrails/SKILL.md): Design layered preventive, detective and recovery controls for agent behavior.
+- [designing-agent-tools](../skills/designing-agent-tools/SKILL.md): Specify narrow, observable agent tool contracts with explicit side-effect semantics.
+- [designing-agents](../skills/designing-agents/SKILL.md): Design bounded agents with explicit tasks, state, tools, stop conditions and human authority.
+- [designing-bank-digital-twins](../skills/designing-bank-digital-twins/SKILL.md): Design a bank digital twin with isolated observation, simulation and approved command boundaries.
+- [designing-controls](../skills/designing-controls/SKILL.md): Specify testable controls with owners, enforcement points and retained evidence.
+- [designing-ledgers](../skills/designing-ledgers/SKILL.md): Design auditable ledger postings and verify financial invariants without moving real funds.
+- [designing-reconciliation](../skills/designing-reconciliation/SKILL.md): Design reproducible reconciliation across independently sourced financial records.
+- [designing-remittance](../skills/designing-remittance/SKILL.md): Design remittance states, controls and exception paths across funding, conversion and payout.
+- [discovering-skills](../skills/discovering-skills/SKILL.md): Find the smallest relevant existing capability and explain the match and its limits.
+- [evaluating-llms](../skills/evaluating-llms/SKILL.md): Design and analyze representative model evaluations without fabricating benchmark results.
+- [gating-releases](../skills/gating-releases/SKILL.md): Assess release readiness from scoped, current evidence without granting deployment authority.
+- [governing-skills](../skills/governing-skills/SKILL.md): Govern skill identity, provenance, ownership, maturity and distribution with evidence.
+- [implementing-code](../skills/implementing-code/SKILL.md): Implement a bounded software change while preserving existing behavior outside scope.
+- [improving-skills](../skills/improving-skills/SKILL.md): Improve a skill through a bounded, evidence-driven change with regression protection.
+- [managing-terraform](../skills/managing-terraform/SKILL.md): Review and prepare Terraform changes with state, plan and authority safeguards.
+- [mapping-compliance](../skills/mapping-compliance/SKILL.md): Map sourced obligations to requirements, controls and evidence without issuing unsupported legal conclusions.
+- [modeling-data](../skills/modeling-data/SKILL.md): Design data entities, ownership, constraints and lifecycle from explicit access patterns.
+- [reviewing-architecture](../skills/reviewing-architecture/SKILL.md): Challenge an existing architecture against requirements, evidence and operational failure modes.
+- [reviewing-code](../skills/reviewing-code/SKILL.md): Review a change for concrete correctness, security and regression risks.
+- [reviewing-skills](../skills/reviewing-skills/SKILL.md): Review a skill for meaningful procedure, trigger precision, safety and evaluability.
+- [routing-skills](../skills/routing-skills/SKILL.md): Route an intent to reviewed candidate skills and an inspectable plan without autonomous execution.
+- [security-reviewing](../skills/security-reviewing/SKILL.md): Review security-sensitive implementation paths against concrete abuse cases.
+- [system-design](../skills/system-design/SKILL.md): Design a software architecture from explicit requirements and quality constraints.
+- [testing-agents](../skills/testing-agents/SKILL.md): Execute or specify agent behavior tests with explicit trace evidence and safety outcomes.
+- [testing-controls](../skills/testing-controls/SKILL.md): Assess control design and operation using defined populations and traceable evidence.
+- [testing-skills](../skills/testing-skills/SKILL.md): Create or run skill evaluations while separating structural, routing and behavioral evidence.
+- [threat-modeling](../skills/threat-modeling/SKILL.md): Model concrete attack paths across system assets and trust boundaries.
+- [triaging-incidents](../skills/triaging-incidents/SKILL.md): Establish incident impact, evidence, containment choices and escalation under bounded authority.
+- [verifying-products](../skills/verifying-products/SKILL.md): Verify delivered behavior against acceptance criteria with reproducible evidence.
+- [writing-documentation](../skills/writing-documentation/SKILL.md): Create or consolidate task-oriented documentation with a clear canonical source.

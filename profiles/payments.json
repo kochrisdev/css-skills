@@ -1,0 +1,14 @@
+{
+  "name": "payments",
+  "status": "pilot",
+  "skills": [
+    "analyzing-requirements",
+    "designing-ledgers",
+    "designing-reconciliation",
+    "designing-remittance",
+    "mapping-compliance",
+    "threat-modeling",
+    "security-reviewing",
+    "verifying-products"
+  ]
+}

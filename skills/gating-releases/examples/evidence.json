@@ -1,0 +1,26 @@
+{
+  "candidate_digest": "synthetic-build-001",
+  "environment": "sandbox",
+  "required_checks": [
+    "tests",
+    "security"
+  ],
+  "checks": [
+    {
+      "name": "tests",
+      "candidate_digest": "synthetic-build-001",
+      "environment": "sandbox",
+      "status": "pass",
+      "evidence_ref": "synthetic-fixture/tests",
+      "observed_at": "2026-10-05T00:00:00Z"
+    },
+    {
+      "name": "security",
+      "candidate_digest": "synthetic-build-001",
+      "environment": "sandbox",
+      "status": "pass",
+      "evidence_ref": "synthetic-fixture/security",
+      "observed_at": "2026-10-05T00:00:00Z"
+    }
+  ]
+}

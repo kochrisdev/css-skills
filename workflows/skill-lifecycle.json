@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "name": "skill-lifecycle",
+  "mode": "plan-only",
+  "description": "Evidence-driven capability lifecycle, without automatic self-promotion.",
+  "inputs": {
+    "request": "request",
+    "catalog": "catalog",
+    "observations": "observations"
+  },
+  "steps": [
+    {
+      "id": "step-01",
+      "skill": "discovering-skills",
+      "after": [],
+      "bindings": {
+        "request": "input:request",
+        "catalog": "input:catalog"
+      },
+      "produces": {
+        "step-01.skill-selection": "skill-selection"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-02",
+      "skill": "creating-skills",
+      "after": [
+        "step-01"
+      ],
+      "bindings": {
+        "request": "input:request",
+        "catalog": "input:catalog"
+      },
+      "produces": {
+        "step-02.skill-draft": "skill-draft"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-03",
+      "skill": "reviewing-skills",
+      "after": [
+        "step-02"
+      ],
+      "bindings": {
+        "skill-draft": "step-02.skill-draft",
+        "catalog": "input:catalog"
+      },
+      "produces": {
+        "step-03.skill-review": "skill-review"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-04",
+      "skill": "testing-skills",
+      "after": [
+        "step-03"
+      ],
+      "bindings": {
+        "skill-draft": "step-02.skill-draft",
+        "skill-review": "step-03.skill-review"
+      },
+      "produces": {
+        "step-04.skill-test-plan": "skill-test-plan"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-05",
+      "skill": "benchmarking-skills",
+      "after": [
+        "step-04"
+      ],
+      "bindings": {
+        "skill-test-plan": "step-04.skill-test-plan",
+        "observations": "input:observations"
+      },
+      "produces": {
+        "step-05.benchmark-report": "benchmark-report"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-06",
+      "skill": "improving-skills",
+      "after": [
+        "step-05"
+      ],
+      "bindings": {
+        "skill-review": "step-03.skill-review",
+        "benchmark-report": "step-05.benchmark-report"
+      },
+      "produces": {
+        "step-06.skill-improvement": "skill-improvement"
+      },
+      "approval": "human-supervised"
+    },
+    {
+      "id": "step-07",
+      "skill": "governing-skills",
+      "after": [
+        "step-06"
+      ],
+      "bindings": {
+        "skill-review": "step-03.skill-review",
+        "skill-test-plan": "step-04.skill-test-plan"
+      },
+      "produces": {
+        "step-07.governance-record": "governance-record"
+      },
+      "approval": "human-supervised"
+    }
+  ],
+  "stop_conditions": [
+    "Missing or contradictory required evidence",
+    "Failed mandatory check",
+    "Unapproved consequential action"
+  ],
+  "rework": "Create a new reviewed plan revision; no automatic loops."
+}

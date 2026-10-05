@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "kind": "authored lexical smoke set, not held-out",
+  "cases": [
+    {
+      "id": "route-01",
+      "query": "bank twin shadow mode liquidity simulation",
+      "expected": "designing-bank-digital-twins",
+      "k": 3
+    },
+    {
+      "id": "route-02",
+      "query": "ledger journal debit credit balance currency",
+      "expected": "designing-ledgers",
+      "k": 3
+    },
+    {
+      "id": "route-03",
+      "query": "reconciliation provider bank settlement matching breaks",
+      "expected": "designing-reconciliation",
+      "k": 3
+    },
+    {
+      "id": "route-04",
+      "query": "terraform state plan workspace infrastructure",
+      "expected": "managing-terraform",
+      "k": 3
+    },
+    {
+      "id": "route-05",
+      "query": "SQL join grain query daily transfers",
+      "expected": "analyzing-sql",
+      "k": 3
+    },
+    {
+      "id": "route-06",
+      "query": "agent tool schema idempotency contract",
+      "expected": "designing-agent-tools",
+      "k": 3
+    },
+    {
+      "id": "route-07",
+      "query": "agent guardrail prompt injection permission policy",
+      "expected": "designing-agent-guardrails",
+      "k": 3
+    },
+    {
+      "id": "route-08",
+      "query": "source research citation uncertainty evidence",
+      "expected": "conducting-research",
+      "k": 3
+    },
+    {
+      "id": "route-09",
+      "query": "incident outage triage timeline containment",
+      "expected": "triaging-incidents",
+      "k": 3
+    },
+    {
+      "id": "route-10",
+      "query": "release readiness evidence approval gate",
+      "expected": "gating-releases",
+      "k": 3
+    },
+    {
+      "id": "route-11",
+      "query": "code diff review correctness regression",
+      "expected": "reviewing-code",
+      "k": 3
+    },
+    {
+      "id": "route-12",
+      "query": "remittance corridor payout timeout funding",
+      "expected": "designing-remittance",
+      "k": 3
+    },
+    {
+      "id": "route-13",
+      "query": "documentation canonical README consolidation",
+      "expected": "writing-documentation",
+      "k": 3
+    },
+    {
+      "id": "route-14",
+      "query": "model dataset evaluation grader baseline",
+      "expected": "evaluating-llms",
+      "k": 3
+    },
+    {
+      "id": "route-15",
+      "query": "recipe chocolate cake oven",
+      "expected": null,
+      "k": 3
+    },
+    {
+      "id": "route-16",
+      "query": "hello thanks good morning",
+      "expected": null,
+      "k": 3
+    },
+    {
+      "id": "route-17",
+      "query": "astronomy volcanic moon telescope",
+      "expected": null,
+      "k": 3
+    },
+    {
+      "id": "route-18",
+      "query": "knitting scarf wool pattern",
+      "expected": null,
+      "k": 3
+    }
+  ]
+}

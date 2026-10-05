@@ -1,0 +1,1207 @@
+{
+  "source_version": "0.4.0",
+  "target_version": "0.5.0",
+  "notice": "IDs and names preserved; source paths intentionally change. Hard prerequisites in v0.4 are reclassified as related guidance; actual execution order belongs to artifact-bound workflows.",
+  "skills": [
+    {
+      "id": "CSS-001",
+      "name": "analyzing-requirements",
+      "old_path": ".claude/skills/analyzing-requirements/SKILL.md",
+      "new_path": "skills/analyzing-requirements/SKILL.md"
+    },
+    {
+      "id": "CSS-002",
+      "name": "conducting-research",
+      "old_path": ".claude/skills/conducting-research/SKILL.md",
+      "new_path": "skills/conducting-research/SKILL.md"
+    },
+    {
+      "id": "CSS-003",
+      "name": "creating-prds",
+      "old_path": ".claude/skills/creating-prds/SKILL.md",
+      "new_path": "skills/creating-prds/SKILL.md"
+    },
+    {
+      "id": "CSS-004",
+      "name": "creating-skills",
+      "old_path": ".claude/skills/creating-skills/SKILL.md",
+      "new_path": "skills/creating-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-005",
+      "name": "debugging-code",
+      "old_path": ".claude/skills/debugging-code/SKILL.md",
+      "new_path": "skills/debugging-code/SKILL.md"
+    },
+    {
+      "id": "CSS-006",
+      "name": "deploying-safely",
+      "old_path": ".claude/skills/deploying-safely/SKILL.md",
+      "new_path": "skills/deploying-safely/SKILL.md"
+    },
+    {
+      "id": "CSS-007",
+      "name": "gating-releases",
+      "old_path": ".claude/skills/gating-releases/SKILL.md",
+      "new_path": "skills/gating-releases/SKILL.md"
+    },
+    {
+      "id": "CSS-008",
+      "name": "implementing-code",
+      "old_path": ".claude/skills/implementing-code/SKILL.md",
+      "new_path": "skills/implementing-code/SKILL.md"
+    },
+    {
+      "id": "CSS-009",
+      "name": "planning-projects",
+      "old_path": ".claude/skills/planning-projects/SKILL.md",
+      "new_path": "skills/planning-projects/SKILL.md"
+    },
+    {
+      "id": "CSS-010",
+      "name": "reviewing-architecture",
+      "old_path": ".claude/skills/reviewing-architecture/SKILL.md",
+      "new_path": "skills/reviewing-architecture/SKILL.md"
+    },
+    {
+      "id": "CSS-011",
+      "name": "reviewing-code",
+      "old_path": ".claude/skills/reviewing-code/SKILL.md",
+      "new_path": "skills/reviewing-code/SKILL.md"
+    },
+    {
+      "id": "CSS-012",
+      "name": "reviewing-skills",
+      "old_path": ".claude/skills/reviewing-skills/SKILL.md",
+      "new_path": "skills/reviewing-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-013",
+      "name": "routing-skills",
+      "old_path": ".claude/skills/routing-skills/SKILL.md",
+      "new_path": "skills/routing-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-014",
+      "name": "security-reviewing",
+      "old_path": ".claude/skills/security-reviewing/SKILL.md",
+      "new_path": "skills/security-reviewing/SKILL.md"
+    },
+    {
+      "id": "CSS-015",
+      "name": "system-design",
+      "old_path": ".claude/skills/system-design/SKILL.md",
+      "new_path": "skills/system-design/SKILL.md"
+    },
+    {
+      "id": "CSS-016",
+      "name": "testing-skills",
+      "old_path": ".claude/skills/testing-skills/SKILL.md",
+      "new_path": "skills/testing-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-017",
+      "name": "threat-modeling",
+      "old_path": ".claude/skills/threat-modeling/SKILL.md",
+      "new_path": "skills/threat-modeling/SKILL.md"
+    },
+    {
+      "id": "CSS-018",
+      "name": "triaging-incidents",
+      "old_path": ".claude/skills/triaging-incidents/SKILL.md",
+      "new_path": "skills/triaging-incidents/SKILL.md"
+    },
+    {
+      "id": "CSS-019",
+      "name": "verifying-products",
+      "old_path": ".claude/skills/verifying-products/SKILL.md",
+      "new_path": "skills/verifying-products/SKILL.md"
+    },
+    {
+      "id": "CSS-020",
+      "name": "writing-documentation",
+      "old_path": ".claude/skills/writing-documentation/SKILL.md",
+      "new_path": "skills/writing-documentation/SKILL.md"
+    },
+    {
+      "id": "CSS-021",
+      "name": "designing-agents",
+      "old_path": ".claude/skills/designing-agents/SKILL.md",
+      "new_path": "skills/designing-agents/SKILL.md"
+    },
+    {
+      "id": "CSS-022",
+      "name": "orchestrating-agents",
+      "old_path": ".claude/skills/orchestrating-agents/SKILL.md",
+      "new_path": "skills/orchestrating-agents/SKILL.md"
+    },
+    {
+      "id": "CSS-023",
+      "name": "designing-rag",
+      "old_path": ".claude/skills/designing-rag/SKILL.md",
+      "new_path": "skills/designing-rag/SKILL.md"
+    },
+    {
+      "id": "CSS-024",
+      "name": "evaluating-llms",
+      "old_path": ".claude/skills/evaluating-llms/SKILL.md",
+      "new_path": "skills/evaluating-llms/SKILL.md"
+    },
+    {
+      "id": "CSS-025",
+      "name": "engineering-context",
+      "old_path": ".claude/skills/engineering-context/SKILL.md",
+      "new_path": "skills/engineering-context/SKILL.md"
+    },
+    {
+      "id": "CSS-026",
+      "name": "architecting-aws",
+      "old_path": ".claude/skills/architecting-aws/SKILL.md",
+      "new_path": "skills/architecting-aws/SKILL.md"
+    },
+    {
+      "id": "CSS-027",
+      "name": "managing-terraform",
+      "old_path": ".claude/skills/managing-terraform/SKILL.md",
+      "new_path": "skills/managing-terraform/SKILL.md"
+    },
+    {
+      "id": "CSS-028",
+      "name": "operating-kubernetes",
+      "old_path": ".claude/skills/operating-kubernetes/SKILL.md",
+      "new_path": "skills/operating-kubernetes/SKILL.md"
+    },
+    {
+      "id": "CSS-029",
+      "name": "designing-cicd",
+      "old_path": ".claude/skills/designing-cicd/SKILL.md",
+      "new_path": "skills/designing-cicd/SKILL.md"
+    },
+    {
+      "id": "CSS-030",
+      "name": "engineering-observability",
+      "old_path": ".claude/skills/engineering-observability/SKILL.md",
+      "new_path": "skills/engineering-observability/SKILL.md"
+    },
+    {
+      "id": "CSS-031",
+      "name": "designing-ledgers",
+      "old_path": ".claude/skills/designing-ledgers/SKILL.md",
+      "new_path": "skills/designing-ledgers/SKILL.md"
+    },
+    {
+      "id": "CSS-032",
+      "name": "designing-kyc",
+      "old_path": ".claude/skills/designing-kyc/SKILL.md",
+      "new_path": "skills/designing-kyc/SKILL.md"
+    },
+    {
+      "id": "CSS-033",
+      "name": "designing-aml",
+      "old_path": ".claude/skills/designing-aml/SKILL.md",
+      "new_path": "skills/designing-aml/SKILL.md"
+    },
+    {
+      "id": "CSS-034",
+      "name": "designing-fraud-controls",
+      "old_path": ".claude/skills/designing-fraud-controls/SKILL.md",
+      "new_path": "skills/designing-fraud-controls/SKILL.md"
+    },
+    {
+      "id": "CSS-035",
+      "name": "designing-fx",
+      "old_path": ".claude/skills/designing-fx/SKILL.md",
+      "new_path": "skills/designing-fx/SKILL.md"
+    },
+    {
+      "id": "CSS-036",
+      "name": "designing-remittance",
+      "old_path": ".claude/skills/designing-remittance/SKILL.md",
+      "new_path": "skills/designing-remittance/SKILL.md"
+    },
+    {
+      "id": "CSS-037",
+      "name": "designing-payment-routing",
+      "old_path": ".claude/skills/designing-payment-routing/SKILL.md",
+      "new_path": "skills/designing-payment-routing/SKILL.md"
+    },
+    {
+      "id": "CSS-038",
+      "name": "designing-reconciliation",
+      "old_path": ".claude/skills/designing-reconciliation/SKILL.md",
+      "new_path": "skills/designing-reconciliation/SKILL.md"
+    },
+    {
+      "id": "CSS-039",
+      "name": "mapping-compliance",
+      "old_path": ".claude/skills/mapping-compliance/SKILL.md",
+      "new_path": "skills/mapping-compliance/SKILL.md"
+    },
+    {
+      "id": "CSS-040",
+      "name": "designing-controls",
+      "old_path": ".claude/skills/designing-controls/SKILL.md",
+      "new_path": "skills/designing-controls/SKILL.md"
+    },
+    {
+      "id": "CSS-041",
+      "name": "testing-controls",
+      "old_path": ".claude/skills/testing-controls/SKILL.md",
+      "new_path": "skills/testing-controls/SKILL.md"
+    },
+    {
+      "id": "CSS-042",
+      "name": "assessing-risk",
+      "old_path": ".claude/skills/assessing-risk/SKILL.md",
+      "new_path": "skills/assessing-risk/SKILL.md"
+    },
+    {
+      "id": "CSS-043",
+      "name": "analyzing-sql",
+      "old_path": ".claude/skills/analyzing-sql/SKILL.md",
+      "new_path": "skills/analyzing-sql/SKILL.md"
+    },
+    {
+      "id": "CSS-044",
+      "name": "modeling-data",
+      "old_path": ".claude/skills/modeling-data/SKILL.md",
+      "new_path": "skills/modeling-data/SKILL.md"
+    },
+    {
+      "id": "CSS-045",
+      "name": "assuring-data-quality",
+      "old_path": ".claude/skills/assuring-data-quality/SKILL.md",
+      "new_path": "skills/assuring-data-quality/SKILL.md"
+    },
+    {
+      "id": "CSS-046",
+      "name": "discovering-skills",
+      "old_path": ".claude/skills/discovering-skills/SKILL.md",
+      "new_path": "skills/discovering-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-047",
+      "name": "composing-skills",
+      "old_path": ".claude/skills/composing-skills/SKILL.md",
+      "new_path": "skills/composing-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-048",
+      "name": "benchmarking-skills",
+      "old_path": ".claude/skills/benchmarking-skills/SKILL.md",
+      "new_path": "skills/benchmarking-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-049",
+      "name": "improving-skills",
+      "old_path": ".claude/skills/improving-skills/SKILL.md",
+      "new_path": "skills/improving-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-050",
+      "name": "governing-skills",
+      "old_path": ".claude/skills/governing-skills/SKILL.md",
+      "new_path": "skills/governing-skills/SKILL.md"
+    },
+    {
+      "id": "CSS-051",
+      "name": "designing-core-banking",
+      "old_path": ".claude/skills/designing-core-banking/SKILL.md",
+      "new_path": "skills/designing-core-banking/SKILL.md"
+    },
+    {
+      "id": "CSS-052",
+      "name": "designing-digital-banking",
+      "old_path": ".claude/skills/designing-digital-banking/SKILL.md",
+      "new_path": "skills/designing-digital-banking/SKILL.md"
+    },
+    {
+      "id": "CSS-053",
+      "name": "designing-loan-origination",
+      "old_path": ".claude/skills/designing-loan-origination/SKILL.md",
+      "new_path": "skills/designing-loan-origination/SKILL.md"
+    },
+    {
+      "id": "CSS-054",
+      "name": "designing-loan-management",
+      "old_path": ".claude/skills/designing-loan-management/SKILL.md",
+      "new_path": "skills/designing-loan-management/SKILL.md"
+    },
+    {
+      "id": "CSS-055",
+      "name": "designing-deposits",
+      "old_path": ".claude/skills/designing-deposits/SKILL.md",
+      "new_path": "skills/designing-deposits/SKILL.md"
+    },
+    {
+      "id": "CSS-056",
+      "name": "designing-bank-integrations",
+      "old_path": ".claude/skills/designing-bank-integrations/SKILL.md",
+      "new_path": "skills/designing-bank-integrations/SKILL.md"
+    },
+    {
+      "id": "CSS-057",
+      "name": "designing-bank-controls",
+      "old_path": ".claude/skills/designing-bank-controls/SKILL.md",
+      "new_path": "skills/designing-bank-controls/SKILL.md"
+    },
+    {
+      "id": "CSS-058",
+      "name": "designing-bank-digital-twins",
+      "old_path": ".claude/skills/designing-bank-digital-twins/SKILL.md",
+      "new_path": "skills/designing-bank-digital-twins/SKILL.md"
+    },
+    {
+      "id": "CSS-059",
+      "name": "designing-payment-ledgers",
+      "old_path": ".claude/skills/designing-payment-ledgers/SKILL.md",
+      "new_path": "skills/designing-payment-ledgers/SKILL.md"
+    },
+    {
+      "id": "CSS-060",
+      "name": "designing-settlement",
+      "old_path": ".claude/skills/designing-settlement/SKILL.md",
+      "new_path": "skills/designing-settlement/SKILL.md"
+    },
+    {
+      "id": "CSS-061",
+      "name": "designing-payouts",
+      "old_path": ".claude/skills/designing-payouts/SKILL.md",
+      "new_path": "skills/designing-payouts/SKILL.md"
+    },
+    {
+      "id": "CSS-062",
+      "name": "designing-payment-webhooks",
+      "old_path": ".claude/skills/designing-payment-webhooks/SKILL.md",
+      "new_path": "skills/designing-payment-webhooks/SKILL.md"
+    },
+    {
+      "id": "CSS-063",
+      "name": "designing-payment-exceptions",
+      "old_path": ".claude/skills/designing-payment-exceptions/SKILL.md",
+      "new_path": "skills/designing-payment-exceptions/SKILL.md"
+    },
+    {
+      "id": "CSS-064",
+      "name": "designing-corridors",
+      "old_path": ".claude/skills/designing-corridors/SKILL.md",
+      "new_path": "skills/designing-corridors/SKILL.md"
+    },
+    {
+      "id": "CSS-065",
+      "name": "monitoring-payments",
+      "old_path": ".claude/skills/monitoring-payments/SKILL.md",
+      "new_path": "skills/monitoring-payments/SKILL.md"
+    },
+    {
+      "id": "CSS-066",
+      "name": "reviewing-authentication",
+      "old_path": ".claude/skills/reviewing-authentication/SKILL.md",
+      "new_path": "skills/reviewing-authentication/SKILL.md"
+    },
+    {
+      "id": "CSS-067",
+      "name": "reviewing-authorization",
+      "old_path": ".claude/skills/reviewing-authorization/SKILL.md",
+      "new_path": "skills/reviewing-authorization/SKILL.md"
+    },
+    {
+      "id": "CSS-068",
+      "name": "reviewing-api-security",
+      "old_path": ".claude/skills/reviewing-api-security/SKILL.md",
+      "new_path": "skills/reviewing-api-security/SKILL.md"
+    },
+    {
+      "id": "CSS-069",
+      "name": "auditing-secrets",
+      "old_path": ".claude/skills/auditing-secrets/SKILL.md",
+      "new_path": "skills/auditing-secrets/SKILL.md"
+    },
+    {
+      "id": "CSS-070",
+      "name": "reviewing-dependencies",
+      "old_path": ".claude/skills/reviewing-dependencies/SKILL.md",
+      "new_path": "skills/reviewing-dependencies/SKILL.md"
+    },
+    {
+      "id": "CSS-071",
+      "name": "modeling-abuse",
+      "old_path": ".claude/skills/modeling-abuse/SKILL.md",
+      "new_path": "skills/modeling-abuse/SKILL.md"
+    },
+    {
+      "id": "CSS-072",
+      "name": "reviewing-cloud-security",
+      "old_path": ".claude/skills/reviewing-cloud-security/SKILL.md",
+      "new_path": "skills/reviewing-cloud-security/SKILL.md"
+    },
+    {
+      "id": "CSS-073",
+      "name": "building-traceability",
+      "old_path": ".claude/skills/building-traceability/SKILL.md",
+      "new_path": "skills/building-traceability/SKILL.md"
+    },
+    {
+      "id": "CSS-074",
+      "name": "collecting-audit-evidence",
+      "old_path": ".claude/skills/collecting-audit-evidence/SKILL.md",
+      "new_path": "skills/collecting-audit-evidence/SKILL.md"
+    },
+    {
+      "id": "CSS-075",
+      "name": "analyzing-compliance-gaps",
+      "old_path": ".claude/skills/analyzing-compliance-gaps/SKILL.md",
+      "new_path": "skills/analyzing-compliance-gaps/SKILL.md"
+    },
+    {
+      "id": "CSS-076",
+      "name": "writing-policies",
+      "old_path": ".claude/skills/writing-policies/SKILL.md",
+      "new_path": "skills/writing-policies/SKILL.md"
+    },
+    {
+      "id": "CSS-077",
+      "name": "designing-sanctions-screening",
+      "old_path": ".claude/skills/designing-sanctions-screening/SKILL.md",
+      "new_path": "skills/designing-sanctions-screening/SKILL.md"
+    },
+    {
+      "id": "CSS-078",
+      "name": "designing-case-management",
+      "old_path": ".claude/skills/designing-case-management/SKILL.md",
+      "new_path": "skills/designing-case-management/SKILL.md"
+    },
+    {
+      "id": "CSS-079",
+      "name": "designing-agent-memory",
+      "old_path": ".claude/skills/designing-agent-memory/SKILL.md",
+      "new_path": "skills/designing-agent-memory/SKILL.md"
+    },
+    {
+      "id": "CSS-080",
+      "name": "designing-agent-tools",
+      "old_path": ".claude/skills/designing-agent-tools/SKILL.md",
+      "new_path": "skills/designing-agent-tools/SKILL.md"
+    },
+    {
+      "id": "CSS-081",
+      "name": "designing-agent-guardrails",
+      "old_path": ".claude/skills/designing-agent-guardrails/SKILL.md",
+      "new_path": "skills/designing-agent-guardrails/SKILL.md"
+    },
+    {
+      "id": "CSS-082",
+      "name": "testing-agents",
+      "old_path": ".claude/skills/testing-agents/SKILL.md",
+      "new_path": "skills/testing-agents/SKILL.md"
+    },
+    {
+      "id": "CSS-083",
+      "name": "designing-human-agent-handoffs",
+      "old_path": ".claude/skills/designing-human-agent-handoffs/SKILL.md",
+      "new_path": "skills/designing-human-agent-handoffs/SKILL.md"
+    },
+    {
+      "id": "CSS-084",
+      "name": "designing-agent-protocols",
+      "old_path": ".claude/skills/designing-agent-protocols/SKILL.md",
+      "new_path": "skills/designing-agent-protocols/SKILL.md"
+    },
+    {
+      "id": "CSS-085",
+      "name": "designing-cloud-networks",
+      "old_path": ".claude/skills/designing-cloud-networks/SKILL.md",
+      "new_path": "skills/designing-cloud-networks/SKILL.md"
+    },
+    {
+      "id": "CSS-086",
+      "name": "designing-cloud-resilience",
+      "old_path": ".claude/skills/designing-cloud-resilience/SKILL.md",
+      "new_path": "skills/designing-cloud-resilience/SKILL.md"
+    },
+    {
+      "id": "CSS-087",
+      "name": "optimizing-cloud-cost",
+      "old_path": ".claude/skills/optimizing-cloud-cost/SKILL.md",
+      "new_path": "skills/optimizing-cloud-cost/SKILL.md"
+    },
+    {
+      "id": "CSS-088",
+      "name": "designing-data-pipelines",
+      "old_path": ".claude/skills/designing-data-pipelines/SKILL.md",
+      "new_path": "skills/designing-data-pipelines/SKILL.md"
+    },
+    {
+      "id": "CSS-089",
+      "name": "designing-analytics",
+      "old_path": ".claude/skills/designing-analytics/SKILL.md",
+      "new_path": "skills/designing-analytics/SKILL.md"
+    },
+    {
+      "id": "CSS-090",
+      "name": "designing-dashboards",
+      "old_path": ".claude/skills/designing-dashboards/SKILL.md",
+      "new_path": "skills/designing-dashboards/SKILL.md"
+    },
+    {
+      "id": "CSS-091",
+      "name": "reviewing-literature",
+      "old_path": ".claude/skills/reviewing-literature/SKILL.md",
+      "new_path": "skills/reviewing-literature/SKILL.md"
+    },
+    {
+      "id": "CSS-092",
+      "name": "verifying-sources",
+      "old_path": ".claude/skills/verifying-sources/SKILL.md",
+      "new_path": "skills/verifying-sources/SKILL.md"
+    },
+    {
+      "id": "CSS-093",
+      "name": "scanning-technology",
+      "old_path": ".claude/skills/scanning-technology/SKILL.md",
+      "new_path": "skills/scanning-technology/SKILL.md"
+    },
+    {
+      "id": "CSS-094",
+      "name": "analyzing-markets",
+      "old_path": ".claude/skills/analyzing-markets/SKILL.md",
+      "new_path": "skills/analyzing-markets/SKILL.md"
+    },
+    {
+      "id": "CSS-095",
+      "name": "analyzing-competitors",
+      "old_path": ".claude/skills/analyzing-competitors/SKILL.md",
+      "new_path": "skills/analyzing-competitors/SKILL.md"
+    },
+    {
+      "id": "CSS-096",
+      "name": "designing-business-models",
+      "old_path": ".claude/skills/designing-business-models/SKILL.md",
+      "new_path": "skills/designing-business-models/SKILL.md"
+    },
+    {
+      "id": "CSS-097",
+      "name": "designing-operating-models",
+      "old_path": ".claude/skills/designing-operating-models/SKILL.md",
+      "new_path": "skills/designing-operating-models/SKILL.md"
+    },
+    {
+      "id": "CSS-098",
+      "name": "building-business-cases",
+      "old_path": ".claude/skills/building-business-cases/SKILL.md",
+      "new_path": "skills/building-business-cases/SKILL.md"
+    },
+    {
+      "id": "CSS-099",
+      "name": "planning-scenarios",
+      "old_path": ".claude/skills/planning-scenarios/SKILL.md",
+      "new_path": "skills/planning-scenarios/SKILL.md"
+    },
+    {
+      "id": "CSS-100",
+      "name": "writing-executive-briefs",
+      "old_path": ".claude/skills/writing-executive-briefs/SKILL.md",
+      "new_path": "skills/writing-executive-briefs/SKILL.md"
+    },
+    {
+      "id": "CSS-101",
+      "name": "refactoring-code",
+      "old_path": ".claude/skills/refactoring-code/SKILL.md",
+      "new_path": "skills/refactoring-code/SKILL.md"
+    },
+    {
+      "id": "CSS-102",
+      "name": "optimizing-performance",
+      "old_path": ".claude/skills/optimizing-performance/SKILL.md",
+      "new_path": "skills/optimizing-performance/SKILL.md"
+    },
+    {
+      "id": "CSS-103",
+      "name": "modernizing-legacy-systems",
+      "old_path": ".claude/skills/modernizing-legacy-systems/SKILL.md",
+      "new_path": "skills/modernizing-legacy-systems/SKILL.md"
+    },
+    {
+      "id": "CSS-104",
+      "name": "designing-error-handling",
+      "old_path": ".claude/skills/designing-error-handling/SKILL.md",
+      "new_path": "skills/designing-error-handling/SKILL.md"
+    },
+    {
+      "id": "CSS-105",
+      "name": "reviewing-concurrency",
+      "old_path": ".claude/skills/reviewing-concurrency/SKILL.md",
+      "new_path": "skills/reviewing-concurrency/SKILL.md"
+    },
+    {
+      "id": "CSS-106",
+      "name": "managing-dependencies",
+      "old_path": ".claude/skills/managing-dependencies/SKILL.md",
+      "new_path": "skills/managing-dependencies/SKILL.md"
+    },
+    {
+      "id": "CSS-107",
+      "name": "designing-cli-tools",
+      "old_path": ".claude/skills/designing-cli-tools/SKILL.md",
+      "new_path": "skills/designing-cli-tools/SKILL.md"
+    },
+    {
+      "id": "CSS-108",
+      "name": "designing-sdks",
+      "old_path": ".claude/skills/designing-sdks/SKILL.md",
+      "new_path": "skills/designing-sdks/SKILL.md"
+    },
+    {
+      "id": "CSS-109",
+      "name": "designing-event-driven-systems",
+      "old_path": ".claude/skills/designing-event-driven-systems/SKILL.md",
+      "new_path": "skills/designing-event-driven-systems/SKILL.md"
+    },
+    {
+      "id": "CSS-110",
+      "name": "designing-background-jobs",
+      "old_path": ".claude/skills/designing-background-jobs/SKILL.md",
+      "new_path": "skills/designing-background-jobs/SKILL.md"
+    },
+    {
+      "id": "CSS-111",
+      "name": "reviewing-database-code",
+      "old_path": ".claude/skills/reviewing-database-code/SKILL.md",
+      "new_path": "skills/reviewing-database-code/SKILL.md"
+    },
+    {
+      "id": "CSS-112",
+      "name": "managing-technical-debt",
+      "old_path": ".claude/skills/managing-technical-debt/SKILL.md",
+      "new_path": "skills/managing-technical-debt/SKILL.md"
+    },
+    {
+      "id": "CSS-113",
+      "name": "designing-domain-models",
+      "old_path": ".claude/skills/designing-domain-models/SKILL.md",
+      "new_path": "skills/designing-domain-models/SKILL.md"
+    },
+    {
+      "id": "CSS-114",
+      "name": "designing-service-boundaries",
+      "old_path": ".claude/skills/designing-service-boundaries/SKILL.md",
+      "new_path": "skills/designing-service-boundaries/SKILL.md"
+    },
+    {
+      "id": "CSS-115",
+      "name": "designing-integration-architecture",
+      "old_path": ".claude/skills/designing-integration-architecture/SKILL.md",
+      "new_path": "skills/designing-integration-architecture/SKILL.md"
+    },
+    {
+      "id": "CSS-116",
+      "name": "designing-scalability",
+      "old_path": ".claude/skills/designing-scalability/SKILL.md",
+      "new_path": "skills/designing-scalability/SKILL.md"
+    },
+    {
+      "id": "CSS-117",
+      "name": "designing-resilience",
+      "old_path": ".claude/skills/designing-resilience/SKILL.md",
+      "new_path": "skills/designing-resilience/SKILL.md"
+    },
+    {
+      "id": "CSS-118",
+      "name": "designing-multi-tenant-systems",
+      "old_path": ".claude/skills/designing-multi-tenant-systems/SKILL.md",
+      "new_path": "skills/designing-multi-tenant-systems/SKILL.md"
+    },
+    {
+      "id": "CSS-119",
+      "name": "designing-api-architecture",
+      "old_path": ".claude/skills/designing-api-architecture/SKILL.md",
+      "new_path": "skills/designing-api-architecture/SKILL.md"
+    },
+    {
+      "id": "CSS-120",
+      "name": "designing-migration-architecture",
+      "old_path": ".claude/skills/designing-migration-architecture/SKILL.md",
+      "new_path": "skills/designing-migration-architecture/SKILL.md"
+    },
+    {
+      "id": "CSS-121",
+      "name": "creating-adrs",
+      "old_path": ".claude/skills/creating-adrs/SKILL.md",
+      "new_path": "skills/creating-adrs/SKILL.md"
+    },
+    {
+      "id": "CSS-122",
+      "name": "mapping-architecture",
+      "old_path": ".claude/skills/mapping-architecture/SKILL.md",
+      "new_path": "skills/mapping-architecture/SKILL.md"
+    },
+    {
+      "id": "CSS-123",
+      "name": "designing-unit-tests",
+      "old_path": ".claude/skills/designing-unit-tests/SKILL.md",
+      "new_path": "skills/designing-unit-tests/SKILL.md"
+    },
+    {
+      "id": "CSS-124",
+      "name": "designing-integration-tests",
+      "old_path": ".claude/skills/designing-integration-tests/SKILL.md",
+      "new_path": "skills/designing-integration-tests/SKILL.md"
+    },
+    {
+      "id": "CSS-125",
+      "name": "designing-e2e-tests",
+      "old_path": ".claude/skills/designing-e2e-tests/SKILL.md",
+      "new_path": "skills/designing-e2e-tests/SKILL.md"
+    },
+    {
+      "id": "CSS-126",
+      "name": "testing-apis",
+      "old_path": ".claude/skills/testing-apis/SKILL.md",
+      "new_path": "skills/testing-apis/SKILL.md"
+    },
+    {
+      "id": "CSS-127",
+      "name": "testing-performance",
+      "old_path": ".claude/skills/testing-performance/SKILL.md",
+      "new_path": "skills/testing-performance/SKILL.md"
+    },
+    {
+      "id": "CSS-128",
+      "name": "testing-accessibility",
+      "old_path": ".claude/skills/testing-accessibility/SKILL.md",
+      "new_path": "skills/testing-accessibility/SKILL.md"
+    },
+    {
+      "id": "CSS-129",
+      "name": "testing-regressions",
+      "old_path": ".claude/skills/testing-regressions/SKILL.md",
+      "new_path": "skills/testing-regressions/SKILL.md"
+    },
+    {
+      "id": "CSS-130",
+      "name": "designing-test-data",
+      "old_path": ".claude/skills/designing-test-data/SKILL.md",
+      "new_path": "skills/designing-test-data/SKILL.md"
+    },
+    {
+      "id": "CSS-131",
+      "name": "testing-migrations",
+      "old_path": ".claude/skills/testing-migrations/SKILL.md",
+      "new_path": "skills/testing-migrations/SKILL.md"
+    },
+    {
+      "id": "CSS-132",
+      "name": "writing-user-stories",
+      "old_path": ".claude/skills/writing-user-stories/SKILL.md",
+      "new_path": "skills/writing-user-stories/SKILL.md"
+    },
+    {
+      "id": "CSS-133",
+      "name": "writing-acceptance-criteria",
+      "old_path": ".claude/skills/writing-acceptance-criteria/SKILL.md",
+      "new_path": "skills/writing-acceptance-criteria/SKILL.md"
+    },
+    {
+      "id": "CSS-134",
+      "name": "designing-mvps",
+      "old_path": ".claude/skills/designing-mvps/SKILL.md",
+      "new_path": "skills/designing-mvps/SKILL.md"
+    },
+    {
+      "id": "CSS-135",
+      "name": "prioritizing-backlogs",
+      "old_path": ".claude/skills/prioritizing-backlogs/SKILL.md",
+      "new_path": "skills/prioritizing-backlogs/SKILL.md"
+    },
+    {
+      "id": "CSS-136",
+      "name": "planning-roadmaps",
+      "old_path": ".claude/skills/planning-roadmaps/SKILL.md",
+      "new_path": "skills/planning-roadmaps/SKILL.md"
+    },
+    {
+      "id": "CSS-137",
+      "name": "designing-product-metrics",
+      "old_path": ".claude/skills/designing-product-metrics/SKILL.md",
+      "new_path": "skills/designing-product-metrics/SKILL.md"
+    },
+    {
+      "id": "CSS-138",
+      "name": "analyzing-product-discovery",
+      "old_path": ".claude/skills/analyzing-product-discovery/SKILL.md",
+      "new_path": "skills/analyzing-product-discovery/SKILL.md"
+    },
+    {
+      "id": "CSS-139",
+      "name": "planning-product-releases",
+      "old_path": ".claude/skills/planning-product-releases/SKILL.md",
+      "new_path": "skills/planning-product-releases/SKILL.md"
+    },
+    {
+      "id": "CSS-140",
+      "name": "writing-readmes",
+      "old_path": ".claude/skills/writing-readmes/SKILL.md",
+      "new_path": "skills/writing-readmes/SKILL.md"
+    },
+    {
+      "id": "CSS-141",
+      "name": "documenting-apis",
+      "old_path": ".claude/skills/documenting-apis/SKILL.md",
+      "new_path": "skills/documenting-apis/SKILL.md"
+    },
+    {
+      "id": "CSS-142",
+      "name": "writing-developer-guides",
+      "old_path": ".claude/skills/writing-developer-guides/SKILL.md",
+      "new_path": "skills/writing-developer-guides/SKILL.md"
+    },
+    {
+      "id": "CSS-143",
+      "name": "writing-runbooks",
+      "old_path": ".claude/skills/writing-runbooks/SKILL.md",
+      "new_path": "skills/writing-runbooks/SKILL.md"
+    },
+    {
+      "id": "CSS-144",
+      "name": "consolidating-documentation",
+      "old_path": ".claude/skills/consolidating-documentation/SKILL.md",
+      "new_path": "skills/consolidating-documentation/SKILL.md"
+    },
+    {
+      "id": "CSS-145",
+      "name": "reviewing-documentation",
+      "old_path": ".claude/skills/reviewing-documentation/SKILL.md",
+      "new_path": "skills/reviewing-documentation/SKILL.md"
+    },
+    {
+      "id": "CSS-146",
+      "name": "documenting-data-models",
+      "old_path": ".claude/skills/documenting-data-models/SKILL.md",
+      "new_path": "skills/documenting-data-models/SKILL.md"
+    },
+    {
+      "id": "CSS-147",
+      "name": "documenting-operations",
+      "old_path": ".claude/skills/documenting-operations/SKILL.md",
+      "new_path": "skills/documenting-operations/SKILL.md"
+    },
+    {
+      "id": "CSS-148",
+      "name": "designing-container-images",
+      "old_path": ".claude/skills/designing-container-images/SKILL.md",
+      "new_path": "skills/designing-container-images/SKILL.md"
+    },
+    {
+      "id": "CSS-149",
+      "name": "reviewing-github-actions",
+      "old_path": ".claude/skills/reviewing-github-actions/SKILL.md",
+      "new_path": "skills/reviewing-github-actions/SKILL.md"
+    },
+    {
+      "id": "CSS-150",
+      "name": "managing-environments",
+      "old_path": ".claude/skills/managing-environments/SKILL.md",
+      "new_path": "skills/managing-environments/SKILL.md"
+    },
+    {
+      "id": "CSS-151",
+      "name": "designing-release-strategies",
+      "old_path": ".claude/skills/designing-release-strategies/SKILL.md",
+      "new_path": "skills/designing-release-strategies/SKILL.md"
+    },
+    {
+      "id": "CSS-152",
+      "name": "designing-feature-flags",
+      "old_path": ".claude/skills/designing-feature-flags/SKILL.md",
+      "new_path": "skills/designing-feature-flags/SKILL.md"
+    },
+    {
+      "id": "CSS-153",
+      "name": "managing-database-migrations",
+      "old_path": ".claude/skills/managing-database-migrations/SKILL.md",
+      "new_path": "skills/managing-database-migrations/SKILL.md"
+    },
+    {
+      "id": "CSS-154",
+      "name": "designing-build-systems",
+      "old_path": ".claude/skills/designing-build-systems/SKILL.md",
+      "new_path": "skills/designing-build-systems/SKILL.md"
+    },
+    {
+      "id": "CSS-155",
+      "name": "designing-cloud-storage",
+      "old_path": ".claude/skills/designing-cloud-storage/SKILL.md",
+      "new_path": "skills/designing-cloud-storage/SKILL.md"
+    },
+    {
+      "id": "CSS-156",
+      "name": "designing-cloud-identity",
+      "old_path": ".claude/skills/designing-cloud-identity/SKILL.md",
+      "new_path": "skills/designing-cloud-identity/SKILL.md"
+    },
+    {
+      "id": "CSS-157",
+      "name": "designing-cloud-backups",
+      "old_path": ".claude/skills/designing-cloud-backups/SKILL.md",
+      "new_path": "skills/designing-cloud-backups/SKILL.md"
+    },
+    {
+      "id": "CSS-158",
+      "name": "designing-cloud-databases",
+      "old_path": ".claude/skills/designing-cloud-databases/SKILL.md",
+      "new_path": "skills/designing-cloud-databases/SKILL.md"
+    },
+    {
+      "id": "CSS-159",
+      "name": "designing-serverless-systems",
+      "old_path": ".claude/skills/designing-serverless-systems/SKILL.md",
+      "new_path": "skills/designing-serverless-systems/SKILL.md"
+    },
+    {
+      "id": "CSS-160",
+      "name": "analyzing-logs",
+      "old_path": ".claude/skills/analyzing-logs/SKILL.md",
+      "new_path": "skills/analyzing-logs/SKILL.md"
+    },
+    {
+      "id": "CSS-161",
+      "name": "performing-root-cause-analysis",
+      "old_path": ".claude/skills/performing-root-cause-analysis/SKILL.md",
+      "new_path": "skills/performing-root-cause-analysis/SKILL.md"
+    },
+    {
+      "id": "CSS-162",
+      "name": "investigating-latency",
+      "old_path": ".claude/skills/investigating-latency/SKILL.md",
+      "new_path": "skills/investigating-latency/SKILL.md"
+    },
+    {
+      "id": "CSS-163",
+      "name": "planning-capacity",
+      "old_path": ".claude/skills/planning-capacity/SKILL.md",
+      "new_path": "skills/planning-capacity/SKILL.md"
+    },
+    {
+      "id": "CSS-164",
+      "name": "verifying-backups",
+      "old_path": ".claude/skills/verifying-backups/SKILL.md",
+      "new_path": "skills/verifying-backups/SKILL.md"
+    },
+    {
+      "id": "CSS-165",
+      "name": "planning-disaster-recovery",
+      "old_path": ".claude/skills/planning-disaster-recovery/SKILL.md",
+      "new_path": "skills/planning-disaster-recovery/SKILL.md"
+    },
+    {
+      "id": "CSS-166",
+      "name": "designing-slos",
+      "old_path": ".claude/skills/designing-slos/SKILL.md",
+      "new_path": "skills/designing-slos/SKILL.md"
+    },
+    {
+      "id": "CSS-167",
+      "name": "designing-alerts",
+      "old_path": ".claude/skills/designing-alerts/SKILL.md",
+      "new_path": "skills/designing-alerts/SKILL.md"
+    },
+    {
+      "id": "CSS-168",
+      "name": "breaking-down-work",
+      "old_path": ".claude/skills/breaking-down-work/SKILL.md",
+      "new_path": "skills/breaking-down-work/SKILL.md"
+    },
+    {
+      "id": "CSS-169",
+      "name": "estimating-work",
+      "old_path": ".claude/skills/estimating-work/SKILL.md",
+      "new_path": "skills/estimating-work/SKILL.md"
+    },
+    {
+      "id": "CSS-170",
+      "name": "managing-project-risks",
+      "old_path": ".claude/skills/managing-project-risks/SKILL.md",
+      "new_path": "skills/managing-project-risks/SKILL.md"
+    },
+    {
+      "id": "CSS-171",
+      "name": "mapping-dependencies",
+      "old_path": ".claude/skills/mapping-dependencies/SKILL.md",
+      "new_path": "skills/mapping-dependencies/SKILL.md"
+    },
+    {
+      "id": "CSS-172",
+      "name": "planning-milestones",
+      "old_path": ".claude/skills/planning-milestones/SKILL.md",
+      "new_path": "skills/planning-milestones/SKILL.md"
+    },
+    {
+      "id": "CSS-173",
+      "name": "reporting-project-status",
+      "old_path": ".claude/skills/reporting-project-status/SKILL.md",
+      "new_path": "skills/reporting-project-status/SKILL.md"
+    },
+    {
+      "id": "CSS-174",
+      "name": "assessing-project-health",
+      "old_path": ".claude/skills/assessing-project-health/SKILL.md",
+      "new_path": "skills/assessing-project-health/SKILL.md"
+    },
+    {
+      "id": "CSS-175",
+      "name": "designing-quality-gates",
+      "old_path": ".claude/skills/designing-quality-gates/SKILL.md",
+      "new_path": "skills/designing-quality-gates/SKILL.md"
+    },
+    {
+      "id": "CSS-176",
+      "name": "checking-conformance",
+      "old_path": ".claude/skills/checking-conformance/SKILL.md",
+      "new_path": "skills/checking-conformance/SKILL.md"
+    },
+    {
+      "id": "CSS-177",
+      "name": "auditing-artifacts",
+      "old_path": ".claude/skills/auditing-artifacts/SKILL.md",
+      "new_path": "skills/auditing-artifacts/SKILL.md"
+    },
+    {
+      "id": "CSS-178",
+      "name": "reviewing-design-quality",
+      "old_path": ".claude/skills/reviewing-design-quality/SKILL.md",
+      "new_path": "skills/reviewing-design-quality/SKILL.md"
+    },
+    {
+      "id": "CSS-179",
+      "name": "managing-nonconformities",
+      "old_path": ".claude/skills/managing-nonconformities/SKILL.md",
+      "new_path": "skills/managing-nonconformities/SKILL.md"
+    },
+    {
+      "id": "CSS-180",
+      "name": "designing-quality-metrics",
+      "old_path": ".claude/skills/designing-quality-metrics/SKILL.md",
+      "new_path": "skills/designing-quality-metrics/SKILL.md"
+    },
+    {
+      "id": "CSS-181",
+      "name": "improving-processes",
+      "old_path": ".claude/skills/improving-processes/SKILL.md",
+      "new_path": "skills/improving-processes/SKILL.md"
+    },
+    {
+      "id": "CSS-182",
+      "name": "designing-data-governance",
+      "old_path": ".claude/skills/designing-data-governance/SKILL.md",
+      "new_path": "skills/designing-data-governance/SKILL.md"
+    },
+    {
+      "id": "CSS-183",
+      "name": "designing-data-privacy",
+      "old_path": ".claude/skills/designing-data-privacy/SKILL.md",
+      "new_path": "skills/designing-data-privacy/SKILL.md"
+    },
+    {
+      "id": "CSS-184",
+      "name": "designing-master-data",
+      "old_path": ".claude/skills/designing-master-data/SKILL.md",
+      "new_path": "skills/designing-master-data/SKILL.md"
+    },
+    {
+      "id": "CSS-185",
+      "name": "designing-data-warehouses",
+      "old_path": ".claude/skills/designing-data-warehouses/SKILL.md",
+      "new_path": "skills/designing-data-warehouses/SKILL.md"
+    },
+    {
+      "id": "CSS-186",
+      "name": "designing-streaming-data",
+      "old_path": ".claude/skills/designing-streaming-data/SKILL.md",
+      "new_path": "skills/designing-streaming-data/SKILL.md"
+    },
+    {
+      "id": "CSS-187",
+      "name": "designing-research-plans",
+      "old_path": ".claude/skills/designing-research-plans/SKILL.md",
+      "new_path": "skills/designing-research-plans/SKILL.md"
+    },
+    {
+      "id": "CSS-188",
+      "name": "synthesizing-evidence",
+      "old_path": ".claude/skills/synthesizing-evidence/SKILL.md",
+      "new_path": "skills/synthesizing-evidence/SKILL.md"
+    },
+    {
+      "id": "CSS-189",
+      "name": "analyzing-papers",
+      "old_path": ".claude/skills/analyzing-papers/SKILL.md",
+      "new_path": "skills/analyzing-papers/SKILL.md"
+    },
+    {
+      "id": "CSS-190",
+      "name": "mapping-trends",
+      "old_path": ".claude/skills/mapping-trends/SKILL.md",
+      "new_path": "skills/mapping-trends/SKILL.md"
+    },
+    {
+      "id": "CSS-191",
+      "name": "conducting-due-diligence",
+      "old_path": ".claude/skills/conducting-due-diligence/SKILL.md",
+      "new_path": "skills/conducting-due-diligence/SKILL.md"
+    },
+    {
+      "id": "CSS-192",
+      "name": "designing-strategies",
+      "old_path": ".claude/skills/designing-strategies/SKILL.md",
+      "new_path": "skills/designing-strategies/SKILL.md"
+    },
+    {
+      "id": "CSS-193",
+      "name": "designing-kpis",
+      "old_path": ".claude/skills/designing-kpis/SKILL.md",
+      "new_path": "skills/designing-kpis/SKILL.md"
+    },
+    {
+      "id": "CSS-194",
+      "name": "planning-transformations",
+      "old_path": ".claude/skills/planning-transformations/SKILL.md",
+      "new_path": "skills/planning-transformations/SKILL.md"
+    },
+    {
+      "id": "CSS-195",
+      "name": "analyzing-unit-economics",
+      "old_path": ".claude/skills/analyzing-unit-economics/SKILL.md",
+      "new_path": "skills/analyzing-unit-economics/SKILL.md"
+    },
+    {
+      "id": "CSS-196",
+      "name": "designing-partnerships",
+      "old_path": ".claude/skills/designing-partnerships/SKILL.md",
+      "new_path": "skills/designing-partnerships/SKILL.md"
+    },
+    {
+      "id": "CSS-197",
+      "name": "planning-market-entry",
+      "old_path": ".claude/skills/planning-market-entry/SKILL.md",
+      "new_path": "skills/planning-market-entry/SKILL.md"
+    },
+    {
+      "id": "CSS-198",
+      "name": "designing-wallets",
+      "old_path": ".claude/skills/designing-wallets/SKILL.md",
+      "new_path": "skills/designing-wallets/SKILL.md"
+    },
+    {
+      "id": "CSS-199",
+      "name": "designing-merchant-payments",
+      "old_path": ".claude/skills/designing-merchant-payments/SKILL.md",
+      "new_path": "skills/designing-merchant-payments/SKILL.md"
+    },
+    {
+      "id": "CSS-200",
+      "name": "designing-transaction-limits",
+      "old_path": ".claude/skills/designing-transaction-limits/SKILL.md",
+      "new_path": "skills/designing-transaction-limits/SKILL.md"
+    }
+  ]
+}

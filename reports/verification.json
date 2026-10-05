@@ -1,0 +1,746 @@
+{
+  "version": "0.5.0",
+  "date": "2026-10-05",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux"
+  },
+  "unit_tests": {
+    "executed": true,
+    "count": 99,
+    "seconds": 6.398,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "reports/unit-tests.txt"
+  },
+  "source_identity": {
+    "baseline_commit": "cb2a4689b46f38d136fdd3a2b7d572d87f657fb7",
+    "all_200_ids_names_preserved": true,
+    "license_unchanged": true
+  },
+  "source_checks": {
+    "python_files_parsed": 14,
+    "local_markdown_links_checked": 375,
+    "registry_json_schema": "passed (independent build-time jsonschema check; not a runtime dependency)"
+  },
+  "behavioral_evaluations": {
+    "authored_cases": 160,
+    "executed": 0,
+    "status": "not_run"
+  },
+  "target_runtime_tests": {
+    "claude_code": "not_run",
+    "codex": "not_run",
+    "native_windows": "not_run",
+    "github_actions": "configured_not_run"
+  },
+  "publication": {
+    "github_modified": false,
+    "license": "owner_confirmation_required",
+    "release_ready": false
+  },
+  "commands": [
+    {
+      "command": "python -m css validate",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "ok": true,
+        "skills": 200,
+        "pilots": 40,
+        "drafts": 160,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "DRAFTS",
+            "path": "catalog/skill-registry.json",
+            "message": "160 legacy instruction drafts are not pilot procedures"
+          },
+          {
+            "severity": "warning",
+            "code": "BEHAVIORAL",
+            "path": "evals",
+            "message": "live model behavior has not been measured in this release"
+          },
+          {
+            "severity": "warning",
+            "code": "LICENSE",
+            "path": "LICENSE",
+            "message": "incomplete inherited license notice; owner confirmation required before public release"
+          }
+        ],
+        "scope": "structural, integrity, declared graphs and case-definition checks; NOT behavioral evaluation"
+      }
+    },
+    {
+      "command": "python -m css benchmark-routing",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "scope": "authored lexical retrieval smoke cases; no held-out performance claim and no model evaluation",
+        "cases": [
+          {
+            "id": "route-01",
+            "query": "bank twin shadow mode liquidity simulation",
+            "expected": "designing-bank-digital-twins",
+            "actual": [
+              "designing-bank-digital-twins"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-02",
+            "query": "ledger journal debit credit balance currency",
+            "expected": "designing-ledgers",
+            "actual": [
+              "designing-ledgers"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-03",
+            "query": "reconciliation provider bank settlement matching breaks",
+            "expected": "designing-reconciliation",
+            "actual": [
+              "designing-reconciliation",
+              "designing-bank-digital-twins"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-04",
+            "query": "terraform state plan workspace infrastructure",
+            "expected": "managing-terraform",
+            "actual": [
+              "managing-terraform",
+              "designing-agents"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-05",
+            "query": "SQL join grain query daily transfers",
+            "expected": "analyzing-sql",
+            "actual": [
+              "analyzing-sql"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-06",
+            "query": "agent tool schema idempotency contract",
+            "expected": "designing-agent-tools",
+            "actual": [
+              "designing-agent-tools",
+              "designing-agents",
+              "testing-agents"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-07",
+            "query": "agent guardrail prompt injection permission policy",
+            "expected": "designing-agent-guardrails",
+            "actual": [
+              "designing-agent-guardrails"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-08",
+            "query": "source research citation uncertainty evidence",
+            "expected": "conducting-research",
+            "actual": [
+              "conducting-research",
+              "writing-documentation"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-09",
+            "query": "incident outage triage timeline containment",
+            "expected": "triaging-incidents",
+            "actual": [
+              "triaging-incidents"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-10",
+            "query": "release readiness evidence approval gate",
+            "expected": "gating-releases",
+            "actual": [
+              "gating-releases"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-11",
+            "query": "code diff review correctness regression",
+            "expected": "reviewing-code",
+            "actual": [
+              "reviewing-code",
+              "improving-skills",
+              "debugging-code"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-12",
+            "query": "remittance corridor payout timeout funding",
+            "expected": "designing-remittance",
+            "actual": [
+              "designing-remittance"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-13",
+            "query": "documentation canonical README consolidation",
+            "expected": "writing-documentation",
+            "actual": [
+              "writing-documentation"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-14",
+            "query": "model dataset evaluation grader baseline",
+            "expected": "evaluating-llms",
+            "actual": [
+              "evaluating-llms"
+            ],
+            "pass": true
+          },
+          {
+            "id": "route-15",
+            "query": "recipe chocolate cake oven",
+            "expected": null,
+            "actual": [],
+            "pass": true
+          },
+          {
+            "id": "route-16",
+            "query": "hello thanks good morning",
+            "expected": null,
+            "actual": [],
+            "pass": true
+          },
+          {
+            "id": "route-17",
+            "query": "astronomy volcanic moon telescope",
+            "expected": null,
+            "actual": [],
+            "pass": true
+          },
+          {
+            "id": "route-18",
+            "query": "knitting scarf wool pattern",
+            "expected": null,
+            "actual": [],
+            "pass": true
+          }
+        ],
+        "passed": 18,
+        "total": 18,
+        "ok": true
+      }
+    },
+    {
+      "command": "python -m css plan bank-digital-twin",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "schema_version": "1.0",
+        "name": "bank-digital-twin",
+        "mode": "plan-only",
+        "description": "Shadow-mode bank twin with isolated simulation and externally approved control boundary.",
+        "inputs": {
+          "request": "request",
+          "constraints": "constraints",
+          "research": "research",
+          "scope": "scope",
+          "risk-register": "risk-register"
+        },
+        "steps": [
+          {
+            "id": "step-01",
+            "skill": "analyzing-requirements",
+            "after": [],
+            "bindings": {
+              "request": "input:request",
+              "constraints": "input:constraints"
+            },
+            "produces": {
+              "step-01.requirements": "requirements"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-02",
+            "skill": "system-design",
+            "after": [
+              "step-01"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-02.architecture": "architecture"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-03",
+            "skill": "modeling-data",
+            "after": [
+              "step-02"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-03.data-model": "data-model"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-04",
+            "skill": "mapping-compliance",
+            "after": [
+              "step-03"
+            ],
+            "bindings": {
+              "research": "input:research",
+              "scope": "input:scope"
+            },
+            "produces": {
+              "step-04.obligations": "obligations"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-05",
+            "skill": "designing-controls",
+            "after": [
+              "step-04"
+            ],
+            "bindings": {
+              "obligations": "step-04.obligations",
+              "risk-register": "input:risk-register"
+            },
+            "produces": {
+              "step-05.control-design": "control-design"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-06",
+            "skill": "designing-bank-digital-twins",
+            "after": [
+              "step-05"
+            ],
+            "bindings": {
+              "architecture": "step-02.architecture",
+              "requirements": "step-01.requirements",
+              "control-design": "step-05.control-design"
+            },
+            "produces": {
+              "step-06.bank-twin-design": "bank-twin-design"
+            },
+            "approval": "human-review-required"
+          },
+          {
+            "id": "step-07",
+            "skill": "threat-modeling",
+            "after": [
+              "step-06"
+            ],
+            "bindings": {
+              "architecture": "step-02.architecture",
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-07.threat-model": "threat-model"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-08",
+            "skill": "reviewing-architecture",
+            "after": [
+              "step-07"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements",
+              "architecture": "step-02.architecture"
+            },
+            "produces": {
+              "step-08.architecture-review": "architecture-review"
+            },
+            "approval": "human-supervised"
+          }
+        ],
+        "stop_conditions": [
+          "Missing or contradictory required evidence",
+          "Failed mandatory check",
+          "Unapproved consequential action"
+        ],
+        "rework": "Create a new reviewed plan revision; no automatic loops.",
+        "order": [
+          "step-01",
+          "step-02",
+          "step-03",
+          "step-04",
+          "step-05",
+          "step-06",
+          "step-07",
+          "step-08"
+        ],
+        "status": "plan-only",
+        "executed": false,
+        "notice": "Bindings validate declared types only. Input files, approval identity, freshness and execution are NOT verified."
+      }
+    },
+    {
+      "command": "python -m css plan remittance-design",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "schema_version": "1.0",
+        "name": "remittance-design",
+        "mode": "plan-only",
+        "description": "Remittance states and reconciliation design; no live funds or legal certification.",
+        "inputs": {
+          "request": "request",
+          "constraints": "constraints",
+          "research": "research",
+          "scope": "scope",
+          "accounting-policy": "accounting-policy",
+          "provider-contract": "provider-contract"
+        },
+        "steps": [
+          {
+            "id": "step-01",
+            "skill": "analyzing-requirements",
+            "after": [],
+            "bindings": {
+              "request": "input:request",
+              "constraints": "input:constraints"
+            },
+            "produces": {
+              "step-01.requirements": "requirements"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-02",
+            "skill": "mapping-compliance",
+            "after": [
+              "step-01"
+            ],
+            "bindings": {
+              "research": "input:research",
+              "scope": "input:scope"
+            },
+            "produces": {
+              "step-02.obligations": "obligations"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-03",
+            "skill": "designing-ledgers",
+            "after": [
+              "step-02"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements",
+              "accounting-policy": "input:accounting-policy"
+            },
+            "produces": {
+              "step-03.ledger-design": "ledger-design"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-04",
+            "skill": "designing-remittance",
+            "after": [
+              "step-03"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements",
+              "obligations": "step-02.obligations"
+            },
+            "produces": {
+              "step-04.remittance-design": "remittance-design"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-05",
+            "skill": "designing-reconciliation",
+            "after": [
+              "step-04"
+            ],
+            "bindings": {
+              "ledger-design": "step-03.ledger-design",
+              "provider-contract": "input:provider-contract"
+            },
+            "produces": {
+              "step-05.reconciliation-design": "reconciliation-design"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-06",
+            "skill": "system-design",
+            "after": [
+              "step-05"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-06.architecture": "architecture"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-07",
+            "skill": "threat-modeling",
+            "after": [
+              "step-06"
+            ],
+            "bindings": {
+              "architecture": "step-06.architecture",
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-07.threat-model": "threat-model"
+            },
+            "approval": "human-supervised"
+          }
+        ],
+        "stop_conditions": [
+          "Missing or contradictory required evidence",
+          "Failed mandatory check",
+          "Unapproved consequential action"
+        ],
+        "rework": "Create a new reviewed plan revision; no automatic loops.",
+        "order": [
+          "step-01",
+          "step-02",
+          "step-03",
+          "step-04",
+          "step-05",
+          "step-06",
+          "step-07"
+        ],
+        "status": "plan-only",
+        "executed": false,
+        "notice": "Bindings validate declared types only. Input files, approval identity, freshness and execution are NOT verified."
+      }
+    },
+    {
+      "command": "python -m css plan software-delivery",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "schema_version": "1.0",
+        "name": "software-delivery",
+        "mode": "plan-only",
+        "description": "From scoped request to evidence-based release recommendation; no deployment.",
+        "inputs": {
+          "request": "request",
+          "constraints": "constraints",
+          "repository": "repository",
+          "diff": "diff",
+          "release-plan": "release-plan"
+        },
+        "steps": [
+          {
+            "id": "step-01",
+            "skill": "analyzing-requirements",
+            "after": [],
+            "bindings": {
+              "request": "input:request",
+              "constraints": "input:constraints"
+            },
+            "produces": {
+              "step-01.requirements": "requirements"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-02",
+            "skill": "system-design",
+            "after": [
+              "step-01"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements"
+            },
+            "produces": {
+              "step-02.architecture": "architecture"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-03",
+            "skill": "implementing-code",
+            "after": [
+              "step-02"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements",
+              "repository": "input:repository"
+            },
+            "produces": {
+              "step-03.implementation": "implementation"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-04",
+            "skill": "reviewing-code",
+            "after": [
+              "step-03"
+            ],
+            "bindings": {
+              "diff": "input:diff",
+              "repository": "input:repository"
+            },
+            "produces": {
+              "step-04.code-review": "code-review"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-05",
+            "skill": "security-reviewing",
+            "after": [
+              "step-04"
+            ],
+            "bindings": {
+              "architecture": "step-02.architecture",
+              "repository": "input:repository"
+            },
+            "produces": {
+              "step-05.security-review": "security-review"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-06",
+            "skill": "verifying-products",
+            "after": [
+              "step-05"
+            ],
+            "bindings": {
+              "requirements": "step-01.requirements",
+              "implementation": "step-03.implementation"
+            },
+            "produces": {
+              "step-06.verification": "verification"
+            },
+            "approval": "human-supervised"
+          },
+          {
+            "id": "step-07",
+            "skill": "gating-releases",
+            "after": [
+              "step-06"
+            ],
+            "bindings": {
+              "verification": "step-06.verification",
+              "security-review": "step-05.security-review",
+              "release-plan": "input:release-plan"
+            },
+            "produces": {
+              "step-07.release-decision": "release-decision"
+            },
+            "approval": "human-review-required"
+          }
+        ],
+        "stop_conditions": [
+          "Missing or contradictory required evidence",
+          "Failed mandatory check",
+          "Unapproved consequential action"
+        ],
+        "rework": "Create a new reviewed plan revision; no automatic loops.",
+        "order": [
+          "step-01",
+          "step-02",
+          "step-03",
+          "step-04",
+          "step-05",
+          "step-06",
+          "step-07"
+        ],
+        "status": "plan-only",
+        "executed": false,
+        "notice": "Bindings validate declared types only. Input files, approval identity, freshness and execution are NOT verified."
+      }
+    },
+    {
+      "command": "python -m css validate --release",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "output": {
+        "ok": false,
+        "skills": 200,
+        "pilots": 40,
+        "drafts": 160,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "DRAFTS",
+            "path": "catalog/skill-registry.json",
+            "message": "160 legacy instruction drafts are not pilot procedures"
+          },
+          {
+            "severity": "warning",
+            "code": "BEHAVIORAL",
+            "path": "evals",
+            "message": "live model behavior has not been measured in this release"
+          },
+          {
+            "severity": "warning",
+            "code": "LICENSE",
+            "path": "LICENSE",
+            "message": "incomplete inherited license notice; owner confirmation required before public release"
+          }
+        ],
+        "scope": "structural, integrity, declared graphs and case-definition checks; NOT behavioral evaluation",
+        "release_ready": false,
+        "release_blockers": [
+          "Owner must resolve inherited license ambiguity",
+          "Independent domain review and target-runtime behavior evaluation are not recorded"
+        ]
+      }
+    },
+    {
+      "command": "python skills/designing-ledgers/scripts/check_ledger.py skills/designing-ledgers/examples/journal.json",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "synthetic shape, uniqueness and balance checks; not accounting correctness or live posting"
+      }
+    },
+    {
+      "command": "python skills/gating-releases/scripts/check_evidence.py skills/gating-releases/examples/evidence.json --now 2026-10-05T01:00:00Z",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "declared bindings and freshness only; evidence authenticity and human authorization NOT verified"
+      }
+    }
+  ]
+}

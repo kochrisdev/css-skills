@@ -75,7 +75,8 @@ def load_files(payload: bytes) -> dict[str, bytes]:
 
 def verify_files(files: dict[str, bytes]) -> None:
     with tempfile.TemporaryDirectory(prefix='css-v05-verified-') as directory:
-        target = Path(directory)
+        target = Path(directory) / 'css-skills'
+        target.mkdir()
         for name, data in files.items():
             path = target / name
             path.parent.mkdir(parents=True, exist_ok=True)
